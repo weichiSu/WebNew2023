@@ -1,0 +1,44 @@
+.navTabs
+  display: flex
+  position: relative
+  width: 100%
+  max-width: calc($screen-lg - $grid-gutter-width) // old header
+  padding: 0
+  border: 1px solid darken($WHITEcolor, 30%)
+  border-right: none
+  border-left: none
+  font-family: $font-family
+  z-index: $zindex-floor
+  background: darken($WHITEcolor, 0%)
+  overflow-x: auto
+  &-fixed
+    position: fixed
+    top: 0
+    left: 0
+    @media (min-width: $screen-lg)
+      left: inherit
+  &-item
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    flex: 1
+    padding: 15px 8px
+    color: darken($WHITEcolor, 88.5%)
+    cursor: pointer
+    &:hover
+      background: darken($WHITEcolor, 10%)
+    @media (min-width: $screen-md)
+      width: fit-content
+      padding: 20px 30px
+    &-active
+      background: darken($WHITEcolor, 15%)
+  &-pane
+    display: none
+    max-width: 900px
+    +distanceMP(0 auto, 30px 0)
+    word-break: break-all
+    &-active
+      display: block
+    &-title
+      padding-bottom: 30px
+    @import _editor

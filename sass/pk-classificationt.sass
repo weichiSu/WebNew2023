@@ -1,0 +1,30 @@
+// 核心變數+混合設定
+@import _variables
+@import _minxins
+
+#pkdv
+  @import _breadcrumb
+  @import _BLB-ring
+  @import _proList
+  @import _pagination
+  @import _dropdown
+
+  @import _sideMenu
+  .sideMenu
+    @include sideMenu
+
+  .icon-arrow
+    +icon(16px,16px,$icon-arrow)
+  .icon-cart
+    +icon(16px,16px,$icon-cart)
+
+  .iconTxt
+    +iconTxt(48px, $left: 48px)
+
+  .dropdown
+    position: absolute
+    right: 0
+    z-index: 9
+    margin: 0 20px
+  .proList-img-xs-3
+    margin-top: 50px

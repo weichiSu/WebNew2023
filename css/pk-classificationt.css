@@ -1,0 +1,286 @@
+@charset "UTF-8";
+#pkdv .breadcrumb {
+  padding: 30px 0;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  background: none;
+}
+#pkdv .breadcrumb > li {
+  display: inline-block;
+}
+#pkdv .breadcrumb > li + li:before {
+  padding: 0 5px;
+  content: "/";
+  color: #7c7c7c;
+}
+#pkdv .breadcrumb-link {
+  text-decoration: none;
+  color: #7c7c7c;
+}
+#pkdv .breadcrumb-active {
+  color: #373737;
+}
+#pkdv .swiper {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pkdv .swiper-pagination-bullets {
+  bottom: 15px;
+}
+#pkdv .swiper-button-next:after, #pkdv .swiper-button-prev:after {
+  color: #ffffff;
+  font-size: 2em;
+  opacity: 0;
+}
+#pkdv .swiper-pagination-bullet {
+  width: 47px;
+  height: 4px;
+  border-radius: 0;
+  background: #cccccc;
+  opacity: 0.7;
+}
+#pkdv .swiper-pagination-bullet-active {
+  background: #256C53;
+}
+#pkdv .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+}
+#pkdv .swiper-slide-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#pkdv .proList-item {
+  padding: 0 25px 53px;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+}
+@media (min-width: 768px) {
+  #pkdv .proList-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  #pkdv .proList-item:nth-child(2n+1) {
+    clear: inherit;
+  }
+  #pkdv .proList-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+#pkdv .proList-item .img-responsive {
+  margin-bottom: 10px;
+}
+#pkdv .proList-sku {
+  display: inline-flex;
+  color: #256C53;
+}
+#pkdv .proList-supported {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -3px;
+  padding: 10px 0;
+  font-size: 0.7em;
+}
+@media (min-width: 1200px) {
+  #pkdv .proList-supported {
+    display: inline-flex;
+  }
+}
+#pkdv .proList-supported-item {
+  display: inline-flex;
+  margin: 0 2px 2px;
+  padding: 1px 5px;
+  line-height: 1.3em;
+  border-radius: 10px;
+  background: #83A186;
+  color: #ffffff;
+}
+#pkdv .proList-supported-item::before {
+  position: relative;
+  top: 1px;
+  content: url("../images/cart-icon.svg");
+}
+#pkdv .proList-name {
+  height: 55px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin: 0 0 10px;
+  font: 1.25em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.3em;
+  font-weight: 600;
+}
+#pkdv .proList-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+#pkdv .pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 45px 0;
+  text-align: right;
+  font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1em;
+}
+#pkdv .pagination-icon {
+  font-style: normal;
+  transform: scaleY(1.5);
+}
+#pkdv .pagination-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 3px;
+  padding: 0;
+  letter-spacing: -1;
+  border: 1px solid #256C53;
+  border-radius: 50%;
+  color: #256C53;
+  text-decoration: none;
+}
+#pkdv .pagination-btn:hover, #pkdv .pagination-btn:active, #pkdv .pagination-btn-active {
+  background: #256C53;
+  border: 1px solid #256C53;
+  color: #ffffff;
+}
+#pkdv .dropdown {
+  position: relative;
+}
+#pkdv .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #83A186;
+  color: white;
+}
+#pkdv .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9;
+  display: none;
+  float: left;
+  margin: 2px 0 0;
+  padding: 5px 0;
+  text-align: left;
+  list-style: none;
+  background-color: white;
+  background-clip: padding-box;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+#pkdv .dropdown-item {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#pkdv .dropdown.open > .dropdown-menu {
+  display: block;
+}
+#pkdv .icon-arrowDown {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../images/arrowDown-icon.svg") no-repeat;
+  background-size: contain;
+  margin: 0 3px;
+}
+#pkdv .sideMenu {
+  font: 1.25em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1em;
+}
+#pkdv .sideMenu-title {
+  color: #6a6a6a;
+}
+#pkdv .sideMenu-list {
+  text-decoration: none;
+}
+#pkdv .sideMenu-content {
+  margin: 20px 0;
+  padding: 0 20px;
+  border-left: 1px solid #c7c7c7;
+}
+#pkdv .sideMenu-content-item {
+  line-height: 1.7em;
+}
+#pkdv .sideMenu-content-item-active {
+  color: #256C53;
+  font-weight: 600;
+}
+#pkdv .icon-arrow {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/arrow-icon.svg") no-repeat;
+  background-size: contain;
+  margin: 0 3px;
+}
+#pkdv .icon-cart {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/cart-icon.svg") no-repeat;
+  background-size: contain;
+  margin: 0 3px;
+}
+#pkdv .iconTxt {
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  top: 12px;
+  z-index: 9;
+  min-width: 48px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 5px;
+  font-size: 0.93em;
+  left: 12px;
+  right: calc(inherit / 4);
+}
+@media (min-width: 1200px) {
+  #pkdv .iconTxt {
+    top: 24px;
+    left: -24px;
+    right: calc(inherit / -2);
+  }
+}
+#pkdv .iconTxt-recommend {
+  background: #FF0000;
+  color: #ffffff;
+}
+#pkdv .iconTxt-new {
+  background: #FFE000;
+}
+#pkdv .dropdown {
+  position: absolute;
+  right: 0;
+  z-index: 9;
+  margin: 0 20px;
+}
+#pkdv .proList-img-xs-3 {
+  margin-top: 50px;
+}/*# sourceMappingURL=pk-classificationt.css.map */
