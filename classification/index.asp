@@ -19,7 +19,7 @@
       <!-- #include virtual="/header.asp" -->
 
       <!-- classification -->
-      <div class="container-full">
+      <div class="container-full classification">
         <!-- 首圖 -->
         <!-- #include virtual="/component/_BLB-ring.asp" -->
 
@@ -29,16 +29,18 @@
           <%breadcrumb=["主題類別","分類名稱"] %>
             <!--#include virtual="/component/_breadcrumb.asp"-->
 
+            <div class="visible-xs visible-sm">
+              <!--#include virtual="/component/_dropdown.asp"-->
+            </div>
 
             <div class="row" itemscope itemtype="http://schema.org/Taxon">
 
-              <div class="col-xs-12 col-md-9 col-md-push-3">
-                <!--#include virtual="/component/_dropdown.asp"-->
+              <div class="col-xs-12 col-md-10 col-md-push-2">
                 <!--#include virtual="/component/_proList-img-xs-3.asp"-->
                 <!--#include virtual="/component/_pagination.asp"-->
               </div>
 
-              <div class="col-xs-12 col-md-3 col-md-pull-9">
+              <div class="col-xs-12 col-md-2 col-md-pull-10">
                 <!--#include virtual="/component/_sideMenu-simple.asp"-->
               </div>
 
