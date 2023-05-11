@@ -22,12 +22,17 @@
 }
 #pkdv .pagination {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0;
   padding: 45px 0;
   text-align: right;
   font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1em;
+}
+@media (min-width: 1200px) {
+  #pkdv .pagination {
+    justify-content: flex-end;
+  }
 }
 #pkdv .pagination-icon {
   font-style: normal;

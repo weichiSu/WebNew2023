@@ -13,7 +13,12 @@
   margin-right: auto;
 }
 #pkdv .swiper-pagination-bullets {
-  bottom: 15px;
+  bottom: 25px;
+}
+@media (min-width: 1200px) {
+  #pkdv .swiper-pagination-bullets {
+    bottom: 15px;
+  }
 }
 #pkdv .swiper-button-next:after, #pkdv .swiper-button-prev:after {
   color: #ffffff;
