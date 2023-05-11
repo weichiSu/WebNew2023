@@ -3,7 +3,9 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title><%=title%></title>
+<title>
+  <%=title%>
+</title>
 
 <link href="/images/prokits.ico" rel="shortcut icon" />
 
@@ -12,7 +14,11 @@
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/offcanvas-sidebar.html.js"></script>
 
+<!-- Bootstrap Icon Link -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
 <link href="/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/css/bootstrap.minA.css" rel="stylesheet" />
 <link href="/css/pk-layout.css" rel="stylesheet" />
 
 <script>
@@ -31,8 +37,11 @@
 <!-- search-bar active  -->
 <script>
   $(document).ready(function () {
-    $("#buttonSearch").click(function () {
-      $("#searchBox").animate({ width: "toggle" });
+    // $("#buttonSearch").click(function () {
+    //   $("#searchBox").animate({ width: "toggle" });
+    // });
+    $('#buttonSearch').on('click', e => {
+      $('#searchBox').toggleClass('searchBoxOpen');
     });
 
     //test js
