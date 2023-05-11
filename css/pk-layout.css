@@ -69,13 +69,7 @@ dfn {
   font-style: italic;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   font-weight: 500;
   font-size: 1em;
@@ -158,9 +152,9 @@ select {
 }
 
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type=button],
+input[type=reset],
+input[type=submit] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -180,24 +174,24 @@ input {
   line-height: normal;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type=checkbox],
+input[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-input[type="search"] {
+input[type=search] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -238,24 +232,13 @@ li {
   margin: 0;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
 hr {
   height: 0;
   box-sizing: content-box;
-}
-
-@-webkit-keyframes fixedNavDown {
-  0% {
-    top: -100px;
-  }
-  20% {
-    top: 0;
-  }
 }
 
 @keyframes fixedNavDown {
@@ -344,8 +327,7 @@ hr {
 #pkdv dd {
   margin-left: 0;
 }
-#pkdv .dl-horizontal dd:before,
-#pkdv .dl-horizontal dd:after {
+#pkdv .dl-horizontal dd:before, #pkdv .dl-horizontal dd:after {
   content: " ";
   display: table;
 }
@@ -367,7 +349,7 @@ hr {
   color: black;
 }
 #pkdv a:hover {
-  color: #256c53;
+  color: #256C53;
 }
 #pkdv hr {
   margin: 10px 0;
@@ -394,20 +376,18 @@ hr {
   border-bottom: 1px solid black;
 }
 #pkdv input {
-  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1em;
 }
-#pkdv input[type="radio"],
-#pkdv input[type="checkbox"] {
+#pkdv input[type=radio],
+#pkdv input[type=checkbox] {
   margin: 4px 0 0;
-  margin-top: 1px \9;
+  margin-top: 1px \9 ;
   line-height: normal;
   vertical-align: middle;
   display: none;
 }
-#pkdv input[type="checkbox"] + label,
-#pkdv input[type="radio"] + label {
+#pkdv input[type=checkbox] + label, #pkdv input[type=radio] + label {
   cursor: pointer;
   display: inline-block;
   width: 20px;
@@ -415,26 +395,25 @@ hr {
   position: relative;
   top: 3px;
 }
-#pkdv input[type="checkbox"] + label {
+#pkdv input[type=checkbox] + label {
   background: url(../images/check.svg) 0 0 no-repeat;
 }
-#pkdv input[type="radio"] + label {
+#pkdv input[type=radio] + label {
   background: url(../images/radio.svg) 0 0 no-repeat;
 }
-#pkdv input[type="checkbox"]:checked + label {
+#pkdv input[type=checkbox]:checked + label {
   background: url(../images/check.svg) -20px 0 no-repeat;
 }
-#pkdv input[type="radio"]:checked + label {
+#pkdv input[type=radio]:checked + label {
   background: url(../images/radio.svg) -20px 0 no-repeat;
 }
-#pkdv input[type="file"]:focus,
-#pkdv input[type="radio"]:focus,
-#pkdv input[type="checkbox"]:focus {
+#pkdv input[type=file]:focus,
+#pkdv input[type=radio]:focus,
+#pkdv input[type=checkbox]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-#pkdv .form-group:before,
-#pkdv .form-group:after {
+#pkdv .form-group:before, #pkdv .form-group:after {
   display: table;
   content: " ";
   clear: both;
@@ -447,18 +426,14 @@ hr {
   background: white;
   border: 1px solid #dddddd;
   border-radius: 5px;
-  font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
+  font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#pkdv .form-control:focus,
-#pkdv .form-control:hover {
+#pkdv .form-control:focus, #pkdv .form-control:hover {
   box-shadow: 0 0 5px 0 #dddddd;
   border: 1px solid #dddddd;
   outline: none;
 }
-#pkdv .form-control[disabled],
-#pkdv .form-control[readonly],
-fieldset[disabled] #pkdv .form-control {
+#pkdv .form-control[disabled], #pkdv .form-control[readonly], fieldset[disabled] #pkdv .form-control {
   background: #e6e6e6;
   opacity: 1;
   cursor: not-allowed;
@@ -519,7 +494,7 @@ fieldset[disabled] #pkdv .form-control {
   position: relative;
 }
 #pkdv .has-success {
-  background: #256c53;
+  background: #256C53;
 }
 #pkdv .has-warning {
   background: #fa3434;
@@ -539,8 +514,7 @@ fieldset[disabled] #pkdv .form-control {
   padding: 5px 10px;
   touch-action: manipulation;
   white-space: nowrap;
-  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
   letter-spacing: 0.05em;
   text-align: center;
@@ -548,37 +522,29 @@ fieldset[disabled] #pkdv .form-control {
   border-radius: 50px;
   text-decoration: none;
 }
-#pkdv .btn:hover,
-#pkdv .btn:focus,
-#pkdv .btn.focus,
-#pkdv .btn:active,
-#pkdv .btn.active {
+#pkdv .btn:hover, #pkdv .btn:focus, #pkdv .btn.focus, #pkdv .btn:active, #pkdv .btn.active {
   border: none;
   outline: none;
 }
-#pkdv .btn.disabled,
-#pkdv .btn[disabled],
-fieldset[disabled] #pkdv .btn {
+#pkdv .btn.disabled, #pkdv .btn[disabled], fieldset[disabled] #pkdv .btn {
   cursor: not-allowed;
 }
 #pkdv .btn-pay {
-  background: #e7b506;
+  background: #E7B506;
   color: black;
   text-decoration: none;
 }
-#pkdv .btn-pay:hover,
-#pkdv .btn-pay:focus {
+#pkdv .btn-pay:hover, #pkdv .btn-pay:focus {
   color: black;
   background: #f9cb27;
   -pie-background: #f9cb27;
 }
 #pkdv .btn-keep {
-  background: #256c53;
+  background: #256C53;
   color: white;
   text-decoration: none;
 }
-#pkdv .btn-keep:hover,
-#pkdv .btn-keep:focus {
+#pkdv .btn-keep:hover, #pkdv .btn-keep:focus {
   color: white;
   background: #39a57f;
   -pie-background: #39a57f;
@@ -588,8 +554,7 @@ fieldset[disabled] #pkdv .btn {
   color: white;
   text-decoration: none;
 }
-#pkdv .btn-out:hover,
-#pkdv .btn-out:focus {
+#pkdv .btn-out:hover, #pkdv .btn-out:focus {
   color: white;
   background: #a6a6a6;
   -pie-background: #a6a6a6;
@@ -600,13 +565,11 @@ fieldset[disabled] #pkdv .btn {
   -pie-background: linear-gradient(#256c53, #1e5944);
   behavior: url(/pie/PIE.htc);
   color: white;
-  font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
+  font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
   letter-spacing: -0.05px;
 }
-#pkdv .btn-link:hover,
-#pkdv .btn-link:focus {
+#pkdv .btn-link:hover, #pkdv .btn-link:focus {
   background: #1e5944;
   -pie-background: #1e5944;
   box-shadow: 0 0 5px 0 #256c53;
@@ -649,6 +612,7 @@ fieldset[disabled] #pkdv .btn {
 #pkdv header {
   box-shadow: 2px 2px 5px 1px rgb(236, 236, 236);
   /* .nav-scroller  */
+  /* -webkit-overflow-scrolling: touch */
 }
 #pkdv header .dropdown-toggle {
   outline: 0;
@@ -669,10 +633,10 @@ fieldset[disabled] #pkdv .btn {
   transition: transform 0.35s ease;
   transform-origin: 50%;
 }
-#pkdv header .btn-toggle[aria-expanded="true"] {
+#pkdv header .btn-toggle[aria-expanded=true] {
   color: rgba(50, 97, 85, 0.878);
 }
-#pkdv header .btn-toggle[aria-expanded="true"]::after {
+#pkdv header .btn-toggle[aria-expanded=true]::after {
   transform: rotate(180deg);
 }
 #pkdv header .btn-toggle-nav a {
@@ -693,7 +657,7 @@ fieldset[disabled] #pkdv .btn {
 }
 #pkdv header .btn {
   /* --bs-btn-padding-x: 0.75rem */
-  --bs-btn-padding-y: 0.6rem * /;
+  --bs-btn-padding-y: 0.6rem */;
   padding-bottom: 0.7rem;
   padding-left: 1rem;
 }
@@ -855,7 +819,6 @@ fieldset[disabled] #pkdv .btn {
   text-anchor: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 @media (min-width: 768px) {
@@ -868,8 +831,7 @@ fieldset[disabled] #pkdv .btn {
   background-color: rgba(0, 0, 0, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
-  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
-    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 #pkdv header .b-example-vr {
   flex-shrink: 0;
@@ -882,7 +844,30 @@ fieldset[disabled] #pkdv .btn {
 }
 #pkdv header .dropdown-menu-products {
   -moz-columns: 2;
-  columns: 2;
+       columns: 2;
+}
+#pkdv header .dropdown-menu {
+  --bs-dropdown-border-radius: 0;
+  --bs-dropdown-link-active-bg: #193a20;
+}
+#pkdv header .navbar {
+  --bs-navbar-nav-link-padding-x: 1rem;
+}
+#pkdv header .nav {
+  --bs-nav-link-color: #ffffff;
+  --bs-nav-link-hover-color: #ffffff;
+}
+#pkdv header #buttonSearch {
+  border: 0;
+  background-color: #ffffff;
+}
+#pkdv header .searchBox {
+  width: 0;
+  transform: scale(0);
+}
+#pkdv header .searchBoxOpen {
+  width: 100%;
+  transform: scale(1);
 }
 #pkdv -------------------------------------------------- {
   /* Padding below the footer and lighter body text */
@@ -914,11 +899,7 @@ fieldset[disabled] #pkdv .btn {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-#pkdv
-  --------------------------------------------------
-  .marketing
-  .col-lg-4
-  p {
+#pkdv -------------------------------------------------- .marketing .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
@@ -956,8 +937,7 @@ fieldset[disabled] #pkdv .btn {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 2em;
 }
 #pkdv .footer * {
@@ -1009,8 +989,8 @@ fieldset[disabled] #pkdv .btn {
   }
 }
 #pkdv .pkCI-background-industry {
-  background-color: #1c473b;
+  background-color: #1C473B;
 }
 #pkdv .pkCI-background-science {
-  background-color: #0097da;
-} /*# sourceMappingURL=pk-layout.css.map */
+  background-color: #0097DA;
+}/*# sourceMappingURL=pk-layout.css.map */

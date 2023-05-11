@@ -1,324 +1,276 @@
 @import _overlay
 header
   box-shadow: 2px 2px 5px 1px rgb(236, 236, 236)
-  .dropdown-toggle  
+  .dropdown-toggle
     outline: 0
-      
 
-  .btn-toggle 
+  .btn-toggle
     font-weight: 600
     color: rgba(0, 0, 0, 0.65)
     background-color: transparent
-      
+
   .btn-toggle:hover,
-  .btn-toggle:focus 
+  .btn-toggle:focus
     color: rgba(0, 0, 0, 0.85)
 
-  .btn-toggle::after 
+  .btn-toggle::after
     /* width: 2rem */
     line-height: 0
     content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='currentColor' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
     transition: transform 0.35s ease
     transform-origin: 50%
-  
 
-  .btn-toggle[aria-expanded="true"] 
+  .btn-toggle[aria-expanded="true"]
     color: rgba(50, 97, 85, 0.878)
-  
-  .btn-toggle[aria-expanded="true"]::after 
-    transform: rotate(180deg)
-  
 
-  .btn-toggle-nav a 
+  .btn-toggle[aria-expanded="true"]::after
+    transform: rotate(180deg)
+
+  .btn-toggle-nav a
     padding: 0.1875rem 0.5rem
     margin-top: 0.125rem
     margin-left: 0.5rem
-  
+
   .btn-toggle-nav a:hover,
-  .btn-toggle-nav a:focus 
+  .btn-toggle-nav a:focus
     /* background-color: #f8f8f8ba */
     font-weight: 600
-  
 
-  .scrollarea 
+  .scrollarea
     overflow-y: auto
-  
 
-  .offcanvas 
+  .offcanvas
     --bs-offcanvas-width: 280px
-  
 
-  .btn 
+  .btn
     /* --bs-btn-padding-x: 0.75rem
     --bs-btn-padding-y: 0.6rem */
     padding-bottom: 0.7rem
     padding-left: 1rem
-  
 
-  .link-dark:hover 
+  .link-dark:hover
     font-size: 1000 !important
     color: rgb(48, 67, 57) !important
-  
 
-  .offcanvasIcon 
+  .offcanvasIcon
     color: rgba(128, 128, 128, 0.78)
     padding-left: 0.5rem
     font-size: 1.5rem
-  
 
-  .offcanvasIcon:hover 
+  .offcanvasIcon:hover
     color: gray
-  
 
-  .wrap 
+  .wrap
     max-width: 100%
     margin: 1% auto 0 auto
     height: auto
-  
-  .search 
+
+  .search
     position: relative
     width: 90%
     float: left
-  
-  .search-bar 
+
+  .search-bar
     width: 100%
     height: 2.5rem
     font-size: 20px
     border: 1px solid #144739b0
     border-radius: 0
-  
-  .search-btn 
+
+  .search-btn
     height: 2.5rem
     background-color: #0f382d
     color: #ffffff
     outline: none
     border: 1px solid #0f382d
     cursor: pointer
-  
 
-  .search-btn:hover 
+  .search-btn:hover
     background-color: #647f78
     border: 1px solid #647f78
-  
 
-  .searchOffcanvas 
+  .searchOffcanvas
     color: #ffffff
-  
 
-  .searchOffcanvas:hover 
+  .searchOffcanvas:hover
     color: #ffffff
-  
 
-  .navbar-toggler 
+  .navbar-toggler
     border-radius: 0
     border: 0
-  
 
-  .navbar-toggler:hover 
+  .navbar-toggler:hover
     border-radius: 0
     border: 1px
-  
 
-  .form-control-dark 
+  .form-control-dark
     border-color: var(--bs-gray)
-  
-  .form-control-dark:focus 
+
+  .form-control-dark:focus
     border-color: #fff
     box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25)
-  
 
-  .text-small 
+  .text-small
     font-size: 85%
-  
 
-  .dropdown-toggle 
+  .dropdown-toggle
     outline: 0
-  
 
-  .marginSvg 
+  .marginSvg
     margin: 1.5rem
-  
 
-  .logoTool 
+  .logoTool
     width: 150px
-  
 
-  ul.drop-down-menu ul 
+  ul.drop-down-menu ul
     /*隱藏次選單*/
     display: none
-  
 
-  ul.drop-down-menu li:hover > ul 
+  ul.drop-down-menu li:hover > ul
     /* 滑鼠滑入展開次選單*/
     display: block
-  
 
-  .bg-header 
+  .bg-header
     /* background-color: #667e63 */
     background-color: rgb(66, 81, 74)
-  
 
-  ul hr 
+  ul hr
     width: 80%
     margin-left: 10%
     margin-right: 10%
     margin-top: 5px
     margin-bottom: 5px
-  
 
-  .vl 
+  .vl
     margin: 1.2% 0.5%
     height: 1.3rem
     border-left: 1.5px solid rgba(255, 255, 255, 0.276)
-  
 
   .fbIcon,
   .igIcon,
   .lineIcon,
   .YTIcon,
   .WeiboIcon,
-  .wechatIcon 
+  .wechatIcon
     font-size: 1.3rem
     margin-top: 0.5%
     margin-bottom: 0.5%
     margin-left: 1%
     margin-right: 0.5%
-  
 
   .bi-facebook:hover,
   .bi-instagram:hover,
   .bi-youtube:hover,
   .bi-line:hover,
   .bi-sina-weibo:hover,
-  .bi-wechat:hover 
+  .bi-wechat:hover
     color: rgb(211, 211, 211)
-  
 
   .bi-facebook,
   .bi-instagram,
   .bi-youtube,
   .bi-line,
   .bi-sina-weibo,
-  .bi-wechat 
+  .bi-wechat
     color: aliceblue
-  
 
-  .bi-search 
+  .bi-search
     color: rgb(109, 109, 109)
     margin-right: 1rem
     margin-left: 1rem
     margin-top: 0.4rem
-  
 
-  .bi-search:hover 
+  .bi-search:hover
     color: rgb(50, 50, 50)
-  
 
-  .bi-person-circle 
+  .bi-person-circle
     color: rgb(109, 109, 109)
     margin-right: 1rem
     margin-left: 1rem
     margin-top: 0.4rem
-  
 
-  .bi-person-circle:hover 
+  .bi-person-circle:hover
     color: rgb(50, 50, 50)
-  
 
-  .navList:hover 
+  .navList:hover
     color: rgb(24, 24, 24)
-  
 
-  .navlistColor 
+  .navlistColor
     color: rgb(251, 251, 251)
-  
 
-  .navlistColor:hover 
+  .navlistColor:hover
     color: rgb(208, 208, 208)
-  
 
-  .bd-placeholder-img 
+  .bd-placeholder-img
     font-size: 1.125rem
     text-anchor: middle
     -webkit-user-select: none
     -moz-user-select: none
     user-select: none
-  
 
-  @media (min-width: 768px) 
-    .bd-placeholder-img-lg 
+  @media (min-width: 768px)
+    .bd-placeholder-img-lg
       font-size: 3.5rem
-    
-  
 
-  .b-example-divider 
+  .b-example-divider
     height: 3rem
     background-color: rgba(0, 0, 0, 0.1)
     border: solid rgba(0, 0, 0, 0.15)
     border-width: 1px 0
     box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15)
-  
 
-  .b-example-vr 
+  .b-example-vr
     flex-shrink: 0
     width: 1.5rem
     height: 100vh
-  
 
-  .bi 
+  .bi
     vertical-align: -0.125em
     fill: currentColor
-  
 
-  .dropdown-menu-products 
+  .dropdown-menu-products
     columns: 2
-  
 
   /* .nav-scroller 
-// position: relative
-// z-index: 2
-// height: 2.75rem
-// overflow-y: hidden
-// */
+  // position: relative
+  // z-index: 2
+  // height: 2.75rem
+  // overflow-y: hidden
+  // */
 
-//   /* .nav-scroller .nav 
-// display: flex
-// flex-wrap: nowrap
-// padding-bottom: 1rem
-// margin-top: -1px
-// overflow-x: auto
-// text-align: center
-// white-space: nowrap
-// -webkit-overflow-scrolling: touch
-// */
+  //   /* .nav-scroller .nav 
+  // display: flex
+  // flex-wrap: nowrap
+  // padding-bottom: 1rem
+  // margin-top: -1px
+  // overflow-x: auto
+  // text-align: center
+  // white-space: nowrap
+  // -webkit-overflow-scrolling: touch
+  // */
   /* -webkit-overflow-scrolling: touch */
 
-  .dropdown-menu 
+  .dropdown-menu
     --bs-dropdown-border-radius: 0
     --bs-dropdown-link-active-bg: #193a20
-  
 
-  .navbar 
+  .navbar
     --bs-navbar-nav-link-padding-x: 1rem
-  
 
-  .nav 
+  .nav
     --bs-nav-link-color: #ffffff
     --bs-nav-link-hover-color: #ffffff
-  
 
-  #buttonSearch 
+  #buttonSearch
     border: 0
     background-color: $WHITEcolor
-  
 
-  #searchBox 
-    display: none
-  
-
-
-    
-  
+  .searchBox
+    width: 0
+    transform: scale(0)
+    &Open
+      width: 100%
+      transform: scale(1)
 
 //   /* .test 
 // display: flex
@@ -338,69 +290,60 @@ header
 -------------------------------------------------- 
 
   /* Carousel base class */
-  .carousel 
+  .carousel
     margin-bottom: 4rem
-  
+
   /* Since positioning the image, we need to help out the caption */
-  .carousel-caption 
+  .carousel-caption
     bottom: 3rem
     z-index: 10
-  
 
   /* Declare heights because of positioning of img element */
-  .carousel-item 
+  .carousel-item
     height: 32rem
-  
 
   /* MARKETING CONTENT
 -------------------------------------------------- 
 
   /* Center align the text within the three columns below the carousel */
-  .marketing .col-lg-4 
+  .marketing .col-lg-4
     margin-bottom: 1.5rem
     text-align: center
-  
+
   /* rtl:begin:ignore */
-  .marketing .col-lg-4 p 
+  .marketing .col-lg-4 p
     margin-right: 0.75rem
     margin-left: 0.75rem
-  
+
   /* rtl:end:ignore */
 
   /* Featurettes
 ------------------------- 
 
-  .featurette-divider 
-    margin: 5rem 0 
+  .featurette-divider
+    margin: 5rem 0
      //Space out the Bootstrap <hr> more
-  
 
   /* Thin out the marketing headings */
   /* rtl:begin:remove */
-  .featurette-heading 
+  .featurette-heading
     letter-spacing: -0.05rem
-  
 
   /* rtl:end:remove */
 
   /* RESPONSIVE CSS
 -------------------------------------------------- 
 
-  @media (min-width: 40em) 
+  @media (min-width: 40em)
     /* Bump up size of carousel content */
-    .carousel-caption p 
+    .carousel-caption p
       margin-bottom: 1.25rem
       font-size: 1.25rem
       line-height: 1.4
-    
 
-    .featurette-heading 
+    .featurette-heading
       font-size: 50px
-    
-  
 
-  @media (min-width: 62em) 
-    .featurette-heading 
+  @media (min-width: 62em)
+    .featurette-heading
       margin-top: 7rem
-    
-  
