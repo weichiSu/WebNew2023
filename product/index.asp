@@ -11,6 +11,12 @@
 
       <link href="/css/pk-product.css" rel="stylesheet" />
 
+      <script>
+        $(function () {
+          $(".navTabs-tab img").addClass("img-responsive");
+        })
+      </script>
+
   </head>
 
   <body>
