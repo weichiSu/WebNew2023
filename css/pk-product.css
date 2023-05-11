@@ -136,6 +136,7 @@
 }
 #pkdv .swiper {
   width: 100%;
+  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-left: auto;
@@ -152,6 +153,7 @@
   }
 }
 #pkdv .swiper-wrapper {
+  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -174,6 +176,7 @@
   #pkdv .swiper-BigImg {
     width: 86.5%;
     max-width: 500px;
+    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     display: inline-block;
@@ -199,6 +202,7 @@
 #pkdv .swiper-smallImg .swiper-slide {
   background-size: cover;
   background-position: center;
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: auto;
@@ -207,6 +211,7 @@
 }
 @media (min-width: 1200px) {
   #pkdv .swiper-smallImg .swiper-slide {
+    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -258,6 +263,7 @@
   padding: 10px 0;
   font: 1.5em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
+  font-weight: 800;
 }
 #pkdv .productDescription-material-img {
   width: auto;
@@ -347,6 +353,7 @@
 }
 @media (min-width: 992px) {
   #pkdv .navTabs-item {
+    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     padding: 20px 30px;

@@ -69,7 +69,13 @@ dfn {
   font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   font-weight: 500;
   font-size: 1em;
@@ -152,9 +158,9 @@ select {
 }
 
 button,
-html input[type=button],
-input[type=reset],
-input[type=submit] {
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -174,24 +180,24 @@ input {
   line-height: normal;
 }
 
-input[type=checkbox],
-input[type=radio] {
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-input[type=search] {
+input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -232,13 +238,24 @@ li {
   margin: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 hr {
   height: 0;
   box-sizing: content-box;
+}
+
+@-webkit-keyframes fixedNavDown {
+  0% {
+    top: -100px;
+  }
+  20% {
+    top: 0;
+  }
 }
 
 @keyframes fixedNavDown {
@@ -327,7 +344,8 @@ hr {
 #pkdv dd {
   margin-left: 0;
 }
-#pkdv .dl-horizontal dd:before, #pkdv .dl-horizontal dd:after {
+#pkdv .dl-horizontal dd:before,
+#pkdv .dl-horizontal dd:after {
   content: " ";
   display: table;
 }
@@ -349,7 +367,7 @@ hr {
   color: black;
 }
 #pkdv a:hover {
-  color: #256C53;
+  color: #256c53;
 }
 #pkdv hr {
   margin: 10px 0;
@@ -376,18 +394,20 @@ hr {
   border-bottom: 1px solid black;
 }
 #pkdv input {
-  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
   line-height: 1em;
 }
-#pkdv input[type=radio],
-#pkdv input[type=checkbox] {
+#pkdv input[type="radio"],
+#pkdv input[type="checkbox"] {
   margin: 4px 0 0;
-  margin-top: 1px \9 ;
+  margin-top: 1px \9;
   line-height: normal;
   vertical-align: middle;
   display: none;
 }
-#pkdv input[type=checkbox] + label, #pkdv input[type=radio] + label {
+#pkdv input[type="checkbox"] + label,
+#pkdv input[type="radio"] + label {
   cursor: pointer;
   display: inline-block;
   width: 20px;
@@ -395,25 +415,26 @@ hr {
   position: relative;
   top: 3px;
 }
-#pkdv input[type=checkbox] + label {
+#pkdv input[type="checkbox"] + label {
   background: url(../images/check.svg) 0 0 no-repeat;
 }
-#pkdv input[type=radio] + label {
+#pkdv input[type="radio"] + label {
   background: url(../images/radio.svg) 0 0 no-repeat;
 }
-#pkdv input[type=checkbox]:checked + label {
+#pkdv input[type="checkbox"]:checked + label {
   background: url(../images/check.svg) -20px 0 no-repeat;
 }
-#pkdv input[type=radio]:checked + label {
+#pkdv input[type="radio"]:checked + label {
   background: url(../images/radio.svg) -20px 0 no-repeat;
 }
-#pkdv input[type=file]:focus,
-#pkdv input[type=radio]:focus,
-#pkdv input[type=checkbox]:focus {
+#pkdv input[type="file"]:focus,
+#pkdv input[type="radio"]:focus,
+#pkdv input[type="checkbox"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-#pkdv .form-group:before, #pkdv .form-group:after {
+#pkdv .form-group:before,
+#pkdv .form-group:after {
   display: table;
   content: " ";
   clear: both;
@@ -426,14 +447,18 @@ hr {
   background: white;
   border: 1px solid #dddddd;
   border-radius: 5px;
-  font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
 }
-#pkdv .form-control:focus, #pkdv .form-control:hover {
+#pkdv .form-control:focus,
+#pkdv .form-control:hover {
   box-shadow: 0 0 5px 0 #dddddd;
   border: 1px solid #dddddd;
   outline: none;
 }
-#pkdv .form-control[disabled], #pkdv .form-control[readonly], fieldset[disabled] #pkdv .form-control {
+#pkdv .form-control[disabled],
+#pkdv .form-control[readonly],
+fieldset[disabled] #pkdv .form-control {
   background: #e6e6e6;
   opacity: 1;
   cursor: not-allowed;
@@ -494,7 +519,7 @@ hr {
   position: relative;
 }
 #pkdv .has-success {
-  background: #256C53;
+  background: #256c53;
 }
 #pkdv .has-warning {
   background: #fa3434;
@@ -514,7 +539,8 @@ hr {
   padding: 5px 10px;
   touch-action: manipulation;
   white-space: nowrap;
-  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
   line-height: 1.2em;
   letter-spacing: 0.05em;
   text-align: center;
@@ -522,29 +548,37 @@ hr {
   border-radius: 50px;
   text-decoration: none;
 }
-#pkdv .btn:hover, #pkdv .btn:focus, #pkdv .btn.focus, #pkdv .btn:active, #pkdv .btn.active {
+#pkdv .btn:hover,
+#pkdv .btn:focus,
+#pkdv .btn.focus,
+#pkdv .btn:active,
+#pkdv .btn.active {
   border: none;
   outline: none;
 }
-#pkdv .btn.disabled, #pkdv .btn[disabled], fieldset[disabled] #pkdv .btn {
+#pkdv .btn.disabled,
+#pkdv .btn[disabled],
+fieldset[disabled] #pkdv .btn {
   cursor: not-allowed;
 }
 #pkdv .btn-pay {
-  background: #E7B506;
+  background: #e7b506;
   color: black;
   text-decoration: none;
 }
-#pkdv .btn-pay:hover, #pkdv .btn-pay:focus {
+#pkdv .btn-pay:hover,
+#pkdv .btn-pay:focus {
   color: black;
   background: #f9cb27;
   -pie-background: #f9cb27;
 }
 #pkdv .btn-keep {
-  background: #256C53;
+  background: #256c53;
   color: white;
   text-decoration: none;
 }
-#pkdv .btn-keep:hover, #pkdv .btn-keep:focus {
+#pkdv .btn-keep:hover,
+#pkdv .btn-keep:focus {
   color: white;
   background: #39a57f;
   -pie-background: #39a57f;
@@ -554,7 +588,8 @@ hr {
   color: white;
   text-decoration: none;
 }
-#pkdv .btn-out:hover, #pkdv .btn-out:focus {
+#pkdv .btn-out:hover,
+#pkdv .btn-out:focus {
   color: white;
   background: #a6a6a6;
   -pie-background: #a6a6a6;
@@ -565,11 +600,13 @@ hr {
   -pie-background: linear-gradient(#256c53, #1e5944);
   behavior: url(/pie/PIE.htc);
   color: white;
-  font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
   line-height: 1.2em;
   letter-spacing: -0.05px;
 }
-#pkdv .btn-link:hover, #pkdv .btn-link:focus {
+#pkdv .btn-link:hover,
+#pkdv .btn-link:focus {
   background: #1e5944;
   -pie-background: #1e5944;
   box-shadow: 0 0 5px 0 #256c53;
@@ -600,11 +637,327 @@ hr {
 #pkdv .btn-block + .btn-block {
   margin-top: 5px;
 }
+#pkdv #js-overlay {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.7);
+}
+#pkdv header {
+  box-shadow: 2px 2px 5px 1px rgb(236, 236, 236);
+  /* .nav-scroller  */
+}
+#pkdv header .dropdown-toggle {
+  outline: 0;
+}
+#pkdv header .btn-toggle {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: transparent;
+}
+#pkdv header .btn-toggle:hover,
+#pkdv header .btn-toggle:focus {
+  color: rgba(0, 0, 0, 0.85);
+}
+#pkdv header .btn-toggle::after {
+  /* width: 2rem */
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='currentColor' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transition: transform 0.35s ease;
+  transform-origin: 50%;
+}
+#pkdv header .btn-toggle[aria-expanded="true"] {
+  color: rgba(50, 97, 85, 0.878);
+}
+#pkdv header .btn-toggle[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+#pkdv header .btn-toggle-nav a {
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
+  margin-left: 0.5rem;
+}
+#pkdv header .btn-toggle-nav a:hover,
+#pkdv header .btn-toggle-nav a:focus {
+  /* background-color: #f8f8f8ba */
+  font-weight: 600;
+}
+#pkdv header .scrollarea {
+  overflow-y: auto;
+}
+#pkdv header .offcanvas {
+  --bs-offcanvas-width: 280px;
+}
+#pkdv header .btn {
+  /* --bs-btn-padding-x: 0.75rem */
+  --bs-btn-padding-y: 0.6rem * /;
+  padding-bottom: 0.7rem;
+  padding-left: 1rem;
+}
+#pkdv header .link-dark:hover {
+  font-size: 1000 !important;
+  color: rgb(48, 67, 57) !important;
+}
+#pkdv header .offcanvasIcon {
+  color: rgba(128, 128, 128, 0.78);
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+#pkdv header .offcanvasIcon:hover {
+  color: gray;
+}
+#pkdv header .wrap {
+  max-width: 100%;
+  margin: 1% auto 0 auto;
+  height: auto;
+}
+#pkdv header .search {
+  position: relative;
+  width: 90%;
+  float: left;
+}
+#pkdv header .search-bar {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 20px;
+  border: 1px solid rgba(20, 71, 57, 0.6901960784);
+  border-radius: 0;
+}
+#pkdv header .search-btn {
+  height: 2.5rem;
+  background-color: #0f382d;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #0f382d;
+  cursor: pointer;
+}
+#pkdv header .search-btn:hover {
+  background-color: #647f78;
+  border: 1px solid #647f78;
+}
+#pkdv header .searchOffcanvas {
+  color: #ffffff;
+}
+#pkdv header .searchOffcanvas:hover {
+  color: #ffffff;
+}
+#pkdv header .navbar-toggler {
+  border-radius: 0;
+  border: 0;
+}
+#pkdv header .navbar-toggler:hover {
+  border-radius: 0;
+  border: 1px;
+}
+#pkdv header .form-control-dark {
+  border-color: var(--bs-gray);
+}
+#pkdv header .form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+#pkdv header .text-small {
+  font-size: 85%;
+}
+#pkdv header .dropdown-toggle {
+  outline: 0;
+}
+#pkdv header .marginSvg {
+  margin: 1.5rem;
+}
+#pkdv header .logoTool {
+  width: 150px;
+}
+#pkdv header ul.drop-down-menu ul {
+  /*隱藏次選單*/
+  display: none;
+}
+#pkdv header ul.drop-down-menu li:hover > ul {
+  /* 滑鼠滑入展開次選單*/
+  display: block;
+}
+#pkdv header .bg-header {
+  /* background-color: #667e63 */
+  background-color: rgb(66, 81, 74);
+}
+#pkdv header ul hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#pkdv header .vl {
+  margin: 1.2% 0.5%;
+  height: 1.3rem;
+  border-left: 1.5px solid rgba(255, 255, 255, 0.276);
+}
+#pkdv header .fbIcon,
+#pkdv header .igIcon,
+#pkdv header .lineIcon,
+#pkdv header .YTIcon,
+#pkdv header .WeiboIcon,
+#pkdv header .wechatIcon {
+  font-size: 1.3rem;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 1%;
+  margin-right: 0.5%;
+}
+#pkdv header .bi-facebook:hover,
+#pkdv header .bi-instagram:hover,
+#pkdv header .bi-youtube:hover,
+#pkdv header .bi-line:hover,
+#pkdv header .bi-sina-weibo:hover,
+#pkdv header .bi-wechat:hover {
+  color: rgb(211, 211, 211);
+}
+#pkdv header .bi-facebook,
+#pkdv header .bi-instagram,
+#pkdv header .bi-youtube,
+#pkdv header .bi-line,
+#pkdv header .bi-sina-weibo,
+#pkdv header .bi-wechat {
+  color: aliceblue;
+}
+#pkdv header .bi-search {
+  color: rgb(109, 109, 109);
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+}
+#pkdv header .bi-search:hover {
+  color: rgb(50, 50, 50);
+}
+#pkdv header .bi-person-circle {
+  color: rgb(109, 109, 109);
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+}
+#pkdv header .bi-person-circle:hover {
+  color: rgb(50, 50, 50);
+}
+#pkdv header .navList:hover {
+  color: rgb(24, 24, 24);
+}
+#pkdv header .navlistColor {
+  color: rgb(251, 251, 251);
+}
+#pkdv header .navlistColor:hover {
+  color: rgb(208, 208, 208);
+}
+#pkdv header .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@media (min-width: 768px) {
+  #pkdv header .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+#pkdv header .b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+#pkdv header .b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+#pkdv header .bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+#pkdv header .dropdown-menu-products {
+  -moz-columns: 2;
+  columns: 2;
+}
+#pkdv -------------------------------------------------- {
+  /* Padding below the footer and lighter body text */
+  /* CUSTOMIZE THE CAROUSEL */
+}
+#pkdv -------------------------------------------------- {
+  /* Carousel base class */
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+  /* MARKETING CONTENT */
+}
+#pkdv -------------------------------------------------- .carousel {
+  margin-bottom: 4rem;
+}
+#pkdv -------------------------------------------------- .carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+#pkdv -------------------------------------------------- .carousel-item {
+  height: 32rem;
+}
+#pkdv -------------------------------------------------- {
+  /* Center align the text within the three columns below the carousel */
+  /* rtl:begin:ignore */
+  /* rtl:end:ignore */
+  /* Featurettes */
+}
+#pkdv -------------------------------------------------- .marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+#pkdv
+  --------------------------------------------------
+  .marketing
+  .col-lg-4
+  p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+#pkdv ------------------------- {
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  /* rtl:end:remove */
+  /* RESPONSIVE CSS */
+}
+#pkdv ------------------------- .featurette-divider {
+  margin: 5rem 0;
+}
+#pkdv ------------------------- .featurette-heading {
+  letter-spacing: -0.05rem;
+}
+@media (min-width: 40em) {
+  #pkdv -------------------------------------------------- {
+    /* Bump up size of carousel content */
+  }
+  #pkdv -------------------------------------------------- .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  #pkdv -------------------------------------------------- .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 62em) {
+  #pkdv -------------------------------------------------- .featurette-heading {
+    margin-top: 7rem;
+  }
+}
 #pkdv .footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
   line-height: 2em;
 }
 #pkdv .footer * {
@@ -656,8 +1009,8 @@ hr {
   }
 }
 #pkdv .pkCI-background-industry {
-  background-color: #1C473B;
+  background-color: #1c473b;
 }
 #pkdv .pkCI-background-science {
-  background-color: #0097DA;
-}/*# sourceMappingURL=pk-layout.css.map */
+  background-color: #0097da;
+} /*# sourceMappingURL=pk-layout.css.map */
