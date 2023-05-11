@@ -29,7 +29,7 @@
           <%breadcrumb=["主題類別","分類名稱"] %>
             <!--#include virtual="/component/_breadcrumb.asp"-->
 
-            <div class="visible-xs visible-sm">
+            <div class="visible-xs visible-sm dropdown-additional">
               <!--#include virtual="/component/_dropdown.asp"-->
             </div>
 
@@ -40,7 +40,7 @@
                 <!--#include virtual="/component/_pagination.asp"-->
               </div>
 
-              <div class="col-xs-12 col-md-2 col-md-pull-10">
+              <div class="col-xs-12 col-md-2 col-md-pull-10 hidden-xs hidden-sm">
                 <!--#include virtual="/component/_sideMenu-simple.asp"-->
               </div>
 

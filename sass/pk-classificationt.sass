@@ -23,9 +23,12 @@
       +iconTxt(48px, $left: 48px)
 
     .dropdown
-      position: absolute
-      right: 0
-      z-index: 9
-      margin: 0 20px
+      display: flex
+      justify-content: center
+      &-additional
+        position: relative
+        z-index: $zindex-navbar
+      &-menu
+        left: inherit
     .proList-img-xs-3
       margin-top: 50px

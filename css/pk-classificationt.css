@@ -289,10 +289,15 @@
   background: #FFE000;
 }
 #pkdv .classification .dropdown {
-  position: absolute;
-  right: 0;
-  z-index: 9;
-  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+#pkdv .classification .dropdown-additional {
+  position: relative;
+  z-index: 1010;
+}
+#pkdv .classification .dropdown-menu {
+  left: inherit;
 }
 #pkdv .classification .proList-img-xs-3 {
   margin-top: 50px;
