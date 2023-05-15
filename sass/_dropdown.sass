@@ -1,11 +1,17 @@
 .dropdown
   position: relative
-  &-toggle
+  &-btn
     display: flex
     align-items: center
-    border-radius: 10px
-    background: #83A186
-    color: darken($WHITEcolor, 0%)
+    &-fill
+      border-radius: 10px
+      background: #83A186
+      color: darken($WHITEcolor, 0%)
+      &+.dropdown-menu
+        border-radius: 10px
+    &-outline
+      border-radius: 0
+      border: 1px solid #83A186
   &-menu
     position: absolute
     top: 100%
@@ -21,7 +27,7 @@
     font-size: $font-size-md
     line-height: $font-size-md
     border: 1px solid darken($WHITEcolor, 10%)
-    border-radius: 10px
+    border-radius: 0
   &-item
     display: block
     padding: 3px 20px
@@ -33,5 +39,7 @@
   &.open>.dropdown-menu
     display: block
 
-.icon-arrowDown
-  +icon(15px,15px,$icon-arrowDown)
+  .icon-arrowDownBlack
+    +icon(10px,10px,$icon-arrowDownBlack)
+  .icon-arrowDown
+    +icon(10px,10px,$icon-arrowDown)

@@ -156,7 +156,7 @@
   height: fit-content;
 }
 #pkdv .swiper-button-next:after, #pkdv .swiper-button-prev:after {
-  color: #ffffff;
+  color: #9D9D9D;
   font-size: 2em;
   opacity: 0;
 }
@@ -380,8 +380,13 @@
 }
 #pkdv .navTabs-pane-video iframe, #pkdv .navTabs-pane-video embed, #pkdv .navTabs-pane-video object {
   width: 100%;
-  height: 600px;
+  height: 400px;
   margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  #pkdv .navTabs-pane-video iframe, #pkdv .navTabs-pane-video embed, #pkdv .navTabs-pane-video object {
+    height: 600px;
+  }
 }
 #pkdv .video {
   position: relative;
