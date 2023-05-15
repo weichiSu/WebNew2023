@@ -7,7 +7,7 @@
           <source srcset="/images/BLB-lg.jpg" media="(min-width: 768px)">
           <source srcset="/images/BLB-xs.png" media="(max-width: 768px)">
           <!--[if IE 9]></video><![endif]-->
-          <img src="/images/BLB-lg.jpg" srcset="/images/BLB-lg.jpg" alt="大量採購" draggable="false" class="img-responsive">
+          <img src="/images/BLB-lg.jpg" srcset="/images/BLB-lg.jpg" alt="大量採購" draggable="false" class="swiper-img">
         </picture>
       </a>
     </div>

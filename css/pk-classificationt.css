@@ -57,12 +57,14 @@
   text-align: center;
   background: #ffffff;
 }
-#pkdv .classification .swiper-slide-img {
+#pkdv .classification .swiper-img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
 }
 #pkdv .classification .proList-item {
   padding: 0 15px 53px;
@@ -178,12 +180,21 @@
 #pkdv .classification .dropdown {
   position: relative;
 }
-#pkdv .classification .dropdown-toggle {
+#pkdv .classification .dropdown-btn {
   display: flex;
   align-items: center;
+}
+#pkdv .classification .dropdown-btn-fill {
   border-radius: 10px;
   background: #83A186;
   color: white;
+}
+#pkdv .classification .dropdown-btn-fill + .dropdown-menu {
+  border-radius: 10px;
+}
+#pkdv .classification .dropdown-btn-outline {
+  border-radius: 0;
+  border: 1px solid #83A186;
 }
 #pkdv .classification .dropdown-menu {
   position: absolute;
@@ -201,7 +212,7 @@
   font-size: 1.25em;
   line-height: 1.25em;
   border: 1px solid #e6e6e6;
-  border-radius: 10px;
+  border-radius: 0;
 }
 #pkdv .classification .dropdown-item {
   display: block;
@@ -214,10 +225,18 @@
 #pkdv .classification .dropdown.open > .dropdown-menu {
   display: block;
 }
-#pkdv .classification .icon-arrowDown {
+#pkdv .classification .dropdown .icon-arrowDownBlack {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
+  background: url("../images/arrowDownBlack-icon.svg") no-repeat;
+  background-size: contain;
+  margin: 0 3px;
+}
+#pkdv .classification .dropdown .icon-arrowDown {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
   background: url("../images/arrowDown-icon.svg") no-repeat;
   background-size: contain;
   margin: 0 3px;
@@ -271,14 +290,14 @@
   line-height: 48px;
   padding: 0 5px;
   font-size: 0.93em;
-  left: 12px;
-  right: calc(inherit / 4);
+  left: calc(inherit / 4);
+  right: 12px;
 }
 @media (min-width: 1200px) {
   #pkdv .classification .iconTxt {
     top: 24px;
-    left: -24px;
-    right: calc(inherit / -2);
+    left: calc(inherit / -2);
+    right: -24px;
   }
 }
 #pkdv .classification .iconTxt-recommend {
@@ -300,5 +319,34 @@
   left: inherit;
 }
 #pkdv .classification .proList-img-xs-3 {
-  margin-top: 50px;
+  margin-top: 40px;
+}
+#pkdv .searchPage-tabs {
+  display: flex;
+  border-bottom: 1px solid #adadad;
+}
+#pkdv .searchPage-tabs-item {
+  padding: 8px 24px;
+  border-radius: 4px 4px 0 0;
+  font-weight: 600;
+  text-decoration: none;
+}
+#pkdv .searchPage-tabs-item.industry {
+  background: #256C53;
+  color: white;
+}
+#pkdv .searchPage-tabs-item.science {
+  background: #0097DA;
+  color: #FDD265;
+}
+#pkdv .searchPage-tabs-num {
+  display: inline-block;
+  background: #fa3434;
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-style: inherit;
+  text-align: center;
+  border-radius: 50%;
 }/*# sourceMappingURL=pk-classificationt.css.map */

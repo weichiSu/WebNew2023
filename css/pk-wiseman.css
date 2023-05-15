@@ -61,12 +61,21 @@
 #pkdv .dropdown {
   position: relative;
 }
-#pkdv .dropdown-toggle {
+#pkdv .dropdown-btn {
   display: flex;
   align-items: center;
+}
+#pkdv .dropdown-btn-fill {
   border-radius: 10px;
   background: #83A186;
   color: white;
+}
+#pkdv .dropdown-btn-fill + .dropdown-menu {
+  border-radius: 10px;
+}
+#pkdv .dropdown-btn-outline {
+  border-radius: 0;
+  border: 1px solid #83A186;
 }
 #pkdv .dropdown-menu {
   position: absolute;
@@ -84,7 +93,7 @@
   font-size: 1.25em;
   line-height: 1.25em;
   border: 1px solid #e6e6e6;
-  border-radius: 10px;
+  border-radius: 0;
 }
 #pkdv .dropdown-item {
   display: block;
@@ -97,10 +106,18 @@
 #pkdv .dropdown.open > .dropdown-menu {
   display: block;
 }
-#pkdv .icon-arrowDown {
+#pkdv .dropdown .icon-arrowDownBlack {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
+  background: url("../images/arrowDownBlack-icon.svg") no-repeat;
+  background-size: contain;
+  margin: 0 3px;
+}
+#pkdv .dropdown .icon-arrowDown {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
   background: url("../images/arrowDown-icon.svg") no-repeat;
   background-size: contain;
   margin: 0 3px;
