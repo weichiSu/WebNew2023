@@ -267,6 +267,7 @@
 }
 #pkdv .productDescription-positiveNotes {
   display: flex;
+  flex-direction: column;
   padding: 10px 0 30px;
   line-height: 1.5em;
   color: #1e1e1e;
