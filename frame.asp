@@ -15,7 +15,7 @@
 <script src="/js/offcanvas-sidebar.html.js"></script>
 
 <!-- Bootstrap Icon Link -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 
 <!-- <link href="/css/bootstrap.minA.css" rel="stylesheet" /> -->
 <link href="/css/bootstrap.min.css" rel="stylesheet" />
