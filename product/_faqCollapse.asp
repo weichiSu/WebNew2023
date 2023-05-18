@@ -1,4 +1,4 @@
-<section class="collapse">
+<section class="">
   <ul>
     <li class="collapse-list">
       <h3 class="panel-title">

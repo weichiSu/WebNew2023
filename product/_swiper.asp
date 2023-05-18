@@ -14,7 +14,7 @@
             itemprop="contentUrl" alt="太陽能四戰士"></a>
       </div>
       <div class="swiper-slide">
-        <!-- #include virtual="/product/_video-test4.asp" -->
+        <!-- #include virtual="/product/_video.asp" -->
       </div>
       <div class="swiper-slide">
         <a class="venobox vbox-item" data-gall="myGallery"
