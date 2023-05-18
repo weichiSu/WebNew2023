@@ -9,6 +9,11 @@
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
+
+      <link rel="stylesheet" href="https://www.prokits.com.tw/js/VenoBox-master/venobox/venobox.css">
+      <script src="https://www.prokits.com.tw/js/VenoBox-master/venobox/venobox.min.js"></script>
+      <script src="/js/venobox_zoom.js"></script>
+
       <link href="/css/pk-product.css" rel="stylesheet" />
 
       <script>

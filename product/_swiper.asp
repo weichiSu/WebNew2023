@@ -2,20 +2,25 @@
 
   <div class="swiper swiper-BigImg">
     <div class="swiper-wrapper" itemscope itemtype="https://schema.org/ImageObject">
-      <div class="swiper-slide">
-        <img itemprop="contentUrl" src="https://ref.prokits.com.tw/ProductPic/GE-617/1/2017112313323127613.png"
-          class="swiper-slide-img" alt="" />
+      <div class="swiper-slide"><a class="venobox vbox-item" data-gall="myGallery"
+          href="https://ref.prokits.com.tw/ProductPic/GE-617/1/201706200915084692.jpg"><img
+            src="https://ref.prokits.com.tw/ProductPic/GE-617/1/201706200915084692.jpg" class="swiper-slide-img"
+            itemprop="contentUrl" alt="太陽能四戰士"></a>
       </div>
       <div class="swiper-slide">
-        <img itemprop="contentUrl" src="https://swiperjs.com/demos/images/nature-2.jpg" class="swiper-slide-img"
-          alt="" />
+        <a class="venobox vbox-item" data-gall="myGallery"
+          href="https://ref.prokits.com.tw/ProductPic/GE-617/1/2017112217074988310.png"><img
+            src="https://ref.prokits.com.tw/ProductPic/GE-617/1/2017112217074988310.png" class="swiper-slide-img"
+            itemprop="contentUrl" alt="太陽能四戰士"></a>
       </div>
       <div class="swiper-slide">
-        <!-- #include virtual="/product/_video-test4.asp" -->
+        <!-- #include virtual="/product/_video.asp" -->
       </div>
       <div class="swiper-slide">
-        <img itemprop="contentUrl" src="https://swiperjs.com/demos/images/nature-4.jpg" class="swiper-slide-img"
-          alt="" />
+        <a class="venobox vbox-item" data-gall="myGallery"
+          href="https://ref.prokits.com.tw/ProductPic/GE-617/1/201706201054310909.jpg"><img
+            src="https://ref.prokits.com.tw/ProductPic/GE-617/1/201706201054310909.jpg" class="swiper-slide-img"
+            itemprop="contentUrl" alt="太陽能四戰士"></a>
       </div>
       <div class="swiper-slide">
         <img itemprop="contentUrl" src="https://swiperjs.com/demos/images/nature-5.jpg" class="swiper-slide-img"

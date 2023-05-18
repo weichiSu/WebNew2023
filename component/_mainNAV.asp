@@ -63,17 +63,20 @@
       </ul>
     </div>
   </li>
+  <li class="mainNAV-list visible-xs visible-sm ">
+    <!-- #include virtual="/component/_socialList.asp" -->
+  </li>
 </ul>
 <button class="icon-burger" aria-hidden="true">456</button>
 <script>
   // 漢堡選單
   $("#js-mainNAV button").click(function () {
-    $("#js-mainNav-open").css("right", "0%");
+    $("#js-mainNav-open").css("left", "0%");
     $("#js-overlay").show();
     $("html").addClass("js-headHidden");
   });
   $("#js-overlay").click(function (event) {
-    $("#js-mainNav-open").css("right", "");
+    $("#js-mainNav-open").css("left", "");
     $("#js-overlay").hide();
     $("html").removeClass("js-headHidden");
   });

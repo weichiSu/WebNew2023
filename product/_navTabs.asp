@@ -19,15 +19,15 @@
 <div class="navTabs-tab">
   <div class="navTabs-pane navTabs-pane-active" id="productInfo" role="tabpanel" aria-labelledby="info-tab">
     <p class="navTabs-pane-title">產品說明</p>
-    <div class="navTabs-pane-video ytWrapper">
-
-      <!-- #include virtual="/product/_video-test4.asp" -->
-
-    </div>
     <!-- #include virtual="/product/_content.html" -->
   </div>
   <div class="navTabs-pane" id="productAssemble" role="tabpanel" aria-labelledby="assemble-tab">
-    <p class="navTabs-pane-title">教學影片</p>教學影片...
+    <p class="navTabs-pane-title">教學影片</p>
+
+    <div class="navTabs-pane-video">
+      <iframe src="https://www.youtube.com/embed/SiHlnC55O1s" frameborder="0" allowfullscreen></iframe>
+    </div>
+
   </div>
   <div class="navTabs-pane" id="hoproductmeFaq" role="tabpanel" aria-labelledby="faq-tab">
     <p class="navTabs-pane-title">FAQ</p>

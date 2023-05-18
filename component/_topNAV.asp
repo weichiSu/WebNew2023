@@ -1,14 +1,14 @@
-<ul class="row mainNAV" id="js-topNav-open">
+<ul class="row mainNAV topNav" id="js-topNav-open">
   <li class="mainNAV-list">
     經銷商專區
     <div class="megaMENU">
       <ul class="megaMENU-group">
-        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="測試儀表類">測試儀表類</a></li>
-        <li class="megaMENU-list"><a href="" title="鑷子類">鑷子類</a></li>
-        <li class="megaMENU-list"><a href="" title="精密剪鉗類">精密剪鉗類</a></li>
-        <li class="megaMENU-list"><a href="" title="防靜電類">防靜電類</a></li>
-        <li class="megaMENU-list"><a href="" title="電工剪鉗類">電工剪鉗類</a></li>
-        <li class="megaMENU-list"><a href="" title="VDE絕緣系列">VDE絕緣系列</a></li>
+        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="公告欄">公告欄</a></li>
+        <li class="megaMENU-list"><a href="" title="報價專區">報價專區</a></li>
+        <li class="megaMENU-list"><a href="" title="報表專區">報表專區</a></li>
+        <li class="megaMENU-list"><a href="" title="停產通知">停產通知</a></li>
+        <li class="megaMENU-list"><a href="" title="設變通知">設變通知</a></li>
+        <li class="megaMENU-list"><a href="" title="線上下單">線上下單</a></li>
       </ul>
     </div>
   </li>
@@ -30,22 +30,7 @@
     <a target="_blank" href="">聯絡我們</a>
   </li>
   <li class="mainNAV-list">
-    <a target="_blank" href="https://www.facebook.com/Proskit.taiwan"><i class="bi bi-facebook"></i></a>
-  </li>
-  <li class="mainNAV-list">
-    <a target="_blank" href="https://www.instagram.com "><i class="bi bi-instagram"></i></a>
-  </li>
-  <li class="mainNAV-list">
-    <a target="_blank" href="https://www.youtube.com "><i class="bi bi-youtube"></i></a>
-  </li>
-  <li class="mainNAV-list">
-    <a target="_blank" href="https://www.line.com "><i class="bi bi-line"></i></a>
-  </li>
-  <li class="mainNAV-list">
-    <a target="_blank" href="https://www.weibo.com "><i class="bi bi-sina-weibo"></i></a>
-  </li>
-  <li class="mainNAV-list">
-    <a target="_blank" href="https://www.wechat.com"><i class="bi bi-wechat offcanvasIcon"></i></a>
+    <!-- #include virtual="/component/_socialList.asp" -->
   </li>
   <li class="mainNAV-list">
     繁中
