@@ -1,5 +1,5 @@
 @import _overlay
-.header
+.pkHeader
   position: fixed
   width: 100%
   background: darken($WHITEcolor, 0%)
@@ -14,9 +14,14 @@
     color: darken($WHITEcolor, 0%)
   &-logoBrands
     padding: 10px 0
+  &-logoImg
+    max-width: 100%
+    max-height: 50px
+    @media (min-width: $screen-sm)
+      max-height: 80px
   &-mainMenu
     padding: 15px 0
-  &-searchBar
+  &-searchArea
     display: flex
     padding: 25px 0
   &+.container-full, &+.container
