@@ -610,7 +610,11 @@ hr {
   background: rgba(0, 0, 0, 0.7);
 }
 #pkdv .header {
+  position: fixed;
+  width: 100%;
+  background: white;
   box-shadow: 0 0 10px 0 #d9d9d9;
+  z-index: 1010;
 }
 #pkdv .header .navbar {
   position: relative;
@@ -824,10 +828,32 @@ hr {
     font-size: 1.3em;
   }
 }
-#pkdv .header-siteBrands {
+#pkdv .header .search {
+  display: flex;
+}
+#pkdv .header .search-btn {
+  position: relative;
+  left: -5px;
+  border-radius: 0 4px 4px 0;
+  border: 2px solid currentColor;
+}
+#pkdv .header-slogan {
   padding: 8px;
   font-size: 0.9em;
   color: white;
+}
+#pkdv .header-logoBrands {
+  padding: 10px 0;
+}
+#pkdv .header-mainMenu {
+  padding: 15px 0;
+}
+#pkdv .header-searchBar {
+  display: flex;
+  padding: 25px 0;
+}
+#pkdv .header + .container-full, #pkdv .header + .container {
+  padding-top: 135px;
 }
 #pkdv .footer {
   display: flex;
@@ -889,4 +915,10 @@ hr {
 }
 #pkdv .pkCI-background-science {
   background-color: #0097DA;
+}
+#pkdv .pkCI-color-industry {
+  color: #1C473B;
+}
+#pkdv .pkCI-color-science {
+  color: #0097DA;
 }/*# sourceMappingURL=pk-layout.css.map */

@@ -428,6 +428,9 @@
   background: #6e6e6e;
   color: white;
 }
+#pkdv .header {
+  position: relative;
+}
 #pkdv .product-row {
   padding-bottom: 50px;
 }
