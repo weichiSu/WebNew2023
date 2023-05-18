@@ -1,6 +1,12 @@
 @import _overlay
-header
+.header
+  +box-shadow(0 0 10px 0 darken(darken($WHITEcolor, 15%), 0%))
   @import _mainNAV
+  @import _socialList
+  &-siteBrands
+    padding: 8px
+    font-size: $font-size-sm
+    color: darken($WHITEcolor, 0%)
   // .container-fluid:after
   //   content: "."
   //   display: block

@@ -12,14 +12,11 @@
 
 .mainNAV
   z-index: $zindex-navbar
-  li
-    a
-      color: darken($WHITEcolor, 100%)
 
 // 手機版
 @media (min-width: $screen-xxs) and (max-width: $screen-lg - 1px)
   .navbar
-    height: 100%
+    // height: 100%
     margin: 20px auto
     button
       display: block
@@ -36,7 +33,7 @@
       text-align: center
   .mainNAV
     position: fixed
-    right: -105%
+    left: -105%
     top: 0
     width: 70%
     +distanceMP(0,0)
@@ -82,7 +79,7 @@
         position: relative
         left: 0
         padding-bottom: 20px
-        height: 100%
+        // height: 100%
         opacity: 1
         +box-shadow(none)
         +transition(all 0.8s)
@@ -90,71 +87,58 @@
         .megaMENU-list
           padding: 10px 1rem
 
-    // .mainNAV-logo
-    //   +distanceMP(0 0 20px,20px 0)
-    //   width: 100%
-    //   float: left
-    //   background: darken($WHITEcolor, 0%)
-    //   text-align: center
-    //   img
-    //     width: 30vw
-    //     height: auto
-    // burger menu icon
-    // @for $i from 1 through 24
-    //   .menu#{$i}
-    //     background: url(../images/menu-icon-xs.svg) no-repeat 10px -40px* $i
 // PC
 @media (min-width: $screen-lg)
   .navbar
     button
       display: none
   .mainNAV
+    position: relative
     margin: 0
     height: auto
     text-align: center
     &-list
       display: inline-block
       position: relative
-      // width: 288.75px
       +distanceMP(10px 0,5px)
       +fontT(1.5rem)
       letter-spacing: 0.05em
       text-align: center
       cursor: pointer
-      border-right: 1px solid darken($WHITEcolor, 17%)
+      z-index: $zindex-navbar
       .megaMENU
         position: absolute
-        top: 40px
-        left: 0
+        top: 35px
+        left: -15px
         opacity: 0
         z-index: $zindex-basement
         +transition(all 0.5s ease)
         +transform-origin(12.5% 0)
         +transform(scale(1,0))
-        +box-shadow(0 5px 10px darken($WHITEcolor, 20%))
         &-group
-          +distanceMP(10px 0 ,0 10px)
-          min-width: 150px
-          max-height: 400px
+          +distanceMP(5px 0, 0 5px)
+          max-height: 440px
           overflow: hidden
           float: left
           text-align: left
-          z-index: $zindex-floor
           &.columns2
             columns: 2
         &-list
           display: block
           position: relative
-          +distanceMP(5px 15px,5px 0)
+          height: 40px
+          line-height: 40px
+          +distanceMP(0 10px,0 5px)
           border: 0
           text-align: left
           border-bottom: 1px solid darken($WHITEcolor, 19%)
+          &:last-child, &:nth-child(11n)
+            border: none
           &:hover
             background: darken($WHITEcolor, 9%)
           a
             white-space: nowrap
             color: darken($WHITEcolor, 59%)
-
       &:hover
         .megaMENU
           opacity: 1
@@ -163,9 +147,14 @@
           background: darken($WHITEcolor, 0%)
           z-index: $zindex-floor
           +transform(scale(1,1))
-      // megaMENU 選單定位用
-      // @for $i from 1 through 4
-      //   .megaMENU#{$i}
-      //     left: 292.46px - 293.46px * $i
-      //     &:before
-      //       left: 293.46px* $i - 161px
+  .topNav
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    z-index: $zindex-float
+    .mainNAV-list
+      +distanceMP(0,8px)
+      color: darken($WHITEcolor, 0%)
+      font-size: $font-size-sm
+      &>a
+        color: darken($WHITEcolor, 0%)
