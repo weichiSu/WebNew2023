@@ -113,6 +113,21 @@
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.5);
   }
 }
+.vbox-container {
+  overflow: hidden;
+}
+.vbox-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto !important;
+  padding: 5% 0;
+}
+.vbox-figlio {
+  max-height: 100% !important;
+}
+
 #pkdv .breadcrumb {
   padding: 30px 0;
   font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
