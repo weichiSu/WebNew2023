@@ -18,10 +18,8 @@
 
       <!-- #include virtual="/header.asp" -->
 
-      <!-- classification -->
+      <!-- Search -->
       <div class="container-full classification">
-        <!-- 首圖 -->
-        <!-- #include virtual="/component/_BLB-ring.asp" -->
 
         <div class="container">
 
@@ -29,33 +27,17 @@
           <%breadcrumb=["主題類別","分類名稱"] %>
             <!--#include virtual="/component/_breadcrumb.asp"-->
 
-            <div class="visible-xs visible-sm dropdown-additional">
-              <!--#include virtual="/component/_dropdown.asp"-->
-            </div>
-
             <div class="row" itemscope itemtype="http://schema.org/Taxon">
 
-              <div class="col-xs-12 col-md-10 col-md-push-2">
-                <div class="row searchPage-tabs">
-                  <a href="" class="searchPage-tabs-item industry">工具 <i class="searchPage-tabs-num">1</i></a>
-                  <a href="" class="searchPage-tabs-item science">科玩 <i class="searchPage-tabs-num">20</i></a>
-                </div>
-                <!--#include virtual="/component/_proList-img-xs-3.asp"-->
+              <div class="col-xs-12">
+                <!--#include virtual="/component/_proList-img-xs-4.asp"-->
                 <!--#include virtual="/component/_pagination.asp"-->
               </div>
 
-              <div class="col-xs-12 col-md-2 col-md-pull-10 hidden-xs hidden-sm">
-                <!--#include virtual="/component/_sideMenu-simple.asp"-->
-              </div>
-
-
-
             </div>
-
         </div>
-
       </div>
-      <!-- classification END -->
+      <!-- Search END -->
 
       <!-- #include virtual="/footer.asp" -->
 

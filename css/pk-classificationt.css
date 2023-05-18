@@ -71,20 +71,9 @@
   font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
 }
-@media (min-width: 768px) {
-  #pkdv .classification .proList-item:nth-child(2n+1) {
-    clear: both;
-  }
-}
 @media (min-width: 1200px) {
   #pkdv .classification .proList-item {
     padding: 0 25px 53px;
-  }
-  #pkdv .classification .proList-item:nth-child(2n+1) {
-    clear: inherit;
-  }
-  #pkdv .classification .proList-item:nth-child(3n+1) {
-    clear: both;
   }
 }
 #pkdv .classification .proList-item .img-responsive {
@@ -138,6 +127,38 @@
   display: block;
   position: relative;
   text-decoration: none;
+}
+@media (min-width: 768px) {
+  #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  #pkdv .classification .proList-img-xs-3 .proList-item {
+    padding: 0 25px 53px;
+  }
+  #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(2n+1) {
+    clear: inherit;
+  }
+  #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+@media (min-width: 768px) {
+  #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  #pkdv .classification .proList-img-xs-4 .proList-item {
+    padding: 0 25px 53px;
+  }
+  #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(2n+1) {
+    clear: inherit;
+  }
+  #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(4n+1) {
+    clear: both;
+  }
 }
 #pkdv .classification .pagination {
   display: flex;
@@ -318,35 +339,6 @@
 #pkdv .classification .dropdown-menu {
   left: inherit;
 }
-#pkdv .classification .proList-img-xs-3 {
+#pkdv .classification .proList-img-xs-3, #pkdv .classification .proList-img-xs-4 {
   margin-top: 40px;
-}
-#pkdv .searchPage-tabs {
-  display: flex;
-  border-bottom: 1px solid #adadad;
-}
-#pkdv .searchPage-tabs-item {
-  padding: 8px 24px;
-  border-radius: 4px 4px 0 0;
-  font-weight: 600;
-  text-decoration: none;
-}
-#pkdv .searchPage-tabs-item.industry {
-  background: #256C53;
-  color: white;
-}
-#pkdv .searchPage-tabs-item.science {
-  background: #0097DA;
-  color: #FDD265;
-}
-#pkdv .searchPage-tabs-num {
-  display: inline-block;
-  background: #fa3434;
-  color: white;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  font-style: inherit;
-  text-align: center;
-  border-radius: 50%;
 }/*# sourceMappingURL=pk-classificationt.css.map */
