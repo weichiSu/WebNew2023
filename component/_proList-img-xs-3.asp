@@ -10,10 +10,7 @@
             <li class="proList-supported-item">China</li>
          </ul>
          <h1 itemprop="name" class="proList-name">四合一網路測試器(具USB測試) MT-7058N</h1>
-         <!-- #include virtual="/component/_iconTxt.asp" -->
-      </a>
-      <a itemprop="url" class="btn btn-pay btn-block btn-lg btn-lg" href="#modal-container1" data-toggle="modal">
-         立即購買<i class="icon-arrowBlack"></i></a>
+         <!-- #include virtual="/component/_iconTxt-ribbon.asp" -->
       </a>
    </article>
    <article class="col-xs-6 col-lg-4 proList-item">
@@ -29,9 +26,6 @@
          <h1 itemprop="name" class="proList-name">四合一網路測試器(具USB測試) MT-7058N</h1>
          <!-- #include virtual="/component/_iconTxt.asp" -->
       </a>
-      <a itemprop="url" class="btn btn-pay btn-block btn-lg btn-lg" href="#modal-container1" data-toggle="modal">
-         立即購買<i class="icon-arrowBlack"></i></a>
-      </a>
    </article>
    <article class="col-xs-6 col-lg-4 proList-item">
       <a itemprop="url" href="#modal-container1" data-toggle="modal" class="proList-link">
@@ -46,9 +40,6 @@
          <h1 itemprop="name" class="proList-name">四合一網路測試器(具USB測試) MT-7058N</h1>
          <!-- #include virtual="/component/_iconTxt.asp" -->
       </a>
-      <a itemprop="url" class="btn btn-pay btn-block btn-lg btn-lg" href="#modal-container1" data-toggle="modal">
-         立即購買<i class="icon-arrowBlack"></i></a>
-      </a>
    </article>
    <article class="col-xs-6 col-lg-4 proList-item">
       <a itemprop="url" href="#modal-container1" data-toggle="modal" class="proList-link">
@@ -62,9 +53,6 @@
          </ul>
          <h1 itemprop="name" class="proList-name">四合一網路測試器(具USB測試) MT-7058N</h1>
          <!-- #include virtual="/component/_iconTxt.asp" -->
-      </a>
-      <a itemprop="url" class="btn btn-pay btn-block btn-lg btn-lg" href="#modal-container1" data-toggle="modal">
-         立即購買<i class="icon-arrowBlack"></i></a>
       </a>
    </article>
 </div>

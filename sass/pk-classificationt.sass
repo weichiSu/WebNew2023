@@ -20,7 +20,12 @@
       +icon(16px,16px,$icon-cart)
 
     .iconTxt
-      +iconTxt(48px, $right: 48px)
+      +iconTxt(48px, $right: 0)
+      &.iconTxt-stop
+        height: 30px
+        line-height: 30px
+    .iconTxt-ribbon
+      +iconTxt-ribbon($rotateZ: 45deg)
 
     .dropdown
       display: flex

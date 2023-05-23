@@ -258,10 +258,12 @@ hr {
 }
 #pkdv .setEnd {
   padding: 80px 15px 0;
+  min-height: calc(100% - 500px);
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   #pkdv .setEnd {
     padding: 80px 0 0;
+    min-height: calc(100% - 304px);
   }
 }
 #pkdv .well {
