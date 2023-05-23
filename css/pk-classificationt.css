@@ -111,7 +111,7 @@
   content: url("../images/cart-icon.svg");
 }
 #pkdv .classification .proList-name {
-  height: 55px;
+  height: 38px;
   overflow: hidden;
   text-overflow: ellipsis;
   box-sizing: border-box;
@@ -119,8 +119,6 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   margin: 0 0 10px;
-  font: 1.25em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.3em;
   font-weight: 600;
 }
 #pkdv .classification .proList-link {
@@ -206,6 +204,8 @@
 #pkdv .classification .dropdown-btn {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 #pkdv .classification .dropdown-btn-fill {
   border-radius: 10px;
@@ -223,23 +223,23 @@
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 9;
+  z-index: 10;
   display: none;
   float: left;
+  width: 100%;
   margin: 2px 0 0;
   padding: 5px 0;
   text-align: left;
   list-style: none;
   background-color: white;
   background-clip: padding-box;
-  font-size: 1.25em;
   line-height: 1.25em;
   border: 1px solid #e6e6e6;
   border-radius: 0;
 }
 #pkdv .classification .dropdown-item {
   display: block;
-  padding: 3px 20px;
+  padding: 3px 10px;
   clear: both;
   font-weight: 400;
   text-decoration: none;
@@ -269,7 +269,7 @@
   line-height: 1.2em;
 }
 #pkdv .classification .sideMenu-title {
-  font-size: 1.25em;
+  font-size: 1.1em;
   color: #6a6a6a;
 }
 #pkdv .classification .sideMenu-list {
@@ -361,16 +361,37 @@
 #pkdv .classification .dropdown-additional {
   position: relative;
   z-index: 1010;
+  padding: 0 10px;
 }
 #pkdv .classification .dropdown-menu {
   left: inherit;
 }
 #pkdv .classification .proList-img-xs-3, #pkdv .classification .proList-img-xs-4 {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+#pkdv .classification .search {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 #pkdv .classification .search-result {
-  padding: 30px 20px 0;
-  font: 1.25em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1em;
+  order: 2;
+  padding-top: 10px;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
   color: #666666;
+}
+@media (min-width: 768px) {
+  #pkdv .classification .search-result {
+    order: 1;
+    padding-top: 0;
+  }
+}
+#pkdv .classification .search-dropdown {
+  order: 1;
+}
+@media (min-width: 768px) {
+  #pkdv .classification .search-dropdown {
+    order: 2;
+  }
 }/*# sourceMappingURL=pk-classificationt.css.map */

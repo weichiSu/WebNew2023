@@ -33,11 +33,24 @@
       &-additional
         position: relative
         z-index: $zindex-navbar
+        padding: 0 10px
       &-menu
         left: inherit
     .proList-img-xs-3,.proList-img-xs-4
-      margin-top: 40px
-    .search-result
-      padding: 30px 20px 0
-      +fontT-md
-      color: darken($WHITEcolor, 60%)
+      margin-top: 20px
+    .search
+      display: flex
+      flex-wrap: wrap
+      padding: 20px
+      &-result
+        order: 2
+        padding-top: 10px
+        +fontT
+        color: darken($WHITEcolor, 60%)
+        @media (min-width: $screen-sm)
+          order: 1
+          padding-top: 0
+      &-dropdown
+        order: 1
+        @media (min-width: $screen-sm)
+          order: 2

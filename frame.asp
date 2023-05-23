@@ -11,13 +11,11 @@
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
-<!-- <script src="/js/bootstrap.bundle.min.js"></script> -->
 <script src="/js/offcanvas-sidebar.html.js"></script>
 
 <!-- Bootstrap Icon Link -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 
-<!-- <link href="/css/bootstrap.minA.css" rel="stylesheet" /> -->
 <link href="/css/bootstrap.min.css" rel="stylesheet" />
 <link href="/css/pk-layout.css" rel="stylesheet" />
 

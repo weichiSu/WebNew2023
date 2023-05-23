@@ -64,6 +64,8 @@
 #pkdv .dropdown-btn {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 #pkdv .dropdown-btn-fill {
   border-radius: 10px;
@@ -81,23 +83,23 @@
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 9;
+  z-index: 10;
   display: none;
   float: left;
+  width: 100%;
   margin: 2px 0 0;
   padding: 5px 0;
   text-align: left;
   list-style: none;
   background-color: white;
   background-clip: padding-box;
-  font-size: 1.25em;
   line-height: 1.25em;
   border: 1px solid #e6e6e6;
   border-radius: 0;
 }
 #pkdv .dropdown-item {
   display: block;
-  padding: 3px 20px;
+  padding: 3px 10px;
   clear: both;
   font-weight: 400;
   text-decoration: none;

@@ -25,4 +25,8 @@
     display: flex
     padding: 25px 0
   &+.container-full, &+.container
-    padding-top: 135px
+    padding-top: 100px
+    @media (min-width: $screen-sm)
+      padding-top: 105px
+    @media (min-width: $screen-lg)
+      padding-top: 135px
