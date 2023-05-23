@@ -23,18 +23,15 @@
 
         <div class="container">
 
-          <!-- 麵包屑 -->
-          <%breadcrumb=["主題類別","分類名稱"] %>
-            <!--#include virtual="/component/_breadcrumb.asp"-->
+          <div class="row" itemscope itemtype="http://schema.org/Taxon">
 
-            <div class="row" itemscope itemtype="http://schema.org/Taxon">
-
-              <div class="col-xs-12">
-                <!--#include virtual="/component/_proList-img-xs-4.asp"-->
-                <!--#include virtual="/component/_pagination.asp"-->
-              </div>
-
+            <div class="col-xs-12">
+              <p class="search-result">搜尋到 56 筆關於「太陽能」的相關資料</p>
+              <!--#include virtual="/component/_proList-img-xs-4.asp"-->
+              <!--#include virtual="/component/_pagination.asp"-->
             </div>
+
+          </div>
         </div>
       </div>
       <!-- Search END -->
