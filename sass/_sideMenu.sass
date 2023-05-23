@@ -1,6 +1,7 @@
 @mixin sideMenu
   +fontT
   &-title
+    font-size: $font-size-md
     color: darken($WHITEcolor, 58.5%)
   &-list
     text-decoration: none
@@ -8,7 +9,7 @@
     +distanceMP(20px 0, 0 20px)
     border-left: 1px solid darken($WHITEcolor, 22%)
     &-item
-      line-height: 1.7em
+      line-height: 2em
       &-active
         color: $CIScolorLink
         font-weight: 600

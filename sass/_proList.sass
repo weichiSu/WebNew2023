@@ -1,16 +1,9 @@
 .proList
   &-item
-    padding: 0 15px 53px
     +fontT
-    @media (min-width: $screen-sm)
-      &:nth-child(2n+1)
-        clear: both
+    padding: 0 10px 33px
     @media (min-width: $screen-lg)
-      padding: 0 25px 53px
-      &:nth-child(2n+1)
-        clear: inherit
-      &:nth-child(3n+1)
-        clear: both
+      padding: 0 10px 53px
     .img-responsive
       margin-bottom: 10px
   &-sku
@@ -51,4 +44,30 @@
     display: block
     position: relative
     text-decoration: none
-  // &-img-xs-3:目前沒有
+    overflow: hidden
+    padding: 8px
+    border: 1px solid darken($WHITEcolor, 20%)
+    border-radius: 8px
+    &:hover
+      border-color: darken($WHITEcolor, 0%)
+      +box-shadow(0 0 8px 0 darken($WHITEcolor, 20%))
+  &-img-xs-3
+    .proList-item
+      @media (min-width: $screen-sm)
+        &:nth-child(2n+1)
+          clear: both
+      @media (min-width: $screen-lg)
+        &:nth-child(2n+1)
+          clear: inherit
+        &:nth-child(3n+1)
+          clear: both
+  &-img-xs-4
+    .proList-item
+      @media (min-width: $screen-sm)
+        &:nth-child(2n+1)
+          clear: both
+      @media (min-width: $screen-lg)
+        &:nth-child(2n+1)
+          clear: inherit
+        &:nth-child(4n+1)
+          clear: both

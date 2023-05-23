@@ -7,7 +7,6 @@
 @mixin fontT-lg($line-height-lg: 1.2em)
 	font: $font-size-lg $font-family
 	line-height: $line-height-lg
-	
 
 @mixin fontT-md($line-height-md: 1em)
 	font: $font-size-md $font-family
@@ -123,12 +122,13 @@
 	justify-content: center
 	position: absolute
 	top: calc( $widthHeight / 4 )
+	padding: 0 5px
 	z-index: $zindex-floor
 	min-width: $widthHeight
 	height: $widthHeight
 	line-height: $widthHeight
-	padding: 0 5px
 	font-size: 0.93em
+	font-weight: 600
 	@if $left
 		left: calc( $left / 4 )
 	@if $right
@@ -145,6 +145,23 @@
 		color: $WHITEcolor
 	&-new
 		background: #FFE000
+	&-stop
+		background: darken($WHITEcolor, 20%)
+		color: darken($WHITEcolor, 0%)
+
+@mixin iconTxt-ribbon( $rotateZ, $width: 100px, $height: 100px)
+	display: inline-flex
+	justify-content: center
+	position: absolute
+	top: calc($width / -2)
+	right: calc($height / -2)
+	width: $width
+	height: $height
+	line-height: calc($height / 3 * 5)
+	z-index: $zindex-floor
+	padding: 0 5px
+	font-size: 0.93em
+	transform: rotateZ($rotateZ)
 
 @mixin button($background, $hoverBackground, $color)
 	background: $background

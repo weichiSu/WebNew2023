@@ -1,15 +1,28 @@
 @import _overlay
-.header
+.pkHeader
+  position: fixed
+  width: 100%
+  background: darken($WHITEcolor, 0%)
   +box-shadow(0 0 10px 0 darken(darken($WHITEcolor, 15%), 0%))
+  z-index: $zindex-navbar
   @import _mainNAV
   @import _socialList
-  &-siteBrands
+  @import _search
+  &-slogan
     padding: 8px
     font-size: $font-size-sm
     color: darken($WHITEcolor, 0%)
-  // .container-fluid:after
-  //   content: "."
-  //   display: block
-  //   height: 0
-  //   clear: both
-  //   visibility: hidden
+  &-logoBrands
+    padding: 10px 0
+  &-logoImg
+    max-width: 100%
+    max-height: 50px
+    @media (min-width: $screen-sm)
+      max-height: 80px
+  &-mainMenu
+    padding: 15px 0
+  &-searchArea
+    display: flex
+    padding: 25px 0
+  &+.container-full, &+.container
+    padding-top: 135px

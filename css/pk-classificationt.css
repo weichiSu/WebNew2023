@@ -67,24 +67,13 @@
      object-position: top center;
 }
 #pkdv .classification .proList-item {
-  padding: 0 15px 53px;
   font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
-}
-@media (min-width: 768px) {
-  #pkdv .classification .proList-item:nth-child(2n+1) {
-    clear: both;
-  }
+  padding: 0 10px 33px;
 }
 @media (min-width: 1200px) {
   #pkdv .classification .proList-item {
-    padding: 0 25px 53px;
-  }
-  #pkdv .classification .proList-item:nth-child(2n+1) {
-    clear: inherit;
-  }
-  #pkdv .classification .proList-item:nth-child(3n+1) {
-    clear: both;
+    padding: 0 10px 53px;
   }
 }
 #pkdv .classification .proList-item .img-responsive {
@@ -138,6 +127,40 @@
   display: block;
   position: relative;
   text-decoration: none;
+  overflow: hidden;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+#pkdv .classification .proList-link:hover {
+  border-color: white;
+  box-shadow: 0 0 8px 0 #cccccc;
+}
+@media (min-width: 768px) {
+  #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(2n+1) {
+    clear: inherit;
+  }
+  #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+@media (min-width: 768px) {
+  #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(2n+1) {
+    clear: inherit;
+  }
+  #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(4n+1) {
+    clear: both;
+  }
 }
 #pkdv .classification .pagination {
   display: flex;
@@ -246,6 +269,7 @@
   line-height: 1.2em;
 }
 #pkdv .classification .sideMenu-title {
+  font-size: 1.25em;
   color: #6a6a6a;
 }
 #pkdv .classification .sideMenu-list {
@@ -257,7 +281,7 @@
   border-left: 1px solid #c7c7c7;
 }
 #pkdv .classification .sideMenu-content-item {
-  line-height: 1.7em;
+  line-height: 2em;
 }
 #pkdv .classification .sideMenu-content-item-active {
   color: #256C53;
@@ -284,20 +308,21 @@
   justify-content: center;
   position: absolute;
   top: 12px;
+  padding: 0 5px;
   z-index: 9;
   min-width: 48px;
   height: 48px;
   line-height: 48px;
-  padding: 0 5px;
   font-size: 0.93em;
+  font-weight: 600;
   left: calc(inherit / 4);
-  right: 12px;
+  right: 0;
 }
 @media (min-width: 1200px) {
   #pkdv .classification .iconTxt {
     top: 24px;
     left: calc(inherit / -2);
-    right: -24px;
+    right: 0;
   }
 }
 #pkdv .classification .iconTxt-recommend {
@@ -306,6 +331,28 @@
 }
 #pkdv .classification .iconTxt-new {
   background: #FFE000;
+}
+#pkdv .classification .iconTxt-stop {
+  background: #cccccc;
+  color: white;
+}
+#pkdv .classification .iconTxt.iconTxt-stop {
+  height: 30px;
+  line-height: 30px;
+}
+#pkdv .classification .iconTxt-ribbon {
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  line-height: 166.6666666667px;
+  z-index: 9;
+  padding: 0 5px;
+  font-size: 0.93em;
+  transform: rotateZ(45deg);
 }
 #pkdv .classification .dropdown {
   display: flex;
@@ -318,35 +365,12 @@
 #pkdv .classification .dropdown-menu {
   left: inherit;
 }
-#pkdv .classification .proList-img-xs-3 {
+#pkdv .classification .proList-img-xs-3, #pkdv .classification .proList-img-xs-4 {
   margin-top: 40px;
 }
-#pkdv .searchPage-tabs {
-  display: flex;
-  border-bottom: 1px solid #adadad;
-}
-#pkdv .searchPage-tabs-item {
-  padding: 8px 24px;
-  border-radius: 4px 4px 0 0;
-  font-weight: 600;
-  text-decoration: none;
-}
-#pkdv .searchPage-tabs-item.industry {
-  background: #256C53;
-  color: white;
-}
-#pkdv .searchPage-tabs-item.science {
-  background: #0097DA;
-  color: #FDD265;
-}
-#pkdv .searchPage-tabs-num {
-  display: inline-block;
-  background: #fa3434;
-  color: white;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  font-style: inherit;
-  text-align: center;
-  border-radius: 50%;
+#pkdv .classification .search-result {
+  padding: 30px 20px 0;
+  font: 1.25em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  color: #666666;
 }/*# sourceMappingURL=pk-classificationt.css.map */

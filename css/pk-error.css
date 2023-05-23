@@ -1,0 +1,14 @@
+#pkdv .error {
+  max-width: 300px;
+  margin: 0 auto 50px;
+}
+@media (min-width: 1200px) {
+  #pkdv .error {
+    margin: 30px auto 50px;
+  }
+}
+#pkdv .error-txt {
+  line-height: 2em;
+  font-size: 1.8em;
+  font-weight: 600;
+}/*# sourceMappingURL=pk-error.css.map */

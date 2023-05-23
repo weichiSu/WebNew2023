@@ -67,7 +67,10 @@
     <!-- #include virtual="/component/_socialList.asp" -->
   </li>
 </ul>
-<button class="icon-burger" aria-hidden="true">456</button>
+<button class="icon-burger" aria-hidden="true">
+  <!-- #include virtual="/images/burger-icon.svg" -->
+</button>
+
 <script>
   // 漢堡選單
   $("#js-mainNAV button").click(function () {
@@ -83,9 +86,10 @@
   $(function () {
     if (getTotalWidth() < 1200) {
       $("#js-mainNav-open .megaMENU").css("margin-left", "");
-      // 點擊 li 打開次選單
+      // 點擊 li 打開子選單
       $("#js-mainNav-open li").click(function () {
-        $("#js-mainNav-open li").removeClass("js-mainNAV-in");
+        // $("#js-mainNav-open li").removeClass("js-mainNAV-in");
+        console.log(this)
         $(this).toggleClass("js-mainNAV-in");
       });
     }

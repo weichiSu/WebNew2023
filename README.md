@@ -16,4 +16,4 @@
 > > 共用 header.asp
 > > 共用 footer.asp
 > > 首頁 index.asp
-> > 靜態 IIS_ERRMSG.asp
+> > 找不到頁面 IIS_ERRMSG.asp

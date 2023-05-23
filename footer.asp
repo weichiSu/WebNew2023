@@ -4,6 +4,7 @@
 <footer class="pkCI-background-industry">
   <div class="container-fluid">
     <div class="container footer">
+      <!--#include virtual="/component/_gotop.asp"-->
       <div class="col-xs-12 col-md-2-5 footer-logo">
         <a href="#" class="col-xs-6">
           <img class="footer-logo-img industry" src="/images/logo_Tool.png" alt="" />

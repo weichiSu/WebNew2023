@@ -428,6 +428,9 @@
   background: #6e6e6e;
   color: white;
 }
+#pkdv .header {
+  position: relative;
+}
 #pkdv .product-row {
   padding-bottom: 50px;
 }
@@ -479,12 +482,13 @@
   justify-content: center;
   position: absolute;
   top: 10.5px;
+  padding: 0 5px;
   z-index: 9;
   min-width: 42px;
   height: 42px;
   line-height: 42px;
-  padding: 0 5px;
   font-size: 0.93em;
+  font-weight: 600;
   left: calc(inherit / 4);
   right: 10.5px;
 }
@@ -501,6 +505,10 @@
 }
 #pkdv .iconTxt-new {
   background: #FFE000;
+}
+#pkdv .iconTxt-stop {
+  background: #cccccc;
+  color: white;
 }
 @media (min-width: 1200px) {
   #pkdv .btn-block {
