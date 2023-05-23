@@ -841,6 +841,7 @@ hr {
   padding-top: 135px;
 }
 #pkdv .footer {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -895,11 +896,39 @@ hr {
     padding: 0;
   }
 }
+#pkdv .gotop {
+  position: fixed;
+  right: 10px;
+  bottom: 480px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  #pkdv .gotop {
+    bottom: 332px;
+  }
+}
+@media (min-width: 992px) {
+  #pkdv .gotop {
+    bottom: 284px;
+  }
+}
+@media (min-width: 1400px) {
+  #pkdv .gotop {
+    right: 50%;
+    margin: 0px -690px 0px 0px;
+  }
+}
 #pkdv .pkCI-background-industry {
   background-color: #1C473B;
 }
 #pkdv .pkCI-background-science {
   background-color: #0097DA;
+}
+#pkdv .pkCI-background-lighten-industry {
+  color: #51A956;
+}
+#pkdv .pkCI-background-lighten-science {
+  color: #0097DA;
 }
 #pkdv .pkCI-color-industry {
   color: #1C473B;
