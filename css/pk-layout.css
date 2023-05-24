@@ -241,15 +241,6 @@ hr {
   box-sizing: content-box;
 }
 
-@-webkit-keyframes fixedNavDown {
-  0% {
-    top: -100px;
-  }
-  20% {
-    top: 0;
-  }
-}
-
 @keyframes fixedNavDown {
   0% {
     top: -100px;
