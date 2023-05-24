@@ -840,7 +840,17 @@ hr {
   padding: 25px 0;
 }
 #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
-  padding-top: 135px;
+  padding-top: 100px;
+}
+@media (min-width: 768px) {
+  #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
+    padding-top: 105px;
+  }
+}
+@media (min-width: 1200px) {
+  #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
+    padding-top: 135px;
+  }
 }
 #pkdv .footer {
   position: relative;
@@ -901,18 +911,8 @@ hr {
 #pkdv .gotop {
   position: fixed;
   right: 10px;
-  bottom: 480px;
+  bottom: 30px;
   cursor: pointer;
-}
-@media (min-width: 768px) {
-  #pkdv .gotop {
-    bottom: 332px;
-  }
-}
-@media (min-width: 992px) {
-  #pkdv .gotop {
-    bottom: 284px;
-  }
 }
 @media (min-width: 1400px) {
   #pkdv .gotop {

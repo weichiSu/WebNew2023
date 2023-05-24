@@ -26,7 +26,15 @@
           <div class="row" itemscope itemtype="http://schema.org/Taxon">
 
             <div class="col-xs-12">
-              <p class="search-result">搜尋到 56 筆關於「太陽能」的相關資料</p>
+              <div class="col-xs-12 search">
+                <div class="col-xs-12 col-sm-8 col-lg-10 search-result">
+                  搜尋到 56 筆關於「太陽能」的相關資料
+                </div>
+                <div class="col-xs-12 col-sm-4 col-lg-2 search-dropdown">
+                  <!--#include virtual="/component/_dropdown.asp"-->
+                </div>
+              </div>
+
               <!--#include virtual="/component/_proList-img-xs-4.asp"-->
               <!--#include virtual="/component/_pagination.asp"-->
             </div>
