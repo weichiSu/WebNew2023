@@ -1,5 +1,6 @@
 @charset "UTF-8";
 #pkdv .classification .breadcrumb {
+  margin: 0;
   padding: 30px 0;
   font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1em;
@@ -22,7 +23,6 @@
 }
 #pkdv .classification .swiper {
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-left: auto;
@@ -135,10 +135,8 @@
   border-color: white;
   box-shadow: 0 0 8px 0 #cccccc;
 }
-@media (min-width: 768px) {
-  #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(2n+1) {
-    clear: both;
-  }
+#pkdv .classification .proList-img-xs-3 .proList-item:nth-child(2n+1) {
+  clear: both;
 }
 @media (min-width: 1200px) {
   #pkdv .classification .proList-img-xs-3 .proList-item:nth-child(2n+1) {
@@ -148,10 +146,8 @@
     clear: both;
   }
 }
-@media (min-width: 768px) {
-  #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(2n+1) {
-    clear: both;
-  }
+#pkdv .classification .proList-img-xs-4 .proList-item:nth-child(2n+1) {
+  clear: both;
 }
 @media (min-width: 1200px) {
   #pkdv .classification .proList-img-xs-4 .proList-item:nth-child(2n+1) {
@@ -198,72 +194,6 @@
   background: #256C53;
   border: 1px solid #256C53;
   color: #ffffff;
-}
-#pkdv .classification .dropdown {
-  position: relative;
-}
-#pkdv .classification .dropdown-btn {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-#pkdv .classification .dropdown-btn-fill {
-  border-radius: 10px;
-  background: #83A186;
-  color: white;
-}
-#pkdv .classification .dropdown-btn-fill + .dropdown-menu {
-  border-radius: 10px;
-}
-#pkdv .classification .dropdown-btn-outline {
-  border-radius: 0;
-  border: 1px solid #83A186;
-}
-#pkdv .classification .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 10;
-  display: none;
-  float: left;
-  width: 100%;
-  margin: 2px 0 0;
-  padding: 5px 0;
-  text-align: left;
-  list-style: none;
-  background-color: white;
-  background-clip: padding-box;
-  line-height: 1.25em;
-  border: 1px solid #e6e6e6;
-  border-radius: 0;
-}
-#pkdv .classification .dropdown-item {
-  display: block;
-  padding: 3px 10px;
-  clear: both;
-  font-weight: 400;
-  text-decoration: none;
-  white-space: nowrap;
-}
-#pkdv .classification .dropdown.open > .dropdown-menu {
-  display: block;
-}
-#pkdv .classification .dropdown .icon-arrowDownBlack {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: url("../images/arrowDownBlack-icon.svg") no-repeat;
-  background-size: contain;
-  margin: 0 3px;
-}
-#pkdv .classification .dropdown .icon-arrowDown {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: url("../images/arrowDown-icon.svg") no-repeat;
-  background-size: contain;
-  margin: 0 3px;
 }
 #pkdv .classification .sideMenu {
   font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
