@@ -55,7 +55,7 @@
   align-items: center;
   flex: 1;
   order: 2;
-  font-size: 1.25em;
+  font-size: 1.1em;
   color: #737373;
 }
 @media (min-width: 1200px) {
@@ -157,7 +157,7 @@
   }
 }
 #pkdv .sideMenuDate-title {
-  font-size: 1.25em;
+  font-size: 1.1em;
   color: #6a6a6a;
 }
 #pkdv .sideMenuDate-item {
@@ -214,7 +214,7 @@
   }
 }
 #pkdv .sideMenuDate + .sideMenuDate-title {
-  font-size: 1.25em;
+  font-size: 1.1em;
   color: #6a6a6a;
 }
 #pkdv .sideMenuDate + .sideMenuDate-item {
