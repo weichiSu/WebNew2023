@@ -242,15 +242,6 @@ hr {
   box-sizing: content-box;
 }
 
-@-webkit-keyframes fixedNavDown {
-  0% {
-    top: -100px;
-  }
-  20% {
-    top: 0;
-  }
-}
-
 @keyframes fixedNavDown {
   0% {
     top: -100px;
@@ -609,7 +600,7 @@ hr {
 }
 #pkdv #js-overlay {
   position: fixed;
-  z-index: 1000;
+  z-index: 1010;
   top: 0;
   left: 0;
   height: 100vh;
@@ -656,16 +647,28 @@ hr {
   }
   #pkdv .pkHeader .mainNAV-list {
     position: relative;
-    width: 100%;
+    width: calc(100% - 60px);
     float: left;
-    margin: 0;
-    padding: 10px 15px;
+    margin: 10px 30px;
+    padding: 0;
     font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.2em;
     color: black;
-    border-top: 1px solid #fafafa;
-    border-bottom: 1px solid #f0f0f0;
     cursor: pointer;
+  }
+  #pkdv .pkHeader .mainNAV-list.nextLevel:after {
+    content: url(/images/arrowMenu-icon.svg);
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+    transition: all 0.2s;
+    transform-origin: 50% 50%;
+  }
+  #pkdv .pkHeader .mainNAV-list:first-child {
+    margin-top: 30px;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU {
     position: absolute;
@@ -674,11 +677,11 @@ hr {
     height: auto;
     opacity: 0;
     float: left;
-    transition: all 0.2s;
+    transition: all 0.1s;
     transform: scale(1, 0.8);
     transform-origin: 0 0;
   }
-  #pkdv .pkHeader .mainNAV-list .megaMENU ul {
+  #pkdv .pkHeader .mainNAV-list .megaMENU .mainNAV {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -692,28 +695,39 @@ hr {
   #pkdv .pkHeader .mainNAV-list .megaMENU .megaMENU-mmb {
     display: none;
   }
+  #pkdv .pkHeader .mainNAV-list-inner-top {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #cccccc;
+  }
+  #pkdv .pkHeader .mainNAV .js-mainNAV-in:after {
+    transform: rotate(-90deg);
+  }
   #pkdv .pkHeader .mainNAV .js-mainNAV-in .megaMENU {
     position: relative;
     left: 0;
-    padding-bottom: 20px;
+    padding: 20px 0;
     opacity: 1;
     box-shadow: none;
-    transition: all 0.8s;
+    transition: all 0.1s;
     transform: scale(1, 1);
   }
   #pkdv .pkHeader .mainNAV .js-mainNAV-in .megaMENU .megaMENU-list {
     padding: 10px 1rem;
   }
   #pkdv .pkHeader .mainNAV.topNav {
+    display: flex;
+    justify-content: flex-end;
     position: relative;
     left: 0;
     height: auto;
     background: none;
     width: 100%;
     text-align: right;
+    z-index: 9;
   }
   #pkdv .pkHeader .mainNAV.topNav .mainNAV-list {
-    padding: 10px 0;
+    margin: 10px 0;
     border: 0;
     font-size: 0;
   }
@@ -828,7 +842,12 @@ hr {
   flex-wrap: wrap;
 }
 #pkdv .pkHeader .socialList-item {
-  padding: 0 8px;
+  padding: 8px 16px 16px 0;
+}
+@media (min-width: 1200px) {
+  #pkdv .pkHeader .socialList-item {
+    padding: 0 8px;
+  }
 }
 #pkdv .pkHeader .socialList-item > a {
   font-size: 2em;
@@ -879,7 +898,7 @@ hr {
   }
 }
 #pkdv .pkHeader-slogan {
-  padding: 8px;
+  padding: 10px;
   font-size: 0.9em;
   color: white;
 }
@@ -909,11 +928,11 @@ hr {
   padding: 25px 0;
 }
 #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
-    padding-top: 105px;
+    padding-top: 125px;
   }
 }
 @media (min-width: 1200px) {

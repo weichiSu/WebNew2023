@@ -23,7 +23,6 @@
 }
 #pkdv .classification .swiper {
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-left: auto;
