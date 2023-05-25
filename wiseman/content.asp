@@ -33,12 +33,11 @@
           >
             <article class="col-xs-12 col-md-9 col-md-push-3 wiseman-content">
               <h2 class="wiseman-content-title" itemprop="name">
-                手工具、科學玩具領域的佼佼者－寶工實業張俊英董事長
+                2023 轉動騎蹟 讓愛飛翔
               </h2>
               <div class="wiseman-content-doorTimeHeader">
-                <span>專訪日期</span><time itemprop="doorTime">2022/9/12</time>
-                ｜
-                <h3 itemprop="attendee">臺北科技大學第412期校友會刊</h3>
+                <span>發布日期：</span
+                ><time itemprop="doorTime">2022/9/12</time>
               </div>
               <div class="wiseman-content-social">
                 <!--#include virtual="/component/_social.html"-->
@@ -49,9 +48,10 @@
               </div>
 
               <div class="wiseman-content-doorTimeFooter">
-                <h3 itemprop="location">臺北科技大學第412期校友會刊</h3>
+                <h3 itemprop="location">2023 轉動騎蹟 讓愛飛翔</h3>
                 <br />
-                <span>發布日期</span><time itemprop="startDate">2022/9/12</time>
+                <span>發布日期：</span
+                ><time itemprop="startDate">2022/9/12</time>
               </div>
             </article>
 
