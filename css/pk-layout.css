@@ -915,6 +915,7 @@ hr {
   right: 10px;
   bottom: 30px;
   cursor: pointer;
+  z-index: 9;
 }
 @media (min-width: 1400px) {
   #pkdv .gotop {
