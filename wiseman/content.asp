@@ -49,9 +49,6 @@
 
               <div class="wiseman-content-doorTimeFooter">
                 <h3 itemprop="location">2023 轉動騎蹟 讓愛飛翔</h3>
-                <br />
-                <span>發布日期：</span
-                ><time itemprop="startDate">2022/9/12</time>
               </div>
             </article>
 
@@ -59,9 +56,9 @@
               <%sideMenuTitle="最新消息" %>
               <!--#include virtual="/component/_sideMenu-date.asp"-->
               <!-- 帶出三個頁面總和中，最新上架的文章5篇文章 -->
-              <%sideMenuTitle="新聞稿" %>
+              <%sideMenuTitle="新聞中心" %>
               <!--#include virtual="/component/_sideMenu-date.asp"-->
-              <!-- 這區塊依照「新聞稿」「活動紀錄」「工具達人」變換 -->
+              <!-- 這區塊依照「新聞中心」「活動紀錄」「工具達人」變換 -->
             </div>
           </div>
         </div>
