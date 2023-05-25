@@ -276,9 +276,6 @@ hr {
     min-height: calc(100% - 304px);
   }
 }
-#pkdv .well {
-  padding: 10px;
-}
 #pkdv .img-responsive {
   display: block;
   height: auto;
@@ -359,9 +356,6 @@ hr {
 }
 #pkdv a {
   color: black;
-}
-#pkdv a:hover {
-  color: #256C53;
 }
 #pkdv hr {
   margin: 10px 0;
@@ -640,11 +634,12 @@ hr {
 }
 @media (min-width: 290px) and (max-width: 1199px) {
   #pkdv .pkHeader .navbar {
-    margin: 20px auto;
+    margin: 0 auto;
   }
   #pkdv .pkHeader .navbar button {
     position: absolute;
-    right: 5px;
+    top: calc(50% + 15px);
+    right: 15px;
   }
   #pkdv .pkHeader .mainNAV {
     position: fixed;
@@ -709,6 +704,34 @@ hr {
   #pkdv .pkHeader .mainNAV .js-mainNAV-in .megaMENU .megaMENU-list {
     padding: 10px 1rem;
   }
+  #pkdv .pkHeader .mainNAV.topNav {
+    position: relative;
+    left: 0;
+    height: auto;
+    background: none;
+    width: 100%;
+    text-align: right;
+  }
+  #pkdv .pkHeader .mainNAV.topNav .mainNAV-list {
+    padding: 10px 0;
+    border: 0;
+    font-size: 0;
+  }
+  #pkdv .pkHeader .mainNAV.topNav .megaMENU {
+    position: relative;
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+  #pkdv .pkHeader .mainNAV.topNav .megaMENU-list {
+    display: inline-block;
+    font-size: 14px;
+  }
+  #pkdv .pkHeader .mainNAV.topNav .megaMENU-list:not(#pkdv .pkHeader .mainNAV.topNav .megaMENU-list:last-child) {
+    border-right: 1px solid white;
+  }
+  #pkdv .pkHeader .mainNAV.topNav .megaMENU-list a {
+    color: white;
+  }
 }
 @media (min-width: 1200px) {
   #pkdv .pkHeader .navbar button {
@@ -718,14 +741,13 @@ hr {
     position: relative;
     margin: 0;
     height: auto;
-    text-align: center;
   }
   #pkdv .pkHeader .mainNAV-list {
     display: inline-block;
     position: relative;
     margin: 10px 0;
     padding: 5px;
-    font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 1.25em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5rem;
     letter-spacing: 0.05em;
     text-align: center;
@@ -762,6 +784,7 @@ hr {
     margin: 0 10px;
     padding: 0 5px;
     border: 0;
+    font-size: 16px;
     text-align: left;
     border-bottom: 1px solid #cfcfcf;
   }
@@ -809,6 +832,7 @@ hr {
 }
 #pkdv .pkHeader .socialList-item > a {
   font-size: 2em;
+  color: #737373;
 }
 @media (min-width: 1200px) {
   #pkdv .pkHeader .socialList-item > a {
@@ -818,13 +842,41 @@ hr {
 }
 #pkdv .pkHeader .searchBar {
   display: flex;
-  width: 100%;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  #pkdv .pkHeader .searchBar {
+    max-width: 210px;
+  }
+}
+#pkdv .pkHeader .searchBar-input {
+  position: relative;
+  left: 20px;
+  width: calc(100% + 10px);
+  padding: 0 20px 0 10px;
+  border-radius: 10px 0 0 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+#pkdv .pkHeader .searchBar-input:focus, #pkdv .pkHeader .searchBar-input:hover {
+  outline: none;
+}
+@media (min-width: 768px) {
+  #pkdv .pkHeader .searchBar-input {
+    border-radius: 50px 0 0 50px;
+  }
 }
 #pkdv .pkHeader .searchBar-btn {
   position: relative;
-  left: -5px;
-  border-radius: 0 4px 4px 0;
+  padding: 5px;
+  border-radius: 10px;
   border: 2px solid currentColor;
+}
+@media (min-width: 768px) {
+  #pkdv .pkHeader .searchBar-btn {
+    border-radius: 50px;
+  }
 }
 #pkdv .pkHeader-slogan {
   padding: 8px;
@@ -832,15 +884,20 @@ hr {
   color: white;
 }
 #pkdv .pkHeader-logoBrands {
-  padding: 10px 0;
+  padding: 21px 0;
+}
+@media (min-width: 768px) {
+  #pkdv .pkHeader-logoBrands {
+    padding: 10px 0;
+  }
 }
 #pkdv .pkHeader-logoImg {
   max-width: 100%;
-  max-height: 50px;
+  max-height: 45px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-logoImg {
-    max-height: 80px;
+    max-height: 60px;
   }
 }
 #pkdv .pkHeader-mainMenu {
@@ -848,6 +905,7 @@ hr {
 }
 #pkdv .pkHeader-searchArea {
   display: flex;
+  justify-content: flex-end;
   padding: 25px 0;
 }
 #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
@@ -944,9 +1002,21 @@ hr {
 #pkdv .pkCI-background-lighten-science {
   color: #0097DA;
 }
+#pkdv .pkCI-borderColor-industry {
+  border-color: #1C473B;
+}
+#pkdv .pkCI-borderColor-science {
+  border-color: #0097DA;
+}
 #pkdv .pkCI-color-industry {
   color: #1C473B;
 }
 #pkdv .pkCI-color-science {
+  color: #0097DA;
+}
+#pkdv .pkCI-hover-color-industry:hover {
+  color: #1C473B;
+}
+#pkdv .pkCI-hover-color-science:hover {
   color: #0097DA;
 }/*# sourceMappingURL=pk-layout.css.map */

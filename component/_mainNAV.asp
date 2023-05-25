@@ -1,7 +1,4 @@
 <ul class="row mainNAV" id="js-mainNav-open">
-  <li class="mainNAV-list visible-sm">
-    <a href="">中文</a><a href="">EN</a>
-  </li>
   <li class="mainNAV-list">
     商品總覽
     <div class="megaMENU">
@@ -67,7 +64,7 @@
     <!-- #include virtual="/component/_socialList.asp" -->
   </li>
 </ul>
-<button class="icon-burger" aria-hidden="true">
+<button class="icon-burger pkCI-color-science" aria-hidden="true">
   <!-- #include virtual="/images/burger-icon.svg" -->
 </button>
 

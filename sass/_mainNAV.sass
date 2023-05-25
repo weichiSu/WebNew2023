@@ -10,21 +10,11 @@
 // 手機版
 @media (min-width: $screen-xxs) and (max-width: $screen-lg - 1px)
   .navbar
-    // height: 100%
-    margin: 20px auto
+    margin: 0 auto
     button
-      // display: block
       position: absolute
-      // top: -1.7em
-      right: 5px
-      // height: $font-size-md + 0.1em
-      // background: none
-      // font-size: 2rem
-      // line-height: $font-size-md + 0.1em
-      // color: lighten($BLACKcolor, 0%)
-      // border: 0
-      // text-align: -webkit-center
-      // text-align: center
+      top: calc(50% + 15px)
+      right: 15px
   .mainNAV
     position: fixed
     left: -105%
@@ -80,6 +70,28 @@
         +transform(scale(1,1))
         .megaMENU-list
           padding: 10px 1rem
+    &.topNav
+      position: relative
+      left: 0
+      height: auto
+      background: none
+      width: 100%
+      text-align: right
+      .mainNAV-list
+        padding: 10px 0
+        border: 0
+        font-size: 0
+      .megaMENU
+        position: relative
+        +transform(scale(1,1))
+        opacity: 1
+        &-list
+          display: inline-block
+          font-size: 14px
+          &:not(&:last-child)
+            border-right: 1px solid darken($WHITEcolor, 0%)
+          a
+            color: darken($WHITEcolor, 0%)
 
 // PC
 @media (min-width: $screen-lg)
@@ -90,12 +102,11 @@
     position: relative
     margin: 0
     height: auto
-    text-align: center
     &-list
       display: inline-block
       position: relative
       +distanceMP(10px 0,5px)
-      +fontT(1.5rem)
+      +fontT-md(1.5rem)
       letter-spacing: 0.05em
       text-align: center
       cursor: pointer
@@ -124,6 +135,7 @@
           line-height: 40px
           +distanceMP(0 10px,0 5px)
           border: 0
+          font-size: 16px
           text-align: left
           border-bottom: 1px solid darken($WHITEcolor, 19%)
           &:last-child, &:nth-child(11n)

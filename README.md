@@ -17,3 +17,8 @@
 > > 共用 footer.asp
 > > 首頁 index.asp
 > > 找不到頁面 IIS_ERRMSG.asp
+
+> 色系調整時 尋找以下名稱做替換
+>
+> > -industry
+> > -science

@@ -1,0 +1,25 @@
+.searchBar
+  display: flex
+  justify-content: flex-end
+  max-width: 100%
+  @media (min-width: $screen-lg)
+    max-width: 210px
+  &-input
+    position: relative
+    left: 20px
+    width: calc(100% + 10px)
+    padding: 0 20px 0 10px
+    border-radius: 10px 0 0 10px
+    border-width: 2px
+    border-style: solid
+    &:focus,&:hover
+      outline: none
+    @media (min-width: $screen-sm)
+      border-radius: 50px 0 0 50px
+  &-btn
+    position: relative
+    padding: 5px
+    border-radius: 10px
+    border: 2px solid currentColor
+    @media (min-width: $screen-sm)
+      border-radius: 50px

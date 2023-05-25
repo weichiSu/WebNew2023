@@ -1,12 +1,11 @@
 <header class="pkHeader">
   <div id="js-overlay" style="display:none"></div>
-
-  <div class="container-fluid pkCI-background-industry hidden-xs hidden-sm hidden-md">
+  <div class="container-fluid pkCI-background-science">
     <div class="container">
-      <div class="col-xs-4 pkHeader-slogan">
+      <div class="col-xs-6 col-lg-4 pkHeader-slogan">
         行家選擇，盡在寶工。
       </div>
-      <div class="col-xs-8 pkHeader-smallMenu">
+      <div class="col-xs-6 col-lg-8 pkHeader-smallMenu">
         <div class="navbar"><!-- #include virtual="/component/_topNAV.asp" --></div>
       </div>
     </div>
@@ -24,7 +23,7 @@
 
       <div class="col-xs-6 col-xs-pull-2 col-lg-3 col-lg-pull-0 pkHeader-searchArea">
         <!-- #include virtual="/component/_searchBar.asp" -->
-        <button type="button" class="hidden-xs hidden-sm hidden-md btn pkCI-color-industry" onClick="location.href='/'">
+        <button type="button" class="hidden-xs hidden-sm hidden-md btn pkCI-color-science" onClick="location.href='/'">
           <!-- #include virtual="/images/member-icon.svg" -->
         </button>
       </div>

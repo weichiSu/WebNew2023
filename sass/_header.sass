@@ -7,22 +7,25 @@
   z-index: $zindex-navbar
   @import _mainNAV
   @import _socialList
-  @import _search
+  @import _searchBar
   &-slogan
     padding: 8px
     font-size: $font-size-sm
     color: darken($WHITEcolor, 0%)
   &-logoBrands
-    padding: 10px 0
+    padding: 21px 0
+    @media (min-width: $screen-sm)
+      padding: 10px 0
   &-logoImg
     max-width: 100%
-    max-height: 50px
+    max-height: 45px
     @media (min-width: $screen-sm)
-      max-height: 80px
+      max-height: 60px
   &-mainMenu
     padding: 15px 0
   &-searchArea
     display: flex
+    justify-content: flex-end
     padding: 25px 0
   &+.container-full, &+.container
     padding-top: 100px
