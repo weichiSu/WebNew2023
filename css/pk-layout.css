@@ -133,6 +133,7 @@ button,
 input,
 optgroup,
 select,
+option,
 textarea {
   color: inherit;
   font: inherit;
@@ -428,7 +429,8 @@ hr {
   background: white;
   border: 1px solid #dddddd;
   border-radius: 5px;
-  font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
 }
 #pkdv .form-control:focus, #pkdv .form-control:hover {
   box-shadow: 0 0 5px 0 #dddddd;
