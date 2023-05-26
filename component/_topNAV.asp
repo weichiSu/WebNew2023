@@ -1,5 +1,5 @@
 <ul class="row mainNAV topNav" id="js-topNav-open">
-  <li class="mainNAV-list">
+  <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
     經銷商專區
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -12,7 +12,7 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
     技術支援
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -23,21 +23,22 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
     <a target="_blank" href="">經銷據點</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
     <a target="_blank" href="">聯絡我們</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
     <!-- #include virtual="/component/_socialList.asp" -->
   </li>
   <li class="mainNAV-list">
     繁中
     <div class="megaMENU">
       <ul class="megaMENU-group">
-        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="繁中">繁中</a></li>
         <li class="megaMENU-list"><a href="" title="EN">EN</a></li>
+        <li class="megaMENU-list"><a href="" title="繁中">繁中</a></li>
+        <li class="megaMENU-list"><a href="" title="簡中">簡中</a></li>
       </ul>
     </div>
   </li>

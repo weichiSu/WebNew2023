@@ -1,8 +1,5 @@
 <ul class="row mainNAV" id="js-mainNav-open">
-  <li class="mainNAV-list visible-sm">
-    <a href="">中文</a><a href="">EN</a>
-  </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list nextLevel">
     商品總覽
     <div class="megaMENU">
       <ul class="megaMENU-group columns2">
@@ -43,7 +40,7 @@
   <li class="mainNAV-list">
     <a href="/edm/sales21.asp">科學玩具</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list nextLevel">
     最新消息
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -53,7 +50,7 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list nextLevel">
     關於寶工
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -63,11 +60,33 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm ">
+  <li class="mainNAV-list nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
+    技術支援
+    <div class="megaMENU">
+      <ul class="megaMENU-group">
+        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="技術支援1">技術支援1</a></li>
+        <li class="megaMENU-list"><a href="" title="技術支援2">技術支援2</a></li>
+        <li class="megaMENU-list"><a href="" title="技術支援3">技術支援3</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="mainNAV-list visible-xs visible-sm visible-md">
+    <a href="/edm/sales21.asp">銷售據點</a>
+  </li>
+  <li class="mainNAV-list visible-xs visible-sm visible-md">
+    <a href="/edm/sales21.asp">經銷商專區</a>
+  </li>
+  <li class="mainNAV-list mainNAV-list-inner-top visible-xs visible-sm visible-md">
+    <a href="/edm/sales21.asp">聯絡我們</a>
+  </li>
+  <li class="mainNAV-list visible-xs visible-sm visible-md">
+    <a href="/edm/sales21.asp">登入</a>
+  </li>
+  <li class="mainNAV-list visible-xs visible-sm visible-md mainNAV-list-inner-top">
     <!-- #include virtual="/component/_socialList.asp" -->
   </li>
 </ul>
-<button class="icon-burger" aria-hidden="true">
+<button class="icon-burger pkCI-color-science" aria-hidden="true">
   <!-- #include virtual="/images/burger-icon.svg" -->
 </button>
 
