@@ -319,10 +319,15 @@
   }
 }
 #pkdv .classification .search-dropdown {
+  display: flex;
+  justify-content: flex-end;
   order: 1;
 }
 @media (min-width: 768px) {
   #pkdv .classification .search-dropdown {
     order: 2;
   }
+}
+#pkdv .classification .search-dropdown .form-control {
+  width: auto;
 }/*# sourceMappingURL=pk-classificationt.css.map */

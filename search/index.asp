@@ -22,10 +22,10 @@
           <div class="row" itemscope itemtype="http://schema.org/Taxon">
             <div class="col-xs-12">
               <div class="col-xs-12 search">
-                <div class="col-xs-12 col-sm-8 col-lg-10 search-result">
+                <div class="col-xs-12 col-sm-8 col-lg-9 search-result">
                   搜尋到 56 筆關於「太陽能」的相關資料。
                 </div>
-                <div class="col-xs-12 col-sm-4 col-lg-2 search-dropdown">
+                <div class="col-xs-12 col-sm-4 col-lg-3 search-dropdown">
                   <!--#include virtual="/component/_select.asp"-->
                 </div>
               </div>
