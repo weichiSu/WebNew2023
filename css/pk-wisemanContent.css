@@ -101,6 +101,12 @@
 #pkdv .wiseman-content-desc img {
   margin: 0 auto;
 }
+#pkdv .wiseman-content-desc h1, #pkdv .wiseman-content-desc h2, #pkdv .wiseman-content-desc h3, #pkdv .wiseman-content-desc h4, #pkdv .wiseman-content-desc h5, #pkdv .wiseman-content-desc h6, #pkdv .wiseman-content-desc p {
+  margin-bottom: 10px;
+}
+#pkdv .wiseman-content-desc p {
+  line-height: 2em;
+}
 #pkdv .social {
   line-height: 32px;
   touch-action: manipulation;
@@ -166,6 +172,9 @@
   text-decoration: none;
   padding-bottom: 20px;
 }
+#pkdv .sideMenuDate-item:hover {
+  color: #256C53;
+}
 #pkdv .sideMenuDate-content {
   margin: 20px 10px 0 0;
   padding: 0 20px 0 0;
@@ -222,6 +231,9 @@
   align-items: center;
   text-decoration: none;
   padding-bottom: 20px;
+}
+#pkdv .sideMenuDate + .sideMenuDate-item:hover {
+  color: #256C53;
 }
 #pkdv .sideMenuDate + .sideMenuDate-content {
   margin: 20px 10px 0 0;
