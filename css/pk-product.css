@@ -378,7 +378,7 @@
   margin: 0 auto;
   padding: 0;
   word-break: break-all;
-  transform: translate(-100%, -100%);
+  transform: translate(-1000%, -1000%);
   height: 0;
 }
 #pkdv .navTabs-pane-active {
