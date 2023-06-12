@@ -27,6 +27,10 @@
     <div class="navTabs-pane-video">
       <iframe src="https://www.youtube.com/embed/SiHlnC55O1s" frameborder="0" allowfullscreen></iframe>
     </div>
+    <h3>组装教学</h3>
+    <p>&nbsp;</p>
+    <p><iframe height="498" width="100%" src="https://player.youku.com/embed/XNTEyNTU2NTk2OA=="
+        frameborder="0"></iframe></p>
 
   </div>
   <div class="navTabs-pane" id="hoproductmeFaq" role="tabpanel" aria-labelledby="faq-tab">
