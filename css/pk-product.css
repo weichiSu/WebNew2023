@@ -373,7 +373,11 @@
 #pkdv .navTabs-item-active {
   background: #d9d9d9;
 }
+#pkdv .navTabs-tab {
+  position: relative;
+}
 #pkdv .navTabs-pane {
+  position: absolute;
   max-width: 900px;
   margin: 0 auto;
   padding: 0;
@@ -382,6 +386,7 @@
   height: 0;
 }
 #pkdv .navTabs-pane-active {
+  position: relative;
   padding: 30px 0;
   transform: translate(0, 0);
   height: auto;
