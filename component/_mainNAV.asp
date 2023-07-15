@@ -3,6 +3,32 @@
     商品總覽
     <div class="megaMENU">
       <ul class="megaMENU-group columns2">
+        <li class="megaMENU-list"><a href="" title="Test Instruments">Test Instruments</a></li>
+        <li class="megaMENU-list"><a href="" title="Precision Pliers">Precision Pliers</a></li>
+        <li class="megaMENU-list"><a href="" title="Electrical Pliers">Electrical Pliers</a></li>
+        <li class="megaMENU-list"><a href="" title="Knife & Scissors">Knife & Scissors</a></li>
+        <li class="megaMENU-list"><a href="" title="Crimpers">Crimpers</a></li>
+        <li class="megaMENU-list"><a href="" title="Strippers">Strippers</a></li>
+        <li class="megaMENU-list"><a href="" title="Punch Down">Punch Down</a></li>
+        <li class="megaMENU-list"><a href="" title="Soldering">Soldering</a></li>
+        <li class="megaMENU-list"><a href="" title="Screwdrivers">Screwdrivers</a></li>
+        <li class="megaMENU-list"><a href="" title="Socket Wrenches">Socket Wrenches</a></li>
+        <li class="megaMENU-list"><a href="" title="Hex Key Wrenches">Hex Key Wrenches</a></li>
+        <li class="megaMENU-list"><a href="" title="Precision Tweezers">Precision Tweezers</a></li>
+        <li class="megaMENU-list"><a href="" title="ESD">ESD</a></li>
+        <li class="megaMENU-list"><a href="" title="VDE Tools">VDE Tools</a></li>
+        <li class="megaMENU-list"><a href="" title="Magnifier & Lamp">Magnifier & Lamp</a></li>
+        <li class="megaMENU-list"><a href="" title="Fiber Optics">Fiber Optics</a></li>
+        <li class="megaMENU-list"><a href="" title="Power Tools">Power Tools</a></li>
+        <li class="megaMENU-list"><a href="" title="Instrument Cases">Instrument Cases</a></li>
+        <li class="megaMENU-list"><a href="" title="Miscellaneous">Miscellaneous</a></li>
+        <li class="megaMENU-list"><a href="" title="Tool Cases">Tool Cases</a></li>
+        <li class="megaMENU-list"><a href="" title="Tool Kits">Tool Kits</a></li>
+        <li class="megaMENU-list"><a href="" title="Science Kits">Science Kits</a></li>
+      </ul>
+    </div>
+    <!-- <div class="megaMENU">
+      <ul class="megaMENU-group columns2">
         <li class="megaMENU-list"><a href="/product/ec_index.asp" title="測試儀表類">測試儀表類</a></li>
         <li class="megaMENU-list"><a href="" title="精密剪鉗類">精密剪鉗類</a></li>
         <li class="megaMENU-list"><a href="" title="電工剪鉗類">電工剪鉗類</a></li>
@@ -26,7 +52,7 @@
         <li class="megaMENU-list"><a href="" title="工具組類">工具組類</a></li>
         <li class="megaMENU-list"><a href="" title="科學玩具類">科學玩具類</a></li>
       </ul>
-    </div>
+    </div> -->
   </li>
   <li class="mainNAV-list">
     <a href="/edm/sales21.asp">電子應用</a>
@@ -108,7 +134,6 @@
       // 點擊 li 打開子選單
       $("#js-mainNav-open li").click(function () {
         // $("#js-mainNav-open li").removeClass("js-mainNAV-in");
-        console.log(this)
         $(this).toggleClass("js-mainNAV-in");
       });
     }

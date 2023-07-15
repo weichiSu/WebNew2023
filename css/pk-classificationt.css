@@ -291,7 +291,7 @@
 }
 #pkdv .classification .dropdown-additional {
   position: relative;
-  z-index: 1010;
+  z-index: 9;
   padding: 0 10px;
 }
 #pkdv .classification .dropdown-menu {
