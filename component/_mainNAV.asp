@@ -1,5 +1,5 @@
 <ul class="row mainNAV" id="js-mainNav-open">
-  <li class="mainNAV-list nextLevel">
+  <li class="mainNAV-list js-menu nextLevel">
     商品總覽
     <div class="megaMENU">
       <ul class="megaMENU-group columns2">
@@ -54,19 +54,19 @@
       </ul>
     </div> -->
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">電子應用</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">網路通信</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">五金電力</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">科學玩具</a>
   </li>
-  <li class="mainNAV-list nextLevel">
+  <li class="mainNAV-list js-menu nextLevel">
     最新消息
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -76,7 +76,7 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list nextLevel">
+  <li class="mainNAV-list js-menu nextLevel">
     關於寶工
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -86,7 +86,7 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
     技術支援
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -96,16 +96,16 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">銷售據點</a>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">經銷商專區</a>
   </li>
-  <li class="mainNAV-list mainNAV-list-inner-top visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu mainNAV-list-inner-top visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">聯絡我們</a>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">登入</a>
   </li>
   <li class="mainNAV-list visible-xs visible-sm visible-md mainNAV-list-inner-top">
@@ -132,7 +132,7 @@
     if (getTotalWidth() < 1200) {
       $("#js-mainNav-open .megaMENU").css("margin-left", "");
       // 點擊 li 打開子選單
-      $("#js-mainNav-open li").click(function () {
+      $("#js-mainNav-open .js-menu").click(function () {
         // $("#js-mainNav-open li").removeClass("js-mainNAV-in");
         $(this).toggleClass("js-mainNAV-in");
       });

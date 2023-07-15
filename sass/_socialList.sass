@@ -8,12 +8,17 @@
     width: auto
     margin-bottom: 0
   &-item
+    position: relative
     padding: 8px 16px 16px 0
     @media (min-width: $screen-lg)
       padding: 0 8px
-    &>a
+    &>i,&>a
       font-size: 1.3em
       color: darken($WHITEcolor, 55%)
       @media (min-width: $screen-lg)
         color: darken($WHITEcolor, 0%)
         font-size: 1.3em
+    &-ps
+      line-height: 1.2
+      text-align: left
+      color: darken($WHITEcolor, 55%)

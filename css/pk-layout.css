@@ -814,7 +814,7 @@ hr {
     white-space: nowrap;
     color: dimgray;
   }
-  #pkdv .pkHeader .mainNAV-list:hover .megaMENU {
+  #pkdv .pkHeader .mainNAV .js-menu:hover .megaMENU {
     opacity: 1;
     border: 1px solid #cfcfcf;
     border-radius: 4px;
@@ -863,6 +863,7 @@ hr {
   }
 }
 #pkdv .pkHeader .socialList-item {
+  position: relative;
   padding: 8px 16px 16px 0;
 }
 @media (min-width: 1200px) {
@@ -870,15 +871,20 @@ hr {
     padding: 0 8px;
   }
 }
-#pkdv .pkHeader .socialList-item > a {
+#pkdv .pkHeader .socialList-item > i, #pkdv .pkHeader .socialList-item > a {
   font-size: 1.3em;
   color: #737373;
 }
 @media (min-width: 1200px) {
-  #pkdv .pkHeader .socialList-item > a {
+  #pkdv .pkHeader .socialList-item > i, #pkdv .pkHeader .socialList-item > a {
     color: white;
     font-size: 1.3em;
   }
+}
+#pkdv .pkHeader .socialList-item-ps {
+  line-height: 1.2;
+  text-align: left;
+  color: #737373;
 }
 #pkdv .pkHeader .searchBar {
   display: flex;

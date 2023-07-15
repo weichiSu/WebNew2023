@@ -1,5 +1,5 @@
 <ul class="row mainNAV topNav" id="js-topNav-open">
-  <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
+  <li class="mainNAV-list js-menu hidden-xs hidden-sm hidden-md">
     經銷商專區
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -12,7 +12,7 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
+  <li class="mainNAV-list js-menu hidden-xs hidden-sm hidden-md">
     技術支援
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -32,7 +32,7 @@
   <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
     <!-- #include virtual="/component/_socialList.asp" -->
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     繁中
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -51,7 +51,7 @@
       $("#js-topNav-open .megaMENU").css("margin-left", "");
       // 點擊 li 打開次選單
       $("#js-topNav-open li").click(function () {
-        $("#js-topNav-open li").removeClass("js-mainNAV-in");
+        $("#js-topNav-open js-menu").removeClass("js-mainNAV-in");
         $(this).toggleClass("js-mainNAV-in");
       });
     }
