@@ -27,6 +27,11 @@
     display: flex
     justify-content: flex-end
     padding: 25px 0
+    .loginSvg
+      +transform(scale(1.2))
+  &-memberName
+    padding-left: 10px
+    color: darken($WHITEcolor, 80%)
   &+.container-full, &+.container
     padding-top: 120px
     @media (min-width: $screen-sm)

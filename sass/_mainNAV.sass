@@ -28,10 +28,10 @@
     +transition(all 1s)
     &-list
       position: relative
-      width: calc(100% - 60px)
+      width: 100%
       float: left
       +distanceMP(10px 30px, 0)
-      +fontT-sm
+      +fontT
       color: darken($WHITEcolor, 100%)
       cursor: pointer
       &.nextLevel:after
@@ -44,6 +44,8 @@
         margin-left: 15px
         +transition(all 0.2s)
         +transform-origin(50% 50%)
+        // +transform(scale(0.8))
+        // opacity: 0.8
       &:first-child
         margin-top: 30px
       .megaMENU
@@ -51,6 +53,7 @@
         left: 0
         width: 100%
         height: auto
+        margin: 20px 0
         opacity: 0
         float: left
         +transition(all 0.1s)
@@ -63,6 +66,7 @@
           display: none
         .megaMENU-list
           padding: 10px 1rem
+          font-size: $font-size-sm
         .megaMENU-mmb
           display: none
     &-list-inner
@@ -76,7 +80,6 @@
       .megaMENU
         position: relative
         left: 0
-        padding: 20px 0
         opacity: 1
         +box-shadow(none)
         +transition(all 0.1s)
@@ -99,6 +102,7 @@
         font-size: 0
       .megaMENU
         position: relative
+        margin: 0
         +transform(scale(1,1))
         opacity: 1
         &-list
@@ -122,7 +126,7 @@
       display: inline-block
       position: relative
       +distanceMP(10px 0,5px)
-      +fontT-md(1.5rem)
+      +fontT-sm(1.5rem)
       letter-spacing: 0.05em
       text-align: center
       cursor: pointer
@@ -151,7 +155,7 @@
           line-height: 40px
           +distanceMP(0 10px,0 5px)
           border: 0
-          font-size: 16px
+          font-size: 0.875em
           text-align: left
           border-bottom: 1px solid darken($WHITEcolor, 19%)
           &:last-child, &:nth-child(11n)
@@ -161,6 +165,7 @@
           a
             white-space: nowrap
             color: darken($WHITEcolor, 59%)
+    .js-menu
       &:hover
         .megaMENU
           opacity: 1
@@ -175,8 +180,19 @@
     align-items: center
     z-index: $zindex-float
     .mainNAV-list
-      +distanceMP(0,8px)
+      +distanceMP(8px 0,0 8px)
       color: darken($WHITEcolor, 0%)
       font-size: $font-size-sm
       &>a
         color: darken($WHITEcolor, 0%)
+      &:not(:last-of-type)
+        &::after
+          content: ""
+          position: absolute
+          right: 0
+          top: 5px
+          display: inline-block
+          width: 1px
+          height: 15px
+          background: darken($WHITEcolor, 0%)
+          opacity: 0.5

@@ -1,7 +1,33 @@
 <ul class="row mainNAV" id="js-mainNav-open">
-  <li class="mainNAV-list nextLevel">
+  <li class="mainNAV-list js-menu nextLevel">
     商品總覽
     <div class="megaMENU">
+      <ul class="megaMENU-group columns2">
+        <li class="megaMENU-list"><a href="" title="Test Instruments">Test Instruments</a></li>
+        <li class="megaMENU-list"><a href="" title="Precision Pliers">Precision Pliers</a></li>
+        <li class="megaMENU-list"><a href="" title="Electrical Pliers">Electrical Pliers</a></li>
+        <li class="megaMENU-list"><a href="" title="Knife & Scissors">Knife & Scissors</a></li>
+        <li class="megaMENU-list"><a href="" title="Crimpers">Crimpers</a></li>
+        <li class="megaMENU-list"><a href="" title="Strippers">Strippers</a></li>
+        <li class="megaMENU-list"><a href="" title="Punch Down">Punch Down</a></li>
+        <li class="megaMENU-list"><a href="" title="Soldering">Soldering</a></li>
+        <li class="megaMENU-list"><a href="" title="Screwdrivers">Screwdrivers</a></li>
+        <li class="megaMENU-list"><a href="" title="Socket Wrenches">Socket Wrenches</a></li>
+        <li class="megaMENU-list"><a href="" title="Hex Key Wrenches">Hex Key Wrenches</a></li>
+        <li class="megaMENU-list"><a href="" title="Precision Tweezers">Precision Tweezers</a></li>
+        <li class="megaMENU-list"><a href="" title="ESD">ESD</a></li>
+        <li class="megaMENU-list"><a href="" title="VDE Tools">VDE Tools</a></li>
+        <li class="megaMENU-list"><a href="" title="Magnifier & Lamp">Magnifier & Lamp</a></li>
+        <li class="megaMENU-list"><a href="" title="Fiber Optics">Fiber Optics</a></li>
+        <li class="megaMENU-list"><a href="" title="Power Tools">Power Tools</a></li>
+        <li class="megaMENU-list"><a href="" title="Instrument Cases">Instrument Cases</a></li>
+        <li class="megaMENU-list"><a href="" title="Miscellaneous">Miscellaneous</a></li>
+        <li class="megaMENU-list"><a href="" title="Tool Cases">Tool Cases</a></li>
+        <li class="megaMENU-list"><a href="" title="Tool Kits">Tool Kits</a></li>
+        <li class="megaMENU-list"><a href="" title="Science Kits">Science Kits</a></li>
+      </ul>
+    </div>
+    <!-- <div class="megaMENU">
       <ul class="megaMENU-group columns2">
         <li class="megaMENU-list"><a href="/product/ec_index.asp" title="測試儀表類">測試儀表類</a></li>
         <li class="megaMENU-list"><a href="" title="精密剪鉗類">精密剪鉗類</a></li>
@@ -26,21 +52,21 @@
         <li class="megaMENU-list"><a href="" title="工具組類">工具組類</a></li>
         <li class="megaMENU-list"><a href="" title="科學玩具類">科學玩具類</a></li>
       </ul>
-    </div>
+    </div> -->
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">電子應用</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">網路通信</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">五金電力</a>
   </li>
-  <li class="mainNAV-list">
+  <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">科學玩具</a>
   </li>
-  <li class="mainNAV-list nextLevel">
+  <li class="mainNAV-list js-menu nextLevel">
     最新消息
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -50,7 +76,7 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list nextLevel">
+  <li class="mainNAV-list js-menu nextLevel">
     關於寶工
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -60,7 +86,7 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
     技術支援
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -70,16 +96,16 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">銷售據點</a>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">經銷商專區</a>
   </li>
-  <li class="mainNAV-list mainNAV-list-inner-top visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu mainNAV-list-inner-top visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">聯絡我們</a>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm visible-md">
+  <li class="mainNAV-list js-menu visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">登入</a>
   </li>
   <li class="mainNAV-list visible-xs visible-sm visible-md mainNAV-list-inner-top">
@@ -106,9 +132,8 @@
     if (getTotalWidth() < 1200) {
       $("#js-mainNav-open .megaMENU").css("margin-left", "");
       // 點擊 li 打開子選單
-      $("#js-mainNav-open li").click(function () {
+      $("#js-mainNav-open .js-menu").click(function () {
         // $("#js-mainNav-open li").removeClass("js-mainNAV-in");
-        console.log(this)
         $(this).toggleClass("js-mainNAV-in");
       });
     }

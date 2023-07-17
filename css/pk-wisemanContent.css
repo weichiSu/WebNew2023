@@ -101,8 +101,11 @@
 #pkdv .wiseman-content-desc img {
   margin: 0 auto;
 }
+#pkdv .wiseman-content-desc img + p {
+  margin-top: 20px;
+}
 #pkdv .wiseman-content-desc h1, #pkdv .wiseman-content-desc h2, #pkdv .wiseman-content-desc h3, #pkdv .wiseman-content-desc h4, #pkdv .wiseman-content-desc h5, #pkdv .wiseman-content-desc h6, #pkdv .wiseman-content-desc p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #pkdv .wiseman-content-desc p {
   line-height: 2em;
