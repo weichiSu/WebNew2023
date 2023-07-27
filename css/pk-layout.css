@@ -374,7 +374,7 @@ hr {
 }
 #pkdv input {
   font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1em;
+  line-height: 0.9em;
 }
 #pkdv input[type=radio],
 #pkdv input[type=checkbox] {
@@ -691,7 +691,7 @@ hr {
     display: none;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU .megaMENU-list {
-    padding: 10px 1rem;
+    padding: 9px 0.7rem;
     font-size: 0.9em;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU .megaMENU-mmb {
@@ -755,7 +755,7 @@ hr {
   }
   #pkdv .pkHeader .mainNAV {
     position: relative;
-    margin: 0;
+    margin: 3px;
     height: auto;
   }
   #pkdv .pkHeader .mainNAV-list {
@@ -764,7 +764,7 @@ hr {
     margin: 10px 0;
     padding: 5px;
     font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5rem;
+    line-height: 1em;
     letter-spacing: 0.05em;
     text-align: center;
     cursor: pointer;
@@ -830,7 +830,7 @@ hr {
   }
   #pkdv .pkHeader .topNav .mainNAV-list {
     margin: 8px 0;
-    padding: 0 8px;
+    padding: 2px 8px;
     color: white;
     font-size: 0.9em;
   }
@@ -841,10 +841,10 @@ hr {
     content: "";
     position: absolute;
     right: 0;
-    top: 5px;
+    top: 0px;
     display: inline-block;
     width: 1px;
-    height: 15px;
+    height: 19px;
     background: white;
     opacity: 0.5;
   }
@@ -901,7 +901,7 @@ hr {
   left: 20px;
   width: calc(100% + 10px);
   padding: 0 20px 0 10px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 50px 0 0 50px;
   border-width: 1px;
   border-style: solid;
 }
@@ -916,7 +916,7 @@ hr {
 #pkdv .pkHeader .searchBar-btn {
   position: relative;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 50px;
   border: 2px solid currentColor;
 }
 @media (min-width: 768px) {
@@ -926,11 +926,12 @@ hr {
 }
 #pkdv .pkHeader-slogan {
   padding: 10px;
+  margin-left: -10px;
   font-size: 0.9em;
   color: white;
 }
 #pkdv .pkHeader-logoBrands {
-  padding: 21px 0;
+  padding: 8px 12px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-logoBrands {
@@ -939,20 +940,22 @@ hr {
 }
 #pkdv .pkHeader-logoImg {
   max-width: 100%;
-  max-height: 45px;
+  max-height: 50px;
+  margin: 10px 0px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-logoImg {
-    max-height: 60px;
+    max-height: 50px;
   }
 }
 #pkdv .pkHeader-mainMenu {
-  padding: 15px 0;
+  padding: 8px 0;
+  margin: 11px 0px;
 }
 #pkdv .pkHeader-searchArea {
   display: flex;
   justify-content: flex-end;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 #pkdv .pkHeader-searchArea .loginSvg {
   transform: scale(1.2);
@@ -1015,7 +1018,7 @@ hr {
 }
 #pkdv .footer-list {
   order: 1;
-  padding: 20px 10px 0;
+  padding: 20px 23px 0;
 }
 @media (min-width: 992px) {
   #pkdv .footer-list {

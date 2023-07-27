@@ -42,8 +42,8 @@
   opacity: 0;
 }
 #pkdv .classification .swiper-pagination-bullet {
-  width: 47px;
-  height: 4px;
+  width: 30px;
+  height: 3px;
   border-radius: 0;
   background: #cccccc;
   opacity: 0.7;
