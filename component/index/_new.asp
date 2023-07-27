@@ -1,4 +1,4 @@
-<h2 class="pkNew-title">News 最新消息</h2>
+<h2 class="pkNew-title">最新消息</h2>
 <div class="row pkNew">
   <div class="col-xs-12 col-lg-6 pkNew-list">
     <a href="">
