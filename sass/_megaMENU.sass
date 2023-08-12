@@ -1,0 +1,61 @@
+// 手機版
+@media (min-width: $screen-xxs) and (max-width: $screen-lg - 1px)
+  .megaMENU
+    position: absolute
+    left: 0
+    width: 100%
+    height: auto
+    margin: 20px 0
+    opacity: 0
+    float: left
+    +transition(all 0.1s)
+    +transform(scale(1,0.8))
+    +transform-origin(0 0)
+    .mainNAV
+      +distanceMP(0,0)
+      width: 100%
+    &-title
+      display: none
+    &-list
+      padding: 9px
+      font-size: $font-size-sm
+      a
+        color: #616161
+    &-mmb
+      display: none
+// PC
+@media (min-width: $screen-lg)
+  .megaMENU
+    position: absolute
+    top: 35px
+    left: -15px
+    opacity: 0
+    z-index: $zindex-basement
+    +transition(all 0.5s ease)
+    +transform-origin(12.5% 0)
+    +transform(scale(1,0))
+    &-group
+      +distanceMP(5px 0, 0 5px)
+      max-height: 440px
+      overflow: hidden
+      float: left
+      text-align: left
+      &.columns2
+        columns: 2
+    &-list
+      display: block
+      position: relative
+      height: 40px
+      line-height: 40px
+      +distanceMP(0 10px,0 5px)
+      border: 0
+      font-size: 0.875em
+      text-align: left
+      border-bottom: 1px solid darken($WHITEcolor, 19%)
+      &:last-child, &:nth-child(11n)
+        border: none
+      &:hover
+        background: darken($WHITEcolor, 9%)
+      a
+        white-space: nowrap
+        color: darken($WHITEcolor, 59%)

@@ -1,0 +1,19 @@
+// 手機版
+@media (min-width: $screen-xxs) and (max-width: $screen-lg - 1px)
+  .mainNAV-EN
+    .mainNAV
+      &-list
+        br
+          content: ""
+          margin: 0 5px
+// PC
+@media (min-width: $screen-lg)
+  .mainNAV-EN
+    .mainNAV
+      &-list
+        height: 40px
+        padding: 0px 12px 5px 0
+        &.align-center
+          line-height: 40px
+        .megaMENU
+          top: 50px
