@@ -4,6 +4,8 @@
   text-align: center
   &:nth-of-type(even)
     background: #E3EBEB
+  &:last-of-type
+    margin-bottom: 0
   &-title
     margin-bottom: 10px
     font-size: 2em
@@ -33,7 +35,7 @@
     &-active
       color: darken($WHITEcolor, 95%)
   &-item
-    +distanceMP(10px, 30px 10px)
+    +distanceMP(20px 10px 0, 20px 10px)
     border-radius: 20px
     display: flex
     align-items: center
@@ -43,12 +45,14 @@
     border-width: 1px
     border-style: solid
     background: darken($WHITEcolor, 0%)
+    @media (min-width: $screen-lg)
+      margin: 0 20px 40px
     &:hover
       +box-shadow(0 0 5px 0 currentColor)
   &-banner
     padding: 0 10px
     @media (min-width: $screen-lg)
-      padding: 0
+      padding: 0 10px 0 0
     img
       overflow: hidden
       border-radius: 40px

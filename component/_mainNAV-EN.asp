@@ -226,7 +226,7 @@
     <!-- #include virtual="/component/_socialList.asp" -->
   </li>
 </ul>
-<button class="icon-burger pkCI-color-science" aria-hidden="true">
+<button class="icon-burger pkCI-color-industry" aria-hidden="true">
   <!-- #include virtual="/images/burger-icon.svg" -->
 </button>
 

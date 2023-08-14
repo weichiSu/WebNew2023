@@ -693,7 +693,7 @@ hr {
     display: none;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list {
-    padding: 9px;
+    padding: 8px;
     font-size: 0.9em;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list a {
@@ -851,7 +851,7 @@ hr {
     display: none;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list {
-    padding: 9px;
+    padding: 8px;
     font-size: 0.9em;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list a {
@@ -1041,7 +1041,7 @@ hr {
   padding: 10px;
   color: white;
   font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.5em;
+  font-size: 8px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-slogan {
@@ -1119,7 +1119,7 @@ hr {
     display: none;
   }
   #pkdv .pkHeader-member .megaMENU-list {
-    padding: 9px;
+    padding: 8px;
     font-size: 0.9em;
   }
   #pkdv .pkHeader-member .megaMENU-list a {

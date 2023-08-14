@@ -28,6 +28,8 @@
       margin-bottom: 12px
       border: 1px solid #888888
       border-radius: 20px
+      &:hover
+        +box-shadow(0 0 5px 0 darken($WHITEcolor, 30%))
     &:last-child
       @media (min-width: $screen-md)
         padding-left: 40px
@@ -39,6 +41,8 @@
     +fontT($font-size-sm)
     font-weight: 600
     color: $CIScolorLink
+    &:hover
+      color: gray
     &-name
       overflow: hidden
       text-overflow: ellipsis
@@ -46,6 +50,7 @@
       -webkit-box-orient: vertical
       -webkit-line-clamp: 1
       box-sizing: border-box
+      height: 0.9em
     &::before
       content: ""
       position: absolute
