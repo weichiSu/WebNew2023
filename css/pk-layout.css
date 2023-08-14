@@ -755,8 +755,6 @@ hr {
     padding-top: 10px;
     border-top: 1px solid #cccccc;
   }
-}
-@media (min-width: 290px) and (max-width: 1199px) {
   #pkdv .pkHeader .mainNAV .js-mainNAV-in:after {
     transform: rotate(-90deg);
   }
@@ -771,8 +769,6 @@ hr {
   #pkdv .pkHeader .mainNAV .js-mainNAV-in .megaMENU .megaMENU-list {
     padding: 10px 1rem;
   }
-}
-@media (min-width: 290px) and (max-width: 1199px) {
   #pkdv .pkHeader .mainNAV.topNav {
     display: flex;
     justify-content: flex-end;
@@ -920,8 +916,6 @@ hr {
     z-index: 9;
     transform: scale(1, 1);
   }
-}
-@media (min-width: 1200px) {
   #pkdv .pkHeader .topNav {
     display: flex;
     justify-content: flex-end;
