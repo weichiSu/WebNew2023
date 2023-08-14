@@ -20,8 +20,8 @@
 
       <div class="col-xs-2 col-xs-push-6 col-lg-7 col-lg-push-0 pkHeader-mainMenu">
         <nav id="js-mainNAV" class="navbar">
-          <!-- #include virtual="/component/_mainNAV.asp" -->
-          <!-- include virtual="/component/_mainNAV-EN.asp" -->
+          <!-- include virtual="/component/_mainNAV.asp" -->
+          <!-- #include virtual="/component/_mainNAV-EN.asp" -->
         </nav>
       </div>
 
