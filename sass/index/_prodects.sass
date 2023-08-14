@@ -1,17 +1,15 @@
 .pkProdects
-  margin: 50px 0 100px
-  +fontT
+  +distanceMP(25px 0,25px 0)
+  font-family: $font-family
   text-align: center
+  &:nth-of-type(even)
+    background: #E3EBEB
   &-title
-    margin-bottom: 30px
-    font-size: 1.5em
+    margin-bottom: 10px
+    font-size: 2.25em
     font-weight: 600
-    &.industry
-      color: #33583E
-    &.science
-      color: #0097DA
   &-clsList
-    margin-bottom: 30px
+    margin-bottom: 10px
     &-item, &-more
       display: inline-flex
       padding: 10px
@@ -21,6 +19,8 @@
         color: #256C53
       &.science
         color: #0097DA
+      &:hover
+        color: darken($WHITEcolor, 95%)
     &-more
       margin-top: 20px
       padding: 15px 30px
@@ -40,17 +40,15 @@
     justify-content: center
     text-align: center
     flex-direction: column
-    &-name
-      display: block
-      border-radius: 20px
-      color: #fff
-      padding: 5px 10px
-      margin-top: 20px
-      &.industry
-        background: #33583E
-      &.science
-        background: #0097DA
-    &.industry
-      background: darken($WHITEcolor, 5%)
-    &.science
-      background: #FEFFE3
+    border-width: 1px
+    border-style: solid
+    background: darken($WHITEcolor, 0%)
+    &:hover
+      +box-shadow(0 0 5px 0 currentColor)
+  &-banner
+    padding: 0 10px
+    @media (min-width: $screen-lg)
+      padding: 0
+    img
+      overflow: hidden
+      border-radius: 40px

@@ -54,32 +54,28 @@
 #pkdv .pkNew {
   position: relative;
   margin: 10px 0 50px;
-  padding-top: 50px;
-  background: url(../images/newBg.svg) no-repeat;
+  padding: 20px 10px 0;
   background-position: -22px 0;
   background-repeat-x: repeat;
 }
 @media (min-width: 992px) {
   #pkdv .pkNew {
     display: flex;
-  }
-  #pkdv .pkNew:before {
-    content: "";
-    position: absolute;
-    width: 30%;
-    height: 22px;
-    top: 50%;
-    left: calc(35% + 11px);
-    background: url(../images/newBg.svg) center center no-repeat;
-    transform: rotate(90deg);
+    padding: 20px 0 0;
   }
 }
 #pkdv .pkNew-title {
-  margin-top: 50px;
-  color: #5C685B;
-  font-size: 1.5em;
+  margin-top: 30px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 2.25em;
   font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
+}
+#pkdv .pkNew-title-img {
+  width: 50px;
+  margin: 0 10px;
 }
 #pkdv .pkNew-list {
   display: flex;
@@ -87,27 +83,42 @@
   flex-direction: column;
   justify-content: space-between;
 }
+#pkdv .pkNew-list:first-child {
+  padding: 20px;
+  border: 1px solid #888888;
+  border-radius: 20px;
+}
 @media (min-width: 992px) {
-  #pkdv .pkNew-list:first-child {
-    padding-right: 40px;
-  }
   #pkdv .pkNew-list:last-child {
     padding-left: 40px;
   }
 }
 #pkdv .pkNew-item {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
-  font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 15px 20px;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 0.9em;
   font-weight: 600;
   color: #256C53;
 }
-@media (min-width: 992px) {
-  #pkdv .pkNew-item {
-    padding: 10px 0;
-  }
+#pkdv .pkNew-item-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  box-sizing: border-box;
+}
+#pkdv .pkNew-item::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 5px;
+  height: 22px;
+  background: #256C53;
 }
 #pkdv .pkNew-item time {
   padding-left: 20px;
@@ -116,13 +127,26 @@
   font-size: 0.7em;
 }
 #pkdv .pkNew-more {
-  margin: 20px 20px 0;
-  text-align: right;
-  font-size: 1.25em;
+  width: 120px;
+  margin: 20px auto 0;
+  padding: 2px;
+  font-size: 1em;
+  border: 1px solid #256C53;
+  border-radius: 50px;
+  color: #256C53;
+  text-align: center;
+}
+#pkdv .pkNew-more:hover {
+  color: white;
+  background: #256C53;
+}
+#pkdv .pkNew-more i {
+  display: inline-block;
+  transform: rotate(30deg);
 }
 @media (min-width: 992px) {
   #pkdv .pkNew-more {
-    margin: 20px 0 0;
+    margin-right: 0;
   }
 }
 @media (min-width: 1200px) {
@@ -144,14 +168,17 @@
   #pkdv .pkBrand-title {
     text-align: right;
   }
+  #pkdv .pkBrand-title:first-child {
+    padding-right: 60px;
+  }
   #pkdv .pkBrand-title:first-child::before {
     content: "";
     display: block;
-    width: 150px;
+    width: 100px;
     height: 3px;
     background: white;
     position: absolute;
-    right: 20px;
+    right: 100px;
     bottom: -10px;
     opacity: 0.5;
   }
@@ -231,7 +258,7 @@
 #pkdv .pkBrand-left {
   margin: 50px 40px;
   padding: 20px 0;
-  font: 1.25em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 2em;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
@@ -273,7 +300,6 @@
 }
 #pkdv .pkProposal-title {
   margin-top: 50px;
-  color: #5C685B;
   font-size: 2.25em;
   font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
@@ -300,24 +326,21 @@
   }
 }
 #pkdv .pkProdects {
-  margin: 50px 0 100px;
-  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.2em;
+  margin: 25px 0;
+  padding: 25px 0;
+  font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
+#pkdv .pkProdects:nth-of-type(even) {
+  background: #E3EBEB;
+}
 #pkdv .pkProdects-title {
-  margin-bottom: 30px;
-  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-size: 2.25em;
   font-weight: 600;
 }
-#pkdv .pkProdects-title.industry {
-  color: #33583E;
-}
-#pkdv .pkProdects-title.science {
-  color: #0097DA;
-}
 #pkdv .pkProdects-clsList {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #pkdv .pkProdects-clsList-item, #pkdv .pkProdects-clsList-more {
   display: inline-flex;
@@ -330,6 +353,9 @@
 }
 #pkdv .pkProdects-clsList-item.science, #pkdv .pkProdects-clsList-more.science {
   color: #0097DA;
+}
+#pkdv .pkProdects-clsList-item:hover, #pkdv .pkProdects-clsList-more:hover {
+  color: #0d0d0d;
 }
 #pkdv .pkProdects-clsList-more {
   margin-top: 20px;
@@ -356,23 +382,22 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  background: white;
 }
-#pkdv .pkProdects-item-name {
-  display: block;
-  border-radius: 20px;
-  color: #fff;
-  padding: 5px 10px;
-  margin-top: 20px;
+#pkdv .pkProdects-item:hover {
+  box-shadow: 0 0 5px 0 currentColor;
 }
-#pkdv .pkProdects-item-name.industry {
-  background: #33583E;
+#pkdv .pkProdects-banner {
+  padding: 0 10px;
 }
-#pkdv .pkProdects-item-name.science {
-  background: #0097DA;
+@media (min-width: 1200px) {
+  #pkdv .pkProdects-banner {
+    padding: 0;
+  }
 }
-#pkdv .pkProdects-item.industry {
-  background: #f2f2f2;
-}
-#pkdv .pkProdects-item.science {
-  background: #FEFFE3;
+#pkdv .pkProdects-banner img {
+  overflow: hidden;
+  border-radius: 40px;
 }/*# sourceMappingURL=pk-index.css.map */

@@ -26,13 +26,16 @@
 				</div>
 			</div>
 
-			<!-- #include virtual="/component/index/_brand.asp" -->
+			<!-- include virtual="/component/index/_brand.asp" -->
+			<!-- #include virtual="/component/index/_brand-EN.asp" -->
 
 			<div class="container-full">
 				<div class="container">
 					<!-- #include virtual="/component/index/_proposal.asp" -->
-					<!-- #include virtual="/component/index/_prodects.asp" -->
 				</div>
+			</div>
+			<div class="container-full">
+				<!-- #include virtual="/component/index/_prodects.asp" -->
 			</div>
 
 			<!-- #include virtual="/footer.asp" -->

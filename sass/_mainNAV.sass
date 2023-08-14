@@ -19,7 +19,7 @@
     position: fixed
     left: -105%
     top: 0
-    width: 70%
+    width: 80%
     +distanceMP(0,0)
     height: 100vh
     overflow-y: auto
@@ -30,7 +30,7 @@
       position: relative
       width: 100%
       float: left
-      +distanceMP(10px 30px, 0)
+      +distanceMP(10px 0, 0 30px)
       +fontT
       color: darken($WHITEcolor, 100%)
       cursor: pointer
@@ -48,27 +48,7 @@
         // opacity: 0.8
       &:first-child
         margin-top: 30px
-      .megaMENU
-        position: absolute
-        left: 0
-        width: 100%
-        height: auto
-        margin: 20px 0
-        opacity: 0
-        float: left
-        +transition(all 0.1s)
-        +transform(scale(1,0.8))
-        +transform-origin(0 0)
-        .mainNAV
-          +distanceMP(0,0)
-          width: 100%
-        .megaMENU-title
-          display: none
-        .megaMENU-list
-          padding: 9px 0.7rem
-          font-size: $font-size-sm
-        .megaMENU-mmb
-          display: none
+      @import _megaMENU
     &-list-inner
       &-top
         margin-top: 10px
@@ -105,6 +85,7 @@
         margin: 0
         +transform(scale(1,1))
         opacity: 1
+        width: calc(100% + 30px)
         &-list
           display: inline-block
           font-size: 14px
@@ -120,51 +101,21 @@
       display: none
   .mainNAV
     position: relative
-    margin: 3px
+    margin: 0
     height: auto
     &-list
       display: inline-block
       position: relative
-      +distanceMP(10px 0,5px)
-      +fontT-sm(1em)
+      +distanceMP(10px 0,5px 12px 10px 0)
+      +fontT(1.2em)
       letter-spacing: 0.05em
+      vertical-align: bottom
       text-align: center
       cursor: pointer
       z-index: $zindex-navbar
-      .megaMENU
-        position: absolute
-        top: 35px
-        left: -15px
-        opacity: 0
-        z-index: $zindex-basement
-        +transition(all 0.5s ease)
-        +transform-origin(12.5% 0)
-        +transform(scale(1,0))
-        &-group
-          +distanceMP(5px 0, 0 5px)
-          max-height: 440px
-          overflow: hidden
-          float: left
-          text-align: left
-          &.columns2
-            columns: 2
-        &-list
-          display: block
-          position: relative
-          height: 40px
-          line-height: 40px
-          +distanceMP(0 10px,0 5px)
-          border: 0
-          font-size: 0.875em
-          text-align: left
-          border-bottom: 1px solid darken($WHITEcolor, 19%)
-          &:last-child, &:nth-child(11n)
-            border: none
-          &:hover
-            background: darken($WHITEcolor, 9%)
-          a
-            white-space: nowrap
-            color: darken($WHITEcolor, 59%)
+      &:hover
+        color: darken($WHITEcolor, 50%)
+      @import _megaMENU
     .js-menu
       &:hover
         .megaMENU
@@ -180,6 +131,7 @@
     align-items: center
     z-index: $zindex-float
     .mainNAV-list
+      height: inherit
       +distanceMP(8px 0,2px 8px)
       color: darken($WHITEcolor, 0%)
       font-size: $font-size-sm

@@ -6,12 +6,16 @@
   +box-shadow(0 0 10px 0 darken(darken($WHITEcolor, 15%), 0%))
   z-index: $zindex-navbar
   @import _mainNAV
+  @import _mainNAV-EN
   @import _socialList
   @import _searchBar
   &-slogan
     padding: 10px
-    margin-left: -10px 
     color: darken($WHITEcolor, 0%)
+    font-family: $font-family
+    font-size: 0.5em
+    @media (min-width: $screen-sm)
+      font-size: $font-size-sm
   &-logoBrands
     padding: 8px 12px
     @media (min-width: $screen-sm)
@@ -23,17 +27,34 @@
     @media (min-width: $screen-sm)
       max-height: 50px
   &-mainMenu
-    padding: 8px 0
-    margin: 4px 0px
+    +distanceMP(4px 0,8px 0)
+    @media (min-width: $screen-lg)
+      padding: 16px 0
   &-searchArea
     display: flex
     justify-content: flex-end
     padding: 20px 0
+    @media (min-width: $screen-lg)
+      padding: 30px 0
     .loginSvg
       +transform(scale(1.2))
-  &-memberName
-    padding-left: 10px
-    color: darken($WHITEcolor, 80%)
+  &-member
+    display: flex
+    align-items: center
+    position: relative
+    &Name
+      padding-left: 10px
+      color: darken($WHITEcolor, 80%)
+    @import _megaMENU
+    &:hover
+      .megaMENU
+        opacity: 1
+        border: 1px solid darken($WHITEcolor, 19%)
+        border-radius: 4px
+        background: darken($WHITEcolor, 0%)
+        z-index: $zindex-floor
+        +transform(scale(1,1))
+
   &+.container-full, &+.container
     padding-top: 120px
     @media (min-width: $screen-sm)

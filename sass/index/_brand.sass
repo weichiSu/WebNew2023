@@ -11,14 +11,15 @@
     @media (min-width: $screen-lg)
       text-align: right
       &:first-child
+        padding-right: 60px
         &::before
           content: ""
           display: block
-          width: 150px
+          width: 100px
           height: 3px
           background: darken($WHITEcolor, 0%)
           position: absolute
-          right: 20px
+          right: 100px
           bottom: -10px
           opacity: 0.5
     &:nth-child(2)
@@ -76,7 +77,7 @@
       top: calc(50% - 225px)
   &-left
     +distanceMP(50px 40px, 20px 0)
-    +fontT-md(2em)
+    +fontT(2em)
     border-top: 2px solid darken($WHITEcolor, 0%)
     border-bottom: 2px solid darken($WHITEcolor, 0%)
     color: darken($WHITEcolor, 0%)

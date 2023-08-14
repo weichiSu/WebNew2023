@@ -1,6 +1,6 @@
-<ul class="row mainNAV" id="js-mainNav-open">
+<ul class="row mainNAV mainNAV-EN" id="js-mainNav-open">
   <li class="mainNAV-list js-menu nextLevel">
-    商品總覽
+    Product<br />Overview
     <div class="megaMENU">
       <ul class="megaMENU-group columns2">
         <li class="megaMENU-list">
@@ -67,35 +67,9 @@
         </li>
       </ul>
     </div>
-    <!-- <div class="megaMENU">
-      <ul class="megaMENU-group columns2">
-        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="測試儀表類">測試儀表類</a></li>
-        <li class="megaMENU-list"><a href="" title="精密剪鉗類">精密剪鉗類</a></li>
-        <li class="megaMENU-list"><a href="" title="電工剪鉗類">電工剪鉗類</a></li>
-        <li class="megaMENU-list"><a href="" title="剪刀類">剪刀類</a></li>
-        <li class="megaMENU-list"><a href="" title="壓著鉗類">壓著鉗類</a></li>
-        <li class="megaMENU-list"><a href="" title="剝線鉗類">剝線鉗類</a></li>
-        <li class="megaMENU-list"><a href="" title="壓著工具類">壓著工具類</a></li>
-        <li class="megaMENU-list"><a href="" title="電銲烙鐵類">電銲烙鐵類</a></li>
-        <li class="megaMENU-list"><a href="" title="起子類">起子類</a></li>
-        <li class="megaMENU-list"><a href="" title="套筒板手類">套筒板手類</a></li>
-        <li class="megaMENU-list"><a href="" title="六角板手類">六角板手類</a></li>
-        <li class="megaMENU-list"><a href="" title="鑷子類">鑷子類</a></li>
-        <li class="megaMENU-list"><a href="" title="防靜電類">防靜電類</a></li>
-        <li class="megaMENU-list"><a href="" title="VDE絕緣系列">VDE絕緣系列</a></li>
-        <li class="megaMENU-list"><a href="" title="放大鏡燈類">放大鏡燈類</a></li>
-        <li class="megaMENU-list"><a href="" title="光纖工具類">光纖工具類</a></li>
-        <li class="megaMENU-list"><a href="" title="電動工具類">電動工具類</a></li>
-        <li class="megaMENU-list"><a href="" title="零件盒類">零件盒類</a></li>
-        <li class="megaMENU-list"><a href="" title="綜合工具類">綜合工具類</a></li>
-        <li class="megaMENU-list"><a href="" title="工具包類">工具包類</a></li>
-        <li class="megaMENU-list"><a href="" title="工具組類">工具組類</a></li>
-        <li class="megaMENU-list"><a href="" title="科學玩具類">科學玩具類</a></li>
-      </ul>
-    </div> -->
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    電子應用
+    Electronic<br />Application
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -111,7 +85,7 @@
     </div>
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    網路通信
+    Network<br />Communication
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -127,7 +101,7 @@
     </div>
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    五金電力
+    Hardware<br />Power
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -143,7 +117,7 @@
     </div>
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    科學玩具
+    Science<br />Kits
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -177,8 +151,8 @@
   <!-- <li class="mainNAV-list js-menu">
     <a href="/edm/sales21.asp">科學玩具</a>
   </li> -->
-  <li class="mainNAV-list js-menu nextLevel">
-    最新消息
+  <li class="mainNAV-list js-menu nextLevel align-center">
+    News
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -189,8 +163,8 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list js-menu nextLevel">
-    關於寶工
+  <li class="mainNAV-list js-menu nextLevel align-center">
+    About Us
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
