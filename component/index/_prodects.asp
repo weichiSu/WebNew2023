@@ -104,19 +104,21 @@
   <div class="container">
     <div class="col-xs-12">
       <h2 class="pkProdects-title">網路通信</h2>
-      <div class="pkProdects-clsList">
+      <div class="pkProdects-clsList industry">
         <a href="">
-          <h3 class="pkProdects-clsList-item science pkProdects-clsList-active">
+          <h3
+            class="pkProdects-clsList-item industry pkProdects-clsList-active"
+          >
             起子頭
           </h3>
         </a>
         <a href="">
-          <h3 class="pkProdects-clsList-item science">測試儀表</h3>
+          <h3 class="pkProdects-clsList-item industry">測試儀表</h3>
         </a>
         <a href="">
-          <h3 class="pkProdects-clsList-item science">精密剪鉗</h3> </a
+          <h3 class="pkProdects-clsList-item industry">精密剪鉗</h3> </a
         ><a href="">
-          <h3 class="pkProdects-clsList-item science">電焊烙鐵</h3>
+          <h3 class="pkProdects-clsList-item industry">電焊烙鐵</h3>
         </a>
       </div>
     </div>
@@ -140,7 +142,7 @@
       <div class="col-xs-6">
         <a
           href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
+          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
         >
           <img
             src="/images/index-proImg.png"
@@ -153,7 +155,7 @@
       <div class="col-xs-6">
         <a
           href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
+          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
         >
           <img
             src="/images/index-proImg.png"
@@ -166,7 +168,7 @@
       <div class="col-xs-6">
         <a
           href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
+          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
         >
           <img
             src="/images/index-proImg.png"
@@ -179,7 +181,7 @@
       <div class="col-xs-6">
         <a
           href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
+          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
         >
           <img
             src="/images/index-proImg.png"

@@ -821,7 +821,7 @@ hr {
     line-height: 1.2em;
     letter-spacing: 0.05em;
     vertical-align: bottom;
-    text-align: center;
+    text-align: start;
     cursor: pointer;
     z-index: 1010;
   }
@@ -1041,7 +1041,7 @@ hr {
   padding: 10px;
   color: white;
   font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 8px;
+  font-size: 12px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-slogan {

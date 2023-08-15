@@ -150,7 +150,7 @@
 }
 #pkdv .pkNew-more i {
   display: inline-block;
-  transform: rotate(35deg);
+  transform: rotate(37deg);
 }
 @media (min-width: 992px) {
   #pkdv .pkNew-more {
@@ -356,7 +356,7 @@
 #pkdv .pkProdects-clsList-item, #pkdv .pkProdects-clsList-more {
   display: inline-flex;
   padding: 10px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 600;
 }
 #pkdv .pkProdects-clsList-item.industry, #pkdv .pkProdects-clsList-more.industry {
