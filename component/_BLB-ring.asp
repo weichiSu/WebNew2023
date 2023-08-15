@@ -22,7 +22,7 @@
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
           <source srcset="/images/液壓lg.png" media="(min-width: 768px)" />
-          <source srcset="/images/BLB-xs.png" media="(max-width: 768px)" />
+          <source srcset="/images/液壓xs.png" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
           <img
             src="/images/液壓lg.png"
