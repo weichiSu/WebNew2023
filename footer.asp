@@ -1,7 +1,7 @@
 <!-- pkCI-background-science: 科學玩具 -->
 <!-- pkCI-background-industry:  -->
 
-<footer class="pkCI-background-science">
+<footer class="pkCI-background-industry">
   <div class="container-fluid">
     <div class="container footer">
       <!--#include virtual="/component/_gotop.asp"-->

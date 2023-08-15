@@ -14,6 +14,7 @@
 	</head>
 
 	<body>
+		<!-- #include virtual="/component/_policy.asp" -->
 		<div id="pkdv">
 
 			<!-- #include virtual="/header.asp" -->
