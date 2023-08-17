@@ -7,24 +7,12 @@
     <a href="">
       <picture>
         <!--[if IE 9]><video style="display: none;"><![endif]-->
-        <source
-          srcset="
-            https://ref.prokits.com.tw/PKWeb/Adv/209/2021070718112121313.jpg
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            https://ref.prokits.com.tw/PKWeb/Adv/209/2021070718112121313.jpg
-          "
-          media="(max-width: 768px)"
-        />
+        <source srcset="/images/PK1700.jpeg" media="(min-width: 768px)" />
+        <source srcset="/images/PK1700.jpeg" media="(max-width: 768px)" />
         <!--[if IE 9]></video><![endif]-->
         <img
-          src="https://ref.prokits.com.tw/PKWeb/Adv/209/2021070718112121313.jpg"
-          srcset="
-            https://ref.prokits.com.tw/PKWeb/Adv/209/2021070718112121313.jpg
-          "
+          src="/images/PK1700.jpeg"
+          srcset="/images/PK1700.jpeg"
           alt="科玩套餐組"
           class="img-responsive"
         />

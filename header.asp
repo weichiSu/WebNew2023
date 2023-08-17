@@ -7,7 +7,8 @@
       </div>
       <div class="col-xs-5 col-lg-8 pkHeader-smallMenu">
         <div class="navbar">
-          <!-- #include virtual="/component/_topNAV.asp" -->
+          <!-- include virtual="/component/_topNAV.asp" -->
+          <!-- #include virtual="/component/_topNAV-EN.asp" -->
         </div>
       </div>
     </div>
