@@ -26,10 +26,27 @@
     align-items: center
     text-align: center
     background: $WHITEcolor
-
   &-img
     display: block
     width: 100%
     height: 400px
     object-fit: cover
     object-position: top center
+  &-BN3-item
+    &-txt
+      position: absolute
+      top: calc(50% - 52px)
+      left: calc(50% - 125px)
+      width: 250px
+      padding: 30px 0
+      font-size: 2em
+      color: darken($WHITEcolor, 0%)
+      border-radius: 10px
+      border-width: 2px
+      border-style: solid
+      border-color: transparent
+    &:hover
+      .swiper-BN3-item-txt
+        border-color: darken($WHITEcolor, 0%)
+      .swiper-img
+        -webkit-filter: brightness(1.5)

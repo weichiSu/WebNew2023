@@ -51,6 +51,25 @@
   -o-object-position: top center;
      object-position: top center;
 }
+#pkdv .swiper-BN3-item-txt {
+  position: absolute;
+  top: calc(50% - 52px);
+  left: calc(50% - 125px);
+  width: 250px;
+  padding: 30px 0;
+  font-size: 2em;
+  color: white;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+#pkdv .swiper-BN3-item:hover .swiper-BN3-item-txt {
+  border-color: white;
+}
+#pkdv .swiper-BN3-item:hover .swiper-img {
+  -webkit-filter: brightness(1.5);
+}
 #pkdv .pkNew {
   position: relative;
   margin: 10px 0 50px;
@@ -228,9 +247,6 @@
     display: block;
   }
 }
-#pkdv .pkBrand-logo-img {
-  max-width: 100%;
-}
 #pkdv .pkBrand-logo-img.industry {
   height: 80px;
 }
@@ -307,7 +323,7 @@
   text-align: center;
 }
 #pkdv .pkProposal-title {
-  margin-top: 50px;
+  margin: 50px 0 10px;
   font-size: 2.25em;
   font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;

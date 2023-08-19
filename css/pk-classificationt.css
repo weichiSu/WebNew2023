@@ -67,6 +67,25 @@
   -o-object-position: top center;
      object-position: top center;
 }
+#pkdv .classification .swiper-BN3-item-txt {
+  position: absolute;
+  top: calc(50% - 52px);
+  left: calc(50% - 125px);
+  width: 250px;
+  padding: 30px 0;
+  font-size: 2em;
+  color: white;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+#pkdv .classification .swiper-BN3-item:hover .swiper-BN3-item-txt {
+  border-color: white;
+}
+#pkdv .classification .swiper-BN3-item:hover .swiper-img {
+  -webkit-filter: brightness(1.5);
+}
 #pkdv .classification .proList-item {
   font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
