@@ -18,7 +18,7 @@
     <div class="container">
       <div class="col-xs-4 col-lg-2 pkHeader-logoBrands">
         <a href="/index.asp" title="寶工"
-          ><img src="/images/logo_Tool.png" alt="寶工" class="pkHeader-logoImg"
+          ><img src="/images/logo_Tool.svg" alt="寶工" class="pkHeader-logoImg"
         /></a>
         <!-- <a href="/index.asp" title="寶工"><img src="/images/logo_Science.png" alt="寶工" class="pkHeader-logoImg" /></a> -->
       </div>
