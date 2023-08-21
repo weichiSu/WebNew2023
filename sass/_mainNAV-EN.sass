@@ -4,9 +4,11 @@
     .mainNAV
       width: 85%
       &-list
+        word-wrap: break-word
+        word-spacing: 0.2em
         br
-          content: ""
-          margin: 0 5px
+          display: none
+
 // PC
 @media (min-width: $screen-lg)
   .mainNAV-EN
@@ -14,6 +16,7 @@
       &-list
         height: 40px
         padding: 0px 12px 5px 0
+        word-wrap: break-word
         &.align-center
           line-height: 40px
         .megaMENU

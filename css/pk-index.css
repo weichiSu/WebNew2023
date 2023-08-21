@@ -21,9 +21,8 @@
   }
 }
 #pkdv .swiper-button-next:after, #pkdv .swiper-button-prev:after {
-  color: #ffffff;
+  color: #cccccc;
   font-size: 2em;
-  opacity: 0;
 }
 #pkdv .swiper-pagination-bullet {
   width: 30px;
@@ -136,7 +135,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   box-sizing: border-box;
-  height: 0.9em;
+  height: 0.85em;
 }
 #pkdv .pkNew-item::before {
   content: "";
@@ -248,10 +247,10 @@
   }
 }
 #pkdv .pkBrand-logo-img.industry {
-  height: 80px;
+  max-width: 100%;
 }
 #pkdv .pkBrand-logo-img.science {
-  height: 65px;
+  max-width: 85%;
 }
 #pkdv .pkBrand-logo:last-child {
   position: relative;

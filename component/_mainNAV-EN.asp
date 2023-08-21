@@ -1,6 +1,6 @@
 <ul class="row mainNAV mainNAV-EN" id="js-mainNav-open">
   <li class="mainNAV-list js-menu nextLevel">
-    Product<br />Overview
+    Product <br />Overview
     <div class="megaMENU">
       <ul class="megaMENU-group columns2">
         <li class="megaMENU-list">
@@ -69,7 +69,7 @@
     </div>
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    Electronic<br />Application
+    Electronic <br />Application
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -85,7 +85,7 @@
     </div>
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    Network<br />Communication
+    Network <br />Communication
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -101,7 +101,7 @@
     </div>
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    Hardware<br />Power
+    Hardware <br />Power
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
@@ -117,7 +117,7 @@
     </div>
   </li>
   <li class="mainNAV-list js-menu nextLevel">
-    Science<br />Kits
+    Science <br />Kits
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">

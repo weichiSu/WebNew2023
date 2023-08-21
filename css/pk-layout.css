@@ -636,7 +636,7 @@ hr {
     position: fixed;
     left: -105%;
     top: 0;
-    width: 80%;
+    width: 85%;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -945,15 +945,22 @@ hr {
   }
 }
 @media (min-width: 290px) and (max-width: 1199px) {
+  #pkdv .pkHeader .mainNAV-EN .mainNAV {
+    width: 85%;
+  }
+  #pkdv .pkHeader .mainNAV-EN .mainNAV-list {
+    word-wrap: break-word;
+    word-spacing: 0.2em;
+  }
   #pkdv .pkHeader .mainNAV-EN .mainNAV-list br {
-    content: "";
-    margin: 0 5px;
+    display: none;
   }
 }
 @media (min-width: 1200px) {
   #pkdv .pkHeader .mainNAV-EN .mainNAV-list {
     height: 40px;
     padding: 0px 12px 5px 0;
+    word-wrap: break-word;
   }
   #pkdv .pkHeader .mainNAV-EN .mainNAV-list.align-center {
     line-height: 40px;
