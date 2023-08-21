@@ -22,12 +22,22 @@
       padding: 10px 0
   &-logoImg
     max-width: 100%
-    max-height: 52px
-    margin: 20px 0px
+    &.industry
+      max-height: 52px
+      margin: 20px 0px
+    &.science
+      max-height: 52px
+      margin: 20px 0px
     @media (min-width: $screen-sm)
-      margin: 0
+      &.industry
+        margin: 0
+      &.science
+        margin: 0
     @media (min-width: $screen-lg)
-      margin: 15px 0px
+      &.industry
+        margin: 15px 0px
+      &.science
+        margin: 15px 0px
   &-mainMenu
     +distanceMP(4px 0,8px 0)
     @media (min-width: $screen-lg)

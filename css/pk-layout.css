@@ -1065,16 +1065,28 @@ hr {
 }
 #pkdv .pkHeader-logoImg {
   max-width: 100%;
+}
+#pkdv .pkHeader-logoImg.industry {
+  max-height: 52px;
+  margin: 20px 0px;
+}
+#pkdv .pkHeader-logoImg.science {
   max-height: 52px;
   margin: 20px 0px;
 }
 @media (min-width: 768px) {
-  #pkdv .pkHeader-logoImg {
+  #pkdv .pkHeader-logoImg.industry {
+    margin: 0;
+  }
+  #pkdv .pkHeader-logoImg.science {
     margin: 0;
   }
 }
 @media (min-width: 1200px) {
-  #pkdv .pkHeader-logoImg {
+  #pkdv .pkHeader-logoImg.industry {
+    margin: 15px 0px;
+  }
+  #pkdv .pkHeader-logoImg.science {
     margin: 15px 0px;
   }
 }
