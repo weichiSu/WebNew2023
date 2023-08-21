@@ -1068,11 +1068,11 @@ hr {
 }
 #pkdv .pkHeader-logoImg.industry {
   max-height: 52px;
-  margin: 20px 0px;
+  margin: 19px 3px;
 }
 #pkdv .pkHeader-logoImg.science {
   max-height: 52px;
-  margin: 20px 0px;
+  margin: 14px 5px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-logoImg.industry {

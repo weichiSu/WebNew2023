@@ -135,7 +135,6 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   box-sizing: border-box;
-  height: 0.85em;
 }
 #pkdv .pkNew-item::before {
   content: "";
