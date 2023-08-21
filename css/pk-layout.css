@@ -1056,7 +1056,7 @@ hr {
   }
 }
 #pkdv .pkHeader-logoBrands {
-  padding: 8px 12px;
+  padding: 1px 2px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-logoBrands {
@@ -1065,12 +1065,29 @@ hr {
 }
 #pkdv .pkHeader-logoImg {
   max-width: 100%;
-  max-height: 50px;
-  margin: 10px 0px;
+}
+#pkdv .pkHeader-logoImg.industry {
+  max-height: 52px;
+  margin: 20px 0px;
+}
+#pkdv .pkHeader-logoImg.science {
+  max-height: 52px;
+  margin: 20px 0px;
 }
 @media (min-width: 768px) {
-  #pkdv .pkHeader-logoImg {
-    max-height: 50px;
+  #pkdv .pkHeader-logoImg.industry {
+    margin: 0;
+  }
+  #pkdv .pkHeader-logoImg.science {
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #pkdv .pkHeader-logoImg.industry {
+    margin: 15px 0px;
+  }
+  #pkdv .pkHeader-logoImg.science {
+    margin: 15px 0px;
   }
 }
 #pkdv .pkHeader-mainMenu {

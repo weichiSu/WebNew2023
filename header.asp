@@ -17,30 +17,21 @@
   <div class="container-fluid">
     <div class="container">
       <div class="col-xs-4 col-lg-2 pkHeader-logoBrands">
-        <a href="/index.asp" title="寶工"
-          ><img src="/images/logo_Tool.svg" alt="寶工" class="pkHeader-logoImg"
-        /></a>
-        <!-- <a href="/index.asp" title="寶工"><img src="/images/logo_Science.png" alt="寶工" class="pkHeader-logoImg" /></a> -->
+        <a href="/index.asp" title="寶工"><img src="/images/logo_Tool.svg" alt="寶工"
+            class="pkHeader-logoImg industry" /></a>
+        <!-- <a href="/index.asp" title="寶工"><img src="/images/logo_Science.png" alt="寶工" class="pkHeader-logoImg science" /></a> -->
       </div>
 
-      <div
-        class="col-xs-2 col-xs-push-6 col-lg-7 col-lg-push-0 pkHeader-mainMenu"
-      >
+      <div class="col-xs-2 col-xs-push-6 col-lg-7 col-lg-push-0 pkHeader-mainMenu">
         <nav id="js-mainNAV" class="navbar">
           <!-- include virtual="/component/_mainNAV.asp" -->
           <!-- #include virtual="/component/_mainNAV-EN.asp" -->
         </nav>
       </div>
 
-      <div
-        class="col-xs-6 col-xs-pull-2 col-lg-3 col-lg-pull-0 pkHeader-searchArea"
-      >
+      <div class="col-xs-6 col-xs-pull-2 col-lg-3 col-lg-pull-0 pkHeader-searchArea">
         <!-- #include virtual="/component/_searchBar.asp" -->
-        <button
-          type="button"
-          class="hidden-xs hidden-sm hidden-md btn pkCI-color-industry"
-          onClick="location.href='/'"
-        >
+        <button type="button" class="hidden-xs hidden-sm hidden-md btn pkCI-color-industry" onClick="location.href='/'">
           <!-- 登入後 -->
           <div class="pkHeader-member">
             <!-- #include virtual="/images/member-icon.svg" -->
