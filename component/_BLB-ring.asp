@@ -7,13 +7,7 @@
           <source srcset="/images/桌電.jpg" media="(min-width: 768px)" />
           <source srcset="/images/手機.jpg" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/桌電.jpg"
-            srcset="/images/桌電.jpg"
-            alt="大量採購"
-            draggable="false"
-            class="swiper-img"
-          />
+          <img src="/images/桌電.jpg" srcset="/images/桌電.jpg" alt="大量採購" draggable="false" class="swiper-img" />
         </picture>
       </a>
     </div>
@@ -24,13 +18,7 @@
           <source srcset="/images/液壓lg.png" media="(min-width: 768px)" />
           <source srcset="/images/液壓xs.png" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/液壓lg.png"
-            srcset="/images/液壓lg.png"
-            alt="大量採購"
-            draggable="false"
-            class="swiper-img"
-          />
+          <img src="/images/液壓lg.png" srcset="/images/液壓lg.png" alt="大量採購" draggable="false" class="swiper-img" />
         </picture>
       </a>
     </div>
@@ -42,10 +30,6 @@
 
 <script>
   var swiper = new Swiper(".mySwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

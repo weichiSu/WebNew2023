@@ -37,9 +37,8 @@
   }
 }
 #pkdv .classification .swiper-button-next:after, #pkdv .classification .swiper-button-prev:after {
-  color: #ffffff;
+  color: #cccccc;
   font-size: 2em;
-  opacity: 0;
 }
 #pkdv .classification .swiper-pagination-bullet {
   width: 30px;
