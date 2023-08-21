@@ -6,7 +6,7 @@
   </div>
   <div style="grid-column: 5/5; grid-row: 1;">
     <div id="policy-close"
-      style="cursor: pointer; background: #56baaae0; color: #fff; padding: 5px 10px; border-radius: 10px;">
+      style="text-align: center; cursor: pointer; background: #56baaae0; color: #fff; padding: 5px 10px; border-radius: 10px;">
       我知道了
     </div>
   </div>
