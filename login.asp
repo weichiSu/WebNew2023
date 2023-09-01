@@ -41,7 +41,7 @@
                     <div class="alert alert-danger">輸入格式不正確</div>
                   </span>
                   <div id="pwm-inline-icon-18777" class="pwm-field-icon"
-                    style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; z-index: 2147483645 !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -24.5938px; margin-left: 276px;">
+                    style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important;  box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -24.5938px; margin-left: 276px;">
                     <svg
                       style="display: inline-block !important; width: 16px !important; height: 16px !important; fill: rgb(230, 0, 23) !important; margin-top: 0.5px !important; position: absolute !important; top: 0px !important; left: 0px !important;"
                       viewBox="0 0 64 64">
@@ -67,7 +67,7 @@
                     <div class="alert alert-danger">此為必填欄位</div>
                   </span>
                   <div id="pwm-inline-icon-28152" class="pwm-field-icon"
-                    style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; z-index: 2147483645 !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -24.5938px; margin-left: 276px;">
+                    style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -24.5938px; margin-left: 276px;">
                     <svg
                       style="display: inline-block !important; width: 16px !important; height: 16px !important; fill: rgb(230, 0, 23) !important; margin-top: 0.5px !important; position: absolute !important; top: 0px !important; left: 0px !important;"
                       viewBox="0 0 64 64">

@@ -623,7 +623,7 @@ hr {
     cursor: pointer;
   }
   #pkdv .pkHeader .mainNAV-list.nextLevel:after {
-    content: url(/images/arrowMenu-icon.svg);
+    content: url(../images/arrowMenu-icon.svg);
     position: relative;
     top: 5px;
     display: inline-block;
