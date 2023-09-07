@@ -4,9 +4,7 @@
       <h2 class="pkProdects-title">電子應用</h2>
       <div class="pkProdects-clsList industry">
         <a href="">
-          <h3
-            class="pkProdects-clsList-item industry pkProdects-clsList-active"
-          >
+          <h3 class="pkProdects-clsList-item industry pkProdects-clsList-active">
             Test Instruments
           </h3>
         </a>
@@ -16,10 +14,10 @@
         <a href="">
           <h3 class="pkProdects-clsList-item industry">
             Electrical Pliers
-          </h3> </a
-        ><a href="">
-          <h3 class="pkProdects-clsList-item industry">Knife & Scissors</h3> </a
-        ><a href="">
+          </h3>
+        </a><a href="">
+          <h3 class="pkProdects-clsList-item industry">Knife & Scissors</h3>
+        </a><a href="">
           <h3 class="pkProdects-clsList-item industry">Crimpers</h3>
         </a>
         <a href="">
@@ -31,69 +29,32 @@
       <a href="">
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source srcset="/images/index-bn.png" media="(min-width: 768px)" />
-          <source srcset="/images/index-bn.png" media="(max-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(min-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/index-bn.png"
-            srcset="/images/index-bn.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+          <img src="/images/index-bn.jpg" srcset="/images/index-bn.jpg" alt="科玩套餐組" class="img-responsive" />
         </picture>
       </a>
     </div>
     <div class="col-xs-12 col-lg-7">
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
     </div>
@@ -106,9 +67,7 @@
       <h2 class="pkProdects-title">網路通信</h2>
       <div class="pkProdects-clsList industry">
         <a href="">
-          <h3
-            class="pkProdects-clsList-item industry pkProdects-clsList-active"
-          >
+          <h3 class="pkProdects-clsList-item industry pkProdects-clsList-active">
             起子頭
           </h3>
         </a>
@@ -116,8 +75,8 @@
           <h3 class="pkProdects-clsList-item industry">測試儀表</h3>
         </a>
         <a href="">
-          <h3 class="pkProdects-clsList-item industry">精密剪鉗</h3> </a
-        ><a href="">
+          <h3 class="pkProdects-clsList-item industry">精密剪鉗</h3>
+        </a><a href="">
           <h3 class="pkProdects-clsList-item industry">電焊烙鐵</h3>
         </a>
       </div>
@@ -126,69 +85,32 @@
       <a href="">
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source srcset="/images/index-bn.png" media="(min-width: 768px)" />
-          <source srcset="/images/index-bn.png" media="(max-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(min-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/index-bn.png"
-            srcset="/images/index-bn.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+          <img src="/images/index-bn.jpg" srcset="/images/index-bn.jpg" alt="科玩套餐組" class="img-responsive" />
         </picture>
       </a>
     </div>
     <div class="col-xs-12 col-lg-7">
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
     </div>
@@ -201,9 +123,7 @@
       <h2 class="pkProdects-title">五金電力</h2>
       <div class="pkProdects-clsList industry">
         <a href="">
-          <h3
-            class="pkProdects-clsList-item industry pkProdects-clsList-active"
-          >
+          <h3 class="pkProdects-clsList-item industry pkProdects-clsList-active">
             Test Instruments
           </h3>
         </a>
@@ -213,10 +133,10 @@
         <a href="">
           <h3 class="pkProdects-clsList-item industry">
             Electrical Pliers
-          </h3> </a
-        ><a href="">
-          <h3 class="pkProdects-clsList-item industry">Knife & Scissors</h3> </a
-        ><a href="">
+          </h3>
+        </a><a href="">
+          <h3 class="pkProdects-clsList-item industry">Knife & Scissors</h3>
+        </a><a href="">
           <h3 class="pkProdects-clsList-item industry">Crimpers</h3>
         </a>
         <a href="">
@@ -228,69 +148,32 @@
       <a href="">
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source srcset="/images/index-bn.png" media="(min-width: 768px)" />
-          <source srcset="/images/index-bn.png" media="(max-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(min-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/index-bn.png"
-            srcset="/images/index-bn.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+          <img src="/images/index-bn.jpg" srcset="/images/index-bn.jpg" alt="科玩套餐組" class="img-responsive" />
         </picture>
       </a>
     </div>
     <div class="col-xs-12 col-lg-7">
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
     </div>
@@ -311,8 +194,8 @@
           <h3 class="pkProdects-clsList-item science">編程系列</h3>
         </a>
         <a href="">
-          <h3 class="pkProdects-clsList-item science">編程系列</h3> </a
-        ><a href="">
+          <h3 class="pkProdects-clsList-item science">編程系列</h3>
+        </a><a href="">
           <h3 class="pkProdects-clsList-item science">編程系列</h3>
         </a>
       </div>
@@ -321,69 +204,32 @@
       <a href="">
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source srcset="/images/index-bn.png" media="(min-width: 768px)" />
-          <source srcset="/images/index-bn.png" media="(max-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(min-width: 768px)" />
+          <source srcset="/images/index-bn.jpg" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/index-bn.png"
-            srcset="/images/index-bn.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+          <img src="/images/index-bn.jpg" srcset="/images/index-bn.jpg" alt="科玩套餐組" class="img-responsive" />
         </picture>
       </a>
     </div>
     <div class="col-xs-12 col-lg-7">
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-science pkCI-color-science">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-science pkCI-color-science">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-science pkCI-color-science">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
       <div class="col-xs-6">
-        <a
-          href=""
-          class="pkProdects-item pkCI-borderColor-science pkCI-color-science"
-        >
-          <img
-            src="/images/index-proImg.png"
-            srcset="/images/index-proImg.png"
-            alt="科玩套餐組"
-            class="img-responsive"
-          />
+        <a href="" class="pkProdects-item pkCI-borderColor-science pkCI-color-science">
+          <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
         </a>
       </div>
     </div>

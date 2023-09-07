@@ -27,8 +27,8 @@
 				</div>
 			</div>
 
-			<!-- include virtual="/component/index/_brand.asp" -->
-			<!-- #include virtual="/component/index/_brand-EN.asp" -->
+			<!-- #include virtual="/component/index/_brand.asp" -->
+			<!-- include virtual="/component/index/_brand-EN.asp" -->
 
 			<div class="container-full">
 				<div class="container">

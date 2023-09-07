@@ -663,6 +663,8 @@ hr {
     font-size: 0.9em;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list a {
+    display: block;
+    width: 100%;
     color: #616161;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-mmb {
@@ -711,6 +713,8 @@ hr {
     background: #e8e8e8;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list a {
+    display: block;
+    width: 100%;
     white-space: nowrap;
     color: dimgray;
   }
@@ -821,6 +825,8 @@ hr {
     font-size: 0.9em;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list a {
+    display: block;
+    width: 100%;
     color: #616161;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-mmb {
@@ -869,6 +875,8 @@ hr {
     background: #e8e8e8;
   }
   #pkdv .pkHeader .mainNAV-list .megaMENU-list a {
+    display: block;
+    width: 100%;
     white-space: nowrap;
     color: dimgray;
   }
@@ -1113,6 +1121,8 @@ hr {
     font-size: 0.9em;
   }
   #pkdv .pkHeader-member .megaMENU-list a {
+    display: block;
+    width: 100%;
     color: #616161;
   }
   #pkdv .pkHeader-member .megaMENU-mmb {
@@ -1161,6 +1171,8 @@ hr {
     background: #e8e8e8;
   }
   #pkdv .pkHeader-member .megaMENU-list a {
+    display: block;
+    width: 100%;
     white-space: nowrap;
     color: dimgray;
   }
