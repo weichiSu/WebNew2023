@@ -62,6 +62,7 @@
   border-width: 2px;
   border-style: solid;
   border-color: transparent;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 #pkdv .swiper-BN3-item:hover .swiper-BN3-item-txt {
   border-color: white;
@@ -288,6 +289,9 @@
 }
 @media (min-width: 1200px) {
   #pkdv .pkBrand-left {
+    display: flex;
+    align-items: center;
+    min-height: 475px;
     margin: 100px 120px 100px 0;
     padding: 20px 0;
   }

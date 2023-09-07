@@ -78,6 +78,7 @@
   border-width: 2px;
   border-style: solid;
   border-color: transparent;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 #pkdv .classification .swiper-BN3-item:hover .swiper-BN3-item-txt {
   border-color: white;
