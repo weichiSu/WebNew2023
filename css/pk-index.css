@@ -415,8 +415,9 @@
   color: #0d0d0d;
 }
 #pkdv .pkProdects-item {
+  overflow: hidden;
   margin: 20px 10px 0;
-  padding: 20px 10px;
+  padding: 0;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -429,7 +430,8 @@
 }
 @media (min-width: 1200px) {
   #pkdv .pkProdects-item {
-    margin: 0 20px 40px;
+    height: 230px;
+    margin: 0 20px 20px;
   }
 }
 #pkdv .pkProdects-item:hover {
@@ -445,5 +447,5 @@
 }
 #pkdv .pkProdects-banner img {
   overflow: hidden;
-  border-radius: 40px;
+  border-radius: 20px;
 }/*# sourceMappingURL=pk-index.css.map */
