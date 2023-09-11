@@ -28,6 +28,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+#pkdv .classification .swiper-button-next, #pkdv .classification .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 #pkdv .classification .swiper-pagination-bullets {
   bottom: 25px;
 }
@@ -37,8 +42,8 @@
   }
 }
 #pkdv .classification .swiper-button-next:after, #pkdv .classification .swiper-button-prev:after {
-  color: #cccccc;
-  font-size: 2em;
+  color: white;
+  font-size: 1.2em;
 }
 #pkdv .classification .swiper-pagination-bullet {
   width: 30px;
