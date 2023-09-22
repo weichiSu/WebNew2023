@@ -3,7 +3,8 @@
   <div class="container-fluid pkCI-background-industry">
     <div class="container">
       <div class="col-xs-7 col-lg-4 pkHeader-slogan">
-        A friend that you can trust.
+        <span>行家選擇，盡在寶工</span>
+        <!-- <img src="/images/slogan-icon.svg" alt="A friend that you can trust." height="19px"> -->
       </div>
       <div class="col-xs-5 col-lg-8 pkHeader-smallMenu">
         <div class="navbar">
@@ -17,33 +18,21 @@
   <div class="container-fluid">
     <div class="container">
       <div class="col-xs-4 col-lg-2 pkHeader-logoBrands">
-        <a href="/index.asp" title="寶工"
-          ><img
-            src="/images/logo_Tool.svg"
-            alt="寶工"
-            class="pkHeader-logoImg industry"
-        /></a>
+        <a href="/index.asp" title="寶工"><img src="/images/logo_Tool.svg" alt="寶工"
+            class="pkHeader-logoImg industry" /></a>
         <!-- <a href="/index.asp" title="寶工"><img src="/images/logo_Science.svg" alt="寶工" class="pkHeader-logoImg science" /></a> -->
       </div>
 
-      <div
-        class="col-xs-2 col-xs-push-6 col-lg-7 col-lg-push-0 pkHeader-mainMenu"
-      >
+      <div class="col-xs-2 col-xs-push-6 col-lg-7 col-lg-push-0 pkHeader-mainMenu">
         <nav id="js-mainNAV" class="navbar">
           <!-- include virtual="/component/_mainNAV.asp" -->
           <!-- #include virtual="/component/_mainNAV-EN.asp" -->
         </nav>
       </div>
 
-      <div
-        class="col-xs-6 col-xs-pull-2 col-lg-3 col-lg-pull-0 pkHeader-searchArea"
-      >
+      <div class="col-xs-6 col-xs-pull-2 col-lg-3 col-lg-pull-0 pkHeader-searchArea">
         <!-- #include virtual="/component/_searchBar.asp" -->
-        <button
-          type="button"
-          class="hidden-xs hidden-sm hidden-md btn pkCI-color-industry"
-          onClick="location.href='/'"
-        >
+        <button type="button" class="hidden-xs hidden-sm hidden-md btn pkCI-color-industry" onClick="location.href='/'">
           <!-- 登入後 -->
           <div class="pkHeader-member">
             <!-- #include virtual="/images/member-icon.svg" -->
