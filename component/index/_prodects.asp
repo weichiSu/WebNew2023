@@ -36,7 +36,7 @@
         </picture>
       </a>
     </div>
-    <div class="col-xs-12 col-lg-7">
+    <div class="col-xs-12 col-lg-7 pkProdects-proList">
       <div class="col-xs-6">
         <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
           <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
@@ -92,7 +92,7 @@
         </picture>
       </a>
     </div>
-    <div class="col-xs-12 col-lg-7">
+    <div class="col-xs-12 col-lg-7 pkProdects-proList">
       <div class="col-xs-6">
         <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
           <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
@@ -155,7 +155,7 @@
         </picture>
       </a>
     </div>
-    <div class="col-xs-12 col-lg-7">
+    <div class="col-xs-12 col-lg-7 pkProdects-proList">
       <div class="col-xs-6">
         <a href="" class="pkProdects-item pkCI-borderColor-industry pkCI-color-industry">
           <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />
@@ -211,7 +211,7 @@
         </picture>
       </a>
     </div>
-    <div class="col-xs-12 col-lg-7">
+    <div class="col-xs-12 col-lg-7 pkProdects-proList">
       <div class="col-xs-6">
         <a href="" class="pkProdects-item pkCI-borderColor-science pkCI-color-science">
           <img src="/images/index-proImg.jpg" srcset="/images/index-proImg.jpg" alt="科玩套餐組" class="img-responsive" />

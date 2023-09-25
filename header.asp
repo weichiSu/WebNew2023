@@ -3,13 +3,13 @@
   <div class="container-fluid pkCI-background-industry">
     <div class="container">
       <div class="col-xs-7 col-lg-4 pkHeader-slogan">
-        <span>行家選擇，盡在寶工</span>
-        <!-- <img src="/images/slogan-icon.svg" alt="A friend that you can trust." height="19px"> -->
+        <!-- <span>行家選擇，盡在寶工</span> -->
+        <img src="/images/slogan-icon.svg" alt="A friend that you can trust." height="19px">
       </div>
       <div class="col-xs-5 col-lg-8 pkHeader-smallMenu">
         <div class="navbar">
-          <!-- include virtual="/component/_topNAV.asp" -->
-          <!-- #include virtual="/component/_topNAV-EN.asp" -->
+          <!-- #include virtual="/component/_topNAV.asp" -->
+          <!-- include virtual="/component/_topNAV-EN.asp" -->
         </div>
       </div>
     </div>
@@ -25,8 +25,8 @@
 
       <div class="col-xs-2 col-xs-push-6 col-lg-7 col-lg-push-0 pkHeader-mainMenu">
         <nav id="js-mainNAV" class="navbar">
-          <!-- include virtual="/component/_mainNAV.asp" -->
-          <!-- #include virtual="/component/_mainNAV-EN.asp" -->
+          <!-- #include virtual="/component/_mainNAV.asp" -->
+          <!-- include virtual="/component/_mainNAV-EN.asp" -->
         </nav>
       </div>
 
