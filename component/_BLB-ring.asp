@@ -4,16 +4,12 @@
       <a href="#" title="大量採購">
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source srcset="/images/桌電.jpg" media="(min-width: 768px)" />
+          <source srcset="http://art.prokits.com.tw:10454/images/Pages/Login_zh-TW.jpg" media="(min-width: 768px)" />
           <source srcset="/images/手機.jpg" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/桌電.jpg"
-            srcset="/images/桌電.jpg"
-            alt="大量採購"
-            draggable="false"
-            class="swiper-img"
-          />
+          <img src="http://art.prokits.com.tw:10454/images/Pages/Login_zh-TW.jpg"
+            srcset="http://art.prokits.com.tw:10454/images/Pages/Login_zh-TW.jpg" alt="大量採購" draggable="false"
+            class="swiper-img" />
         </picture>
       </a>
     </div>
@@ -24,13 +20,7 @@
           <source srcset="/images/液壓lg.png" media="(min-width: 768px)" />
           <source srcset="/images/液壓xs.png" media="(max-width: 768px)" />
           <!--[if IE 9]></video><![endif]-->
-          <img
-            src="/images/液壓lg.png"
-            srcset="/images/液壓lg.png"
-            alt="大量採購"
-            draggable="false"
-            class="swiper-img"
-          />
+          <img src="/images/液壓lg.png" srcset="/images/液壓lg.png" alt="大量採購" draggable="false" class="swiper-img" />
         </picture>
       </a>
     </div>

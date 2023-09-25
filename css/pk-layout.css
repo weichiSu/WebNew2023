@@ -1019,7 +1019,7 @@ hr {
   }
 }
 #pkdv .pkHeader-slogan {
-  padding: 10px;
+  padding: 10px 0 0;
   color: white;
   font-family: "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -1034,7 +1034,7 @@ hr {
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader-logoBrands {
-    padding: 10px 0;
+    padding: 10px;
   }
 }
 #pkdv .pkHeader-logoImg {
@@ -1186,16 +1186,16 @@ hr {
   transform: scale(1, 1);
 }
 #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
-  padding-top: 113px;
+  padding-top: 122px;
 }
 @media (min-width: 768px) {
   #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
-    padding-top: 125px;
+    padding-top: 120px;
   }
 }
 @media (min-width: 1200px) {
   #pkdv .pkHeader + .container-full, #pkdv .pkHeader + .container {
-    padding-top: 135px;
+    padding-top: 148px;
   }
 }
 #pkdv .footer {

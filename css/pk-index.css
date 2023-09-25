@@ -414,6 +414,9 @@
 #pkdv .pkProdects-clsList-active {
   color: #0d0d0d;
 }
+#pkdv .pkProdects-proList .col-xs-6:nth-child(odd) {
+  clear: both;
+}
 #pkdv .pkProdects-item {
   overflow: hidden;
   margin: 20px 10px 0;
