@@ -32,18 +32,18 @@
         </div>
         <div class="col-xs-12 col-lg-6 col-lg-pull-6 pkBrand-left-bgColor">
           <h3 class="pkBrand-left">
-            <p>Pro&rsquo;sKit<sup>&reg;</sup> is composed of “Pro”+”s”+”kit”, these words combined
-            meaningfully from "Professional&rsquo;s Tool Kits" as well as
-            “Professional Science Kits” . For this brand name, Prokit&rsquo;s aims to
+            <p>Pro'sKit<sup>&reg;</sup> is composed of “Pro”+”s”+”kit”, these words combined
+            meaningfully from "Professional's Tool Kits" as well as
+            “Professional Science Kits” . For this brand name, Prokit's aims to
             be a professional tool/science kits manufacturer, developing
-            professional tools to make people&rsquo;s job efficiently and well done;
+            professional tools to make people's job efficiently and well done;
             whereas professional science kits encourage students to approach
             “STEAM” spirit. “Innovation, Quality, Service” are Prokit&rsquo;s
-            company&rsquo;s policy and permanent insistence of Pro&rsquo;sKit<sup>&reg;</sup> brand. We
+            company's policy and permanent insistence of Pro'sKit<sup>&reg;</sup> brand. We
             work with “innovation” - develop professional tools, “quality” –
             meet the international safety standard, “service” – focus on user
             friendly design to provide the total tool solutions to satisfy
-            market demand. Pro&rsquo;sKit<sup>&reg;</sup> is not only a brand; it is your excellent
+            market demand. Pro'sKit<sup>&reg;</sup> is not only a brand; it is your excellent
             helper and a friend that you can trust.
             </p>
           </h3>
