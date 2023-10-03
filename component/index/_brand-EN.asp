@@ -39,7 +39,7 @@
             professional tools to make people&rsquo;s job efficiently and well done;
             whereas professional science kits encourage students to approach
             “STEAM” spirit. “Innovation, Quality, Service” are Prokit&rsquo;s
-            company&rsquo;s policy and permanent insistence of Pro&rsquo;sKit&reg; brand. We
+            company&rsquo;s policy and permanent insistence of Pro&rsquo;sKit<sup>&reg;</sup> brand. We
             work with “innovation” - develop professional tools, “quality” –
             meet the international safety standard, “service” – focus on user
             friendly design to provide the total tool solutions to satisfy
