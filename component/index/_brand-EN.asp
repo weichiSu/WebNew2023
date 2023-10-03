@@ -32,7 +32,7 @@
         </div>
         <div class="col-xs-12 col-lg-6 col-lg-pull-6 pkBrand-left-bgColor">
           <h3 class="pkBrand-left">
-            Pro&rsquo;sKit<sup>&reg;</sup> is composed of “Pro”+”s”+”kit”, these words combined
+            <p>Pro&rsquo;sKit<sup>&reg;</sup> is composed of “Pro”+”s”+”kit”, these words combined
             meaningfully from "Professional&rsquo;s Tool Kits" as well as
             “Professional Science Kits” . For this brand name, Prokit&rsquo;s aims to
             be a professional tool/science kits manufacturer, developing
@@ -45,6 +45,7 @@
             friendly design to provide the total tool solutions to satisfy
             market demand. Pro&rsquo;sKit<sup>&reg;</sup> is not only a brand; it is your excellent
             helper and a friend that you can trust.
+            </p>
           </h3>
         </div>
       </div>
