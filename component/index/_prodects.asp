@@ -120,7 +120,7 @@
 <div class="row pkProdects">
   <div class="container">
     <div class="col-xs-12">
-      <h2 class="pkProdects-title">五金電力</h2>
+      <h2 class="pkProdects-title">五金水電</h2>
       <div class="pkProdects-clsList industry">
         <a href="">
           <h3 class="pkProdects-clsList-item industry pkProdects-clsList-active">
