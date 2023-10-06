@@ -29,7 +29,7 @@
           <div class="">上海分公司</div>
           <div class="">上海寶工工具有限公司</div>
           <div class="">電話｜+86 21-68183050</div>
-          <div class="">信箱｜psha@mail.prokits.com.tw</div>
+          <div class="">信箱｜sha@mail.prokits.com.tw</div>
         </div>
       </div>
 
