@@ -1,0 +1,64 @@
+th
+  text-align: left
+
+// Baseline styles
+
+.table
+  width: 100%
+  max-width: 100%
+  margin-bottom: 1em
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot
+    > tr
+      > th,
+      > td
+        padding: .5rem .5rem
+        vertical-align: top
+        border-top: 1px solid #dee2e6
+
+  // Bottom align for column headings
+  > thead > tr > th
+    vertical-align: bottom
+    border-bottom: 2px solid #dee2e6
+
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child
+    > tr:first-child
+      > th,
+      > td
+        border-top: 0
+
+  // Account for multiple tbody instances
+  > tbody + tbody
+    border-top: 2px solid #dee2e6
+
+  &-bordered
+    border: 1px solid #dee2e6
+  > thead,
+  > tbody,
+  > tfoot
+    > tr
+      > th,
+      > td
+        border: 1px solid #dee2e6
+
+  > thead > tr
+    > th,
+    > td
+      border-bottom-width: 2px
+
+  &-striped
+  > tbody > tr:nth-of-type(odd)
+    background-color: #f2f2f2
+
+// Hover effect
+//
+// Placed here since it has to come after the potential zebra striping
+
+.table-responsive
+  min-height: .01% // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
+  overflow-x: auto
