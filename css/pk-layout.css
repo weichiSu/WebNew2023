@@ -347,6 +347,7 @@ hr {
 }
 #pkdv a {
   color: black;
+  text-decoration: none;
 }
 #pkdv hr {
   margin: 10px 0;
