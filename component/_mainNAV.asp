@@ -204,7 +204,8 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list js-menu nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
+  <li
+    class="mainNAV-list js-menu nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
     技術支援
     <div class="megaMENU">
       <ul class="megaMENU-group">
@@ -223,7 +224,7 @@
     經銷商專區
     <div class="megaMENU">
       <ul class="megaMENU-group">
-        <li class="megaMENU-list"><a href="" title="公告欄">公告欄</a> </li>
+        <li class="megaMENU-list"><a href="" title="公告欄">公告欄</a></li>
         <li class="megaMENU-list"><a href="" title="報價專區">報價專區</a></li>
         <li class="megaMENU-list"><a href="" title="報表專區">報表專區</a></li>
         <li class="megaMENU-list"><a href="" title="停產通知">停產通知</a></li>
@@ -232,24 +233,29 @@
       </ul>
     </div>
   </li>
-  <li class="mainNAV-list js-menu mainNAV-list-inner-top visible-xs visible-sm visible-md">
+  <li
+    class="mainNAV-list js-menu mainNAV-list-inner-top visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">聯絡我們</a>
   </li>
-  <li class="mainNAV-list js-menu nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
+  <li
+    class="mainNAV-list js-menu nextLevel mainNAV-list-inner-top visible-xs visible-sm visible-md">
     我的帳號
     <div class="megaMENU">
       <ul class="megaMENU-group">
-        <li class="megaMENU-list"><a href="" title="會員資料">會員資料</a> </li>
+        <li class="megaMENU-list"><a href="" title="會員資料">會員資料</a></li>
         <li class="megaMENU-list"><a href="" title="變更密碼">變更密碼</a></li>
-        <li class="megaMENU-list"><a href="" title="成為經銷商">成為經銷商</a></li>
+        <li class="megaMENU-list">
+          <a href="" title="成為經銷商">成為經銷商</a>
+        </li>
       </ul>
     </div>
   </li>
   <li class="mainNAV-list js-menu visible-xs visible-sm visible-md">
     <a href="/edm/sales21.asp">登入</a>
   </li>
-  <li class="mainNAV-list visible-xs visible-sm visible-md mainNAV-list-inner-top">
-    <!-- #include virtual="/component/_socialList.asp" -->
+  <li
+    class="mainNAV-list visible-xs visible-sm visible-md mainNAV-list-inner-top">
+    <!-- #include virtual="/component/_socialList-CN.asp" -->
   </li>
 </ul>
 <button class="icon-burger pkCI-color-industry" aria-hidden="true">

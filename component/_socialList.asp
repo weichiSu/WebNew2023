@@ -32,9 +32,5 @@
       </p>
     </div>
   </li>
-  <li class="socialList-item">
-    <a target="_blank" href="https://weibo.com/u/1975415822"
-      ><i class="bi bi-sina-weibo offcanvasIcon"></i
-    ></a>
-  </li>
+  
 </ul>

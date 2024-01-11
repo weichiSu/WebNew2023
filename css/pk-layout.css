@@ -981,6 +981,17 @@ hr {
   text-align: left;
   color: #737373;
 }
+#pkdv .pkHeader .socialList-fill {
+  fill: #737373;
+}
+@media (min-width: 1200px) {
+  #pkdv .pkHeader .socialList-fill {
+    fill: #fff;
+  }
+}
+#pkdv .pkHeader .iconWidth {
+  width: 20px;
+}
 #pkdv .pkHeader .searchBar {
   display: flex;
   justify-content: flex-end;

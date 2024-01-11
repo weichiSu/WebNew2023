@@ -3,7 +3,9 @@
     經銷商專區
     <div class="megaMENU">
       <ul class="megaMENU-group">
-        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="公告欄">公告欄</a></li>
+        <li class="megaMENU-list">
+          <a href="/product/ec_index.asp" title="公告欄">公告欄</a>
+        </li>
         <li class="megaMENU-list"><a href="" title="報價專區">報價專區</a></li>
         <li class="megaMENU-list"><a href="" title="報表專區">報表專區</a></li>
         <li class="megaMENU-list"><a href="" title="停產通知">停產通知</a></li>
@@ -16,7 +18,9 @@
     技術支援
     <div class="megaMENU">
       <ul class="megaMENU-group">
-        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="常見問題">常見問題</a></li>
+        <li class="megaMENU-list">
+          <a href="/product/ec_index.asp" title="常見問題">常見問題</a>
+        </li>
         <li class="megaMENU-list"><a href="" title="下載中心">下載中心</a></li>
         <li class="megaMENU-list"><a href="" title="技術諮詢">技術諮詢</a></li>
         <li class="megaMENU-list"><a href="" title="科玩補件">科玩補件</a></li>
@@ -30,7 +34,8 @@
     <a target="_blank" href="">聯絡我們</a>
   </li>
   <li class="mainNAV-list hidden-xs hidden-sm hidden-md">
-    <!-- #include virtual="/component/_socialList.asp" -->
+    <!-- include virtual="/component/_socialList.asp" -->
+    <!-- #include virtual="/component/_socialList-CN.asp" -->
   </li>
   <li class="mainNAV-list js-menu">
     繁中
@@ -42,7 +47,6 @@
       </ul>
     </div>
   </li>
-
 </ul>
 
 <script>
