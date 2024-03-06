@@ -125,90 +125,192 @@
   background-size: contain;
   margin: 0 3px;
 }
-#pkdv .wiseman-title {
-  margin-top: 20px;
-  padding: 0 20px 10px;
-  font-size: 1.5em;
-  font-weight: 600;
-  color: #1c1c1c;
-}
 @media (min-width: 1200px) {
-  #pkdv .wiseman-title {
-    padding: 0 0 10px;
+  #pkdv .wiseman {
+    padding: 0 0 0 30px;
+    border-left: 1px solid #e6e6e6;
   }
 }
-#pkdv .wiseman .img-responsive {
-  margin: 0 auto;
-}
-#pkdv .wisemanImmed {
-  margin-bottom: 30px;
-  padding-bottom: 50px;
-  border-bottom: 3px dashed #FFBA35;
-}
-#pkdv .wisemanImmed-list {
-  background: #FFF3E8;
-  margin: 0 0 50px;
-}
 @media (min-width: 1200px) {
-  #pkdv .wisemanImmed-list {
+  #pkdv .wiseman-list {
     display: flex;
   }
 }
-#pkdv .wisemanImmed-txt {
+#pkdv .wiseman-container {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+#pkdv .wiseman-articleImage {
+  padding: 1em;
+}
+#pkdv .wiseman-articleInfobox {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 2.5em;
-  padding: 20px 30px;
-  font-size: 1.25em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  direction: ltr;
+  vertical-align: middle;
+  padding-top: 0.7em;
+  padding-bottom: 1.4em;
 }
-#pkdv .wisemanImmed-name {
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  font-size: 1.5em;
-  font-weight: 600;
-  border-bottom: 1px solid #969696;
+#pkdv .wiseman-articleTitle {
+  font-size: 1.15em;
+  font-weight: 800;
+  color: #256C53;
 }
-#pkdv .wisemanImmed-info {
+#pkdv .wiseman-is-divider {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  height: 2px;
+}
+#pkdv .wiseman-articleDate {
+  outline-color: #256C53;
+  color: #256C53;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  flex: 0 0 45px;
+  width: 45px;
+  height: 45px;
+  margin: 0 15px 0 0;
+  padding: 5px;
+  outline: 2px solid #256C53;
+  text-align: center;
+  line-height: 0.85em;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  background-color: white;
+  top: 2.5em;
+  left: 2em;
+}
+@media (min-width: 1200px) {
+  #pkdv .wiseman-articleDate {
+    left: 0;
+  }
+}
+#pkdv .sideMenuDate {
+  margin-bottom: 50px;
+  padding: 0 20px;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+}
+@media (min-width: 1200px) {
+  #pkdv .sideMenuDate {
+    padding: 0;
+  }
+}
+#pkdv .sideMenuDate-title {
+  font-size: 1.1em;
+  color: #6a6a6a;
+}
+#pkdv .sideMenuDate-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+#pkdv .sideMenuDate-item:hover {
+  color: #256C53;
+}
+#pkdv .sideMenuDate-content {
+  margin: 20px 10px 0 0;
+  padding: 0 20px 0 0;
+}
+#pkdv .sideMenuDate-content-title {
   line-height: 1.3em;
 }
-#pkdv .wisemanImmed-btn {
-  justify-content: flex-end;
-  margin-top: 20px;
-}
-#pkdv .wisemanImmed-btn .btn {
-  border-radius: 0;
-}
-#pkdv .wisemanExp {
-  position: relative;
-}
-#pkdv .wisemanExp-list {
-  padding: 25px 15px 50px;
-  text-decoration: none;
-}
-#pkdv .wisemanExp-title {
-  padding: 10px 0;
-  color: #256C53;
-  font-size: 1.25em;
-  font-weight: 600;
-}
-#pkdv .wisemanExp-info {
-  margin-bottom: 10px;
+#pkdv .sideMenuDate-date {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  flex: 0 0 45px;
+  width: 45px;
   height: 45px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  color: #666666;
+  margin: 0 15px 0 0;
+  padding: 5px;
+  outline: 2px solid white;
+  text-align: center;
+  line-height: 0.85em;
 }
-#pkdv .wisemanExp-time {
+#pkdv .sideMenuDate-day {
+  padding-top: 2px;
+  font-size: 0.9em;
+  font-family: futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#pkdv .sideMenuDate-moon {
+  font-size: 0.7em;
+}
+#pkdv .sideMenuDate-year {
+  font-size: 0.7em;
+}
+#pkdv .sideMenuDate .sideMenuDate-style {
+  outline-color: #256C53;
+  color: #256C53;
+}
+#pkdv .sideMenuDate + .sideMenuDate {
+  margin-bottom: 50px;
+  padding: 0 20px;
+  font: 1em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+}
+@media (min-width: 1200px) {
+  #pkdv .sideMenuDate + .sideMenuDate {
+    padding: 0;
+  }
+}
+#pkdv .sideMenuDate + .sideMenuDate-title {
+  font-size: 1.1em;
+  color: #6a6a6a;
+}
+#pkdv .sideMenuDate + .sideMenuDate-item {
   display: flex;
-  justify-content: flex-end;
-  color: #919191;
+  align-items: center;
+  text-decoration: none;
+  padding-bottom: 20px;
 }
-#pkdv .dropdown {
-  position: absolute;
-  right: 0;
-  top: 0;
+#pkdv .sideMenuDate + .sideMenuDate-item:hover {
+  color: #256C53;
+}
+#pkdv .sideMenuDate + .sideMenuDate-content {
+  margin: 20px 10px 0 0;
+  padding: 0 20px 0 0;
+}
+#pkdv .sideMenuDate + .sideMenuDate-content-title {
+  line-height: 1.3em;
+}
+#pkdv .sideMenuDate + .sideMenuDate-date {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  flex: 0 0 45px;
+  width: 45px;
+  height: 45px;
+  margin: 0 15px 0 0;
+  padding: 5px;
+  outline: 2px solid white;
+  text-align: center;
+  line-height: 0.85em;
+}
+#pkdv .sideMenuDate + .sideMenuDate-day {
+  padding-top: 2px;
+  font-size: 0.9em;
+  font-family: futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#pkdv .sideMenuDate + .sideMenuDate-moon {
+  font-size: 0.7em;
+}
+#pkdv .sideMenuDate + .sideMenuDate-year {
+  font-size: 0.7em;
+}
+#pkdv .sideMenuDate + .sideMenuDate .sideMenuDate-style {
+  outline-color: #0097DA;
+  color: #0097DA;
 }/*# sourceMappingURL=pk-wiseman.css.map */
