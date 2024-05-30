@@ -1233,7 +1233,7 @@ hr {
   max-width: 100%;
 }
 #pkdv .footer-logo-img.industry {
-  height: 80px;
+  height: 65px;
 }
 #pkdv .footer-logo-img.science {
   height: 65px;
@@ -1277,32 +1277,32 @@ hr {
   }
 }
 #pkdv .pkCI-background-industry {
-  background-color: #1C473B;
+  background-color: #005752;
 }
 #pkdv .pkCI-background-science {
-  background-color: #0097DA;
+  background-color: #009ADC;
 }
 #pkdv .pkCI-background-lighten-industry {
-  color: #51A956;
+  color: #1DAC4B;
 }
 #pkdv .pkCI-background-lighten-science {
-  color: #0097DA;
+  color: #66A8E3;
 }
 #pkdv .pkCI-borderColor-industry {
-  border-color: #256C53;
+  border-color: #005752;
 }
 #pkdv .pkCI-borderColor-science {
-  border-color: #0097DA;
+  border-color: #009ADC;
 }
 #pkdv .pkCI-color-industry {
-  color: #1C473B;
+  color: #005752;
 }
 #pkdv .pkCI-color-science {
-  color: #0097DA;
+  color: #009ADC;
 }
 #pkdv .pkCI-hover-color-industry:hover {
-  color: #1C473B;
+  color: #005752;
 }
 #pkdv .pkCI-hover-color-science:hover {
-  color: #0097DA;
+  color: #009ADC;
 }/*# sourceMappingURL=pk-layout.css.map */

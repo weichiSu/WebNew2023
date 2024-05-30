@@ -1,0 +1,194 @@
+@import _variables
+@import _minxins
+    
+
+#pkdv
+    .hero 
+        position: relative
+        // background-size: cover
+        // background-position: center
+        // height: 100vh
+        
+
+        
+        .overlay 
+            display: flex
+            justify-content: center
+            align-items: center
+            @media (min-width: $screen-lg)
+                background-image: url('../images/companyPIC.jpg')
+                background-position: center center
+                background-size: 100%
+
+            .contactForm
+                margin: 20px auto
+                @media (min-width: $screen-lg)
+                    width: 793   
+                    margin: 60px auto
+            
+            .contact-form 
+                background: rgba(255, 255, 255, 0.8)
+                padding: 20px
+                width: 50%
+                @media (max-width: $screen-lg)
+                    padding: 0
+                    width: 100%
+                
+
+                .contactTitle
+                    margin-top: 20px
+                    text-align: center
+                    font-size: 1.5em
+                    color: #005752
+                    font-weight: bold
+
+                .socialList
+                    display: flex
+                    flex-direction: row
+                    flex-wrap: wrap
+                    width: 150px
+                    color: #cacaca
+                    margin: 10px auto 10px
+                    @media (min-width: $screen-lg)
+                        display: none
+                
+                    &-item
+                        position: relative
+                        padding: 1em
+                        color: #cacaca
+                        display: inline
+                        width: 50%
+                        text-align: center
+                        &>i,&>a
+                            color: #cacaca
+                        .bi::before
+                            font-size: 35px            
+                    
+                    .megaMENU
+                        +transform(scale(1,0)) 
+                        position: absolute
+                        top: 55px
+                        left: -30px
+                        opacity: 0
+                        z-index: -1
+                        transition: all 0.5s
+                        transform-origin: 12.5% 0
+
+                
+                    &:hover
+                        .megaMENU
+                            opacity: 1
+                            border: 1px solid darken($WHITEcolor, 19%)
+                            border-radius: 4px
+                            background: darken($WHITEcolor, 0%)
+                            z-index: $zindex-floor
+                            +transform(scale(1,1))
+
+                .labelStyle
+                    display: block
+                    margin: 10px 0 5px
+                    color: #6B6767
+                
+
+                .inputStyle
+                    width: 100%
+                    padding: 10px
+                    margin-bottom: 20px
+                    border: 0
+                    @media (max-width: $screen-lg)
+                        background: #f5f5f5
+                    &::placeholder
+                        color: #a09d9d
+
+
+                .textStyle 
+                    width: 100%
+                    padding: 10px
+                    margin-bottom: 20px
+                    border: 0
+                    height: 10em
+                    @media (max-width: $screen-lg)
+                        background: #f5f5f5
+                    &::placeholder
+                        color: #a09d9d
+                    
+                .formBtn 
+                    width: 150px
+                    padding: 15px
+                    background: #005752
+                    color: white
+                    border: none
+                    border-radius: 2em
+                    cursor: pointer
+                    margin: 1em auto 0
+                    display: block
+
+                    &:hover 
+                        background: #56baaa
+            
+                .formStyle
+                    margin: 1.2em 9em
+                    @media (max-width: $screen-lg)
+                        margin: 1em 2.5em
+
+                .formInfo
+                    margin: 1em auto
+                    text-align: center
+
+
+    .services 
+        text-align: center
+        padding: 50px 20px
+        // border: 1px solid #005752
+        @media (max-width: $screen-lg)
+            background: #e6eeed
+
+        .dealerTitle
+            color: #005752
+            font-size: 25px
+            font-weight: bold
+
+        .dealerText
+            margin-top: 15px
+            margin-bottom: 45px
+            color: #6B6767
+
+
+        .service-cards 
+            
+            .service-card 
+                width: calc( 100% - 10px )
+                margin: 0 5px 20px
+                text-align: center
+                background: #F7F7F7
+                border-radius: 10px
+                display: flex
+                justify-content: center
+                align-items: center
+                padding:20px
+
+                .iconImg 
+                    width: 50px
+                    height: 50px
+                
+                .iconText
+                    font-size: 1.2em
+                    margin-left: 10px
+                    color: #005752
+
+
+        .join-button 
+            display: inline-block
+            margin: 20px auto 0
+            padding: 15px 45px
+            background: #56baaa
+            color: white
+            border: none
+            border-radius: 1.5em
+            cursor: pointer
+            text-decoration: none
+            font-size: 1em
+
+            &:hover 
+                background: #005f47
+

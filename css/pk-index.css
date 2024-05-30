@@ -190,8 +190,8 @@
 }
 @media (min-width: 1200px) {
   #pkdv .pkBrand {
-    background: linear-gradient(to right, #4DA9A0 50%, #2C6753 50%);
-    -pie-background: linear-gradient(to right, #4DA9A0 50%, #2C6753 50%);
+    background: linear-gradient(to right, #4DA9A0 50%, #005752 50%);
+    -pie-background: linear-gradient(to right, #4DA9A0 50%, #005752 50%);
     behavior: url(/pie/PIE.htc);
   }
 }
@@ -326,7 +326,7 @@
   }
 }
 #pkdv .pkBrand-right-bgColor {
-  background: #2C6753;
+  background: #005752;
 }
 @media (min-width: 1200px) {
   #pkdv .pkBrand-right-bgColor {

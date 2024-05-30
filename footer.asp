@@ -7,13 +7,19 @@
       <!--#include virtual="/component/_gotop.asp"-->
       <div class="col-xs-12 col-md-2-5 footer-logo">
         <a href="#" class="col-xs-6">
-          <img class="footer-logo-img industry" src="/images/logo_Tool.png" alt="" />
+          <img
+            class="footer-logo-img industry"
+            src="/images/PK_logo_Master_CMYK_white.png"
+            alt="" />
         </a>
         <a href="#" class="col-xs-6">
-          <img class="footer-logo-img science" src="/images/logo_Science.png" alt="" />
+          <img
+            class="footer-logo-img science"
+            src="/images/GE_logo_Master_CMYK_white.png"
+            alt="" />
         </a>
         <div class="col-xs-12 text-center">
-          &copy; 2022 Prokits Industries Co., LTD. 保留一切權利。<br>
+          &copy; 2022 Prokits Industries Co., LTD. 保留一切權利。<br />
           <a href="">使用條款</a>｜<a href="">隱私權聲明</a>
         </div>
       </div>
@@ -32,7 +38,6 @@
           <div class="">信箱｜sha@mail.prokits.com.tw</div>
         </div>
       </div>
-
     </div>
   </div>
 </footer>
