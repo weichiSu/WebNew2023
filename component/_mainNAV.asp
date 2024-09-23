@@ -2,7 +2,7 @@
   <li class="mainNAV-list js-menu nextLevel">
     商品總覽
     <div class="megaMENU">
-      <ul class="megaMENU-group columns2">
+      <ul class="megaMENU-group columns3">
         <li class="megaMENU-list">
           <a href="" title="Test Instruments">Test Instruments</a>
         </li>
@@ -65,14 +65,20 @@
         <li class="megaMENU-list">
           <a href="" title="Science Kits">Science Kits</a>
         </li>
+        <li class="megaMENU-list"></li>
+          <a href="https://catalog.prokits.com.tw/en/" title="2024 Tool Catalog">2024 Tool Catalog</a>
+        </li>
+        <li class="megaMENU-list"></li>
+          <a href="" title="2024 Science Kits Catalog">2024 Science Kits Catalog</a>
+        </li>
       </ul>
     </div>
     <!-- <div class="megaMENU">
-      <ul class="megaMENU-group columns2">
-        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="測試儀表類">測試儀表類</a></li>
+      <ul class="megaMENU-group columns3">
+        <li class="megaMENU-list"><a href="/product/ec_index.asp" title="電表/儀表類">電表/儀表類</a></li>
         <li class="megaMENU-list"><a href="" title="精密剪鉗類">精密剪鉗類</a></li>
         <li class="megaMENU-list"><a href="" title="電工剪鉗類">電工剪鉗類</a></li>
-        <li class="megaMENU-list"><a href="" title="剪刀類">剪刀類</a></li>
+        <li class="megaMENU-list"><a href="" title="刀剪類">刀剪類</a></li>
         <li class="megaMENU-list"><a href="" title="壓著鉗類">壓著鉗類</a></li>
         <li class="megaMENU-list"><a href="" title="剝線鉗類">剝線鉗類</a></li>
         <li class="megaMENU-list"><a href="" title="壓著工具類">壓著工具類</a></li>
@@ -90,7 +96,9 @@
         <li class="megaMENU-list"><a href="" title="綜合工具類">綜合工具類</a></li>
         <li class="megaMENU-list"><a href="" title="工具包類">工具包類</a></li>
         <li class="megaMENU-list"><a href="" title="工具組類">工具組類</a></li>
-        <li class="megaMENU-list"><a href="" title="科學玩具類">科學玩具類</a></li>
+        <li class="megaMENU-list"><a href="" title="科學玩具">科學玩具</a></li>
+        <li class="megaMENU-list"><a href="" title="2024工具目錄">2024工具目錄</a></li>
+        <li class="megaMENU-list"><a href="" title="2024科玩目錄">2024科玩目錄</a></li>
       </ul>
     </div> -->
   </li>
