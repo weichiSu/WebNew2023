@@ -2,7 +2,7 @@
   <li class="mainNAV-list js-menu nextLevel">
     商品總覽
     <div class="megaMENU">
-      <ul class="megaMENU-group columns3">
+      <ul class="megaMENU-group columns2">
         <li class="megaMENU-list">
           <a href="" title="Test Instruments">Test Instruments</a>
         </li>
@@ -65,16 +65,10 @@
         <li class="megaMENU-list">
           <a href="" title="Science Kits">Science Kits</a>
         </li>
-        <li class="megaMENU-list"></li>
-          <a href="https://catalog.prokits.com.tw/en/" title="2024 Tool Catalog">2024 Tool Catalog</a>
-        </li>
-        <li class="megaMENU-list"></li>
-          <a href="" title="2024 Science Kits Catalog">2024 Science Kits Catalog</a>
-        </li>
       </ul>
     </div>
     <!-- <div class="megaMENU">
-      <ul class="megaMENU-group columns3">
+      <ul class="megaMENU-group columns2">
         <li class="megaMENU-list"><a href="/product/ec_index.asp" title="電表/儀表類">電表/儀表類</a></li>
         <li class="megaMENU-list"><a href="" title="精密剪鉗類">精密剪鉗類</a></li>
         <li class="megaMENU-list"><a href="" title="電工剪鉗類">電工剪鉗類</a></li>
@@ -97,8 +91,6 @@
         <li class="megaMENU-list"><a href="" title="工具包類">工具包類</a></li>
         <li class="megaMENU-list"><a href="" title="工具組類">工具組類</a></li>
         <li class="megaMENU-list"><a href="" title="科學玩具">科學玩具</a></li>
-        <li class="megaMENU-list"><a href="" title="2024工具目錄">2024工具目錄</a></li>
-        <li class="megaMENU-list"><a href="" title="2024科玩目錄">2024科玩目錄</a></li>
       </ul>
     </div> -->
   </li>
@@ -202,12 +194,17 @@
     <div class="megaMENU">
       <ul class="megaMENU-group">
         <li class="megaMENU-list">
-          <a href="/product/ec_index.asp" title="公司沿革">公司沿革</a>
+          <a href="/product/ec_index.asp" title="集團簡介">集團簡介</a>
         </li>
         <li class="megaMENU-list"><a href="" title="商標註冊">商標註冊</a></li>
-        <li class="megaMENU-list"><a href="" title="新聞中心">新聞中心</a></li>
+        <li class="megaMENU-list"><a href="" title="品質認證">品質認證</a></li>
         <li class="megaMENU-list">
-          <a href="" title="社會企業回饋">社會企業回饋</a>
+          <a href="https://catalog.prokits.com.tw/en/" title="2024工具目錄"
+            >2024工具目錄</a
+          >
+        </li>
+        <li class="megaMENU-list">
+          <a href="" title="2024科玩目錄">2024科玩目錄</a>
         </li>
       </ul>
     </div>
