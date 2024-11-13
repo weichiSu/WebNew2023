@@ -108,10 +108,38 @@
     min-width: calc(16.6666666667% - 30px);
   }
 }
+#pkdv .pkAbout {
+  font-size: 1.25em;
+}
+#pkdv .pkAbout-mainBN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 583px;
+  padding: 0 90px;
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: 600;
+  background: #005752;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-shadow: 0 0 16px rgba(0, 0, 0, 0.3411764706);
+}
+#pkdv .pkAbout-mainBN::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  opacity: 0.15;
+}
 #pkdv .pkAbout-title {
   margin: 0 auto;
-  padding: 15px 0 0;
-  font-size: 1.25em;
+  padding: 0;
+  font-size: 1.5em;
   font-weight: 600;
 }
 #pkdv .pkAbout-txt {
@@ -120,17 +148,13 @@
   padding: 15px 0 50px;
   color: #6B6767;
 }
-@media (min-width: 992px) {
-  #pkdv .pkAbout-txt {
-    width: 42%;
-  }
-}
 #pkdv .pkAbout-idea {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
-  padding: 20px 40px;
+  padding: 30px 90px;
   border-radius: 16px;
-  background: #D9D9D9;
+  background: #F7F7F7;
 }
 #pkdv .pkAbout-ideaGroup {
   padding-bottom: 80px;
@@ -138,14 +162,25 @@
 #pkdv .pkAbout-ideaInner {
   padding: 0 15px 15px;
 }
+#pkdv .pkAbout-btn {
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 6px 20px;
+  font-size: 0.7em;
+}
+#pkdv .pkAbout-btn::after {
+  position: relative;
+  top: 6px;
+  left: 6px;
+  content: url("../images/arrow-right-icon.svg");
+}
 #pkdv .proLine {
-  margin: 0 auto 50px;
+  margin: 0 auto 100px;
 }
 @media (min-width: 992px) {
   #pkdv .proLine {
     display: flex;
     align-items: center;
-    width: 90%;
   }
 }
 #pkdv .proLine-img {
@@ -153,34 +188,36 @@
   justify-content: center;
 }
 #pkdv .proLine-content {
-  padding: 0 10%;
+  padding: 10%;
 }
 @media (min-width: 992px) {
   #pkdv .proLine-content {
-    padding: 0 5%;
+    padding: 0 30px;
   }
 }
 #pkdv .proLine-txt {
-  margin: 10px auto;
+  margin: 10px auto 40px;
   color: #6B6767;
 }
-#pkdv .proLine-btn {
-  border-radius: 10px;
-  color: #ffffff;
-  padding: 6px 20px;
-  font-size: 0.7em;
+#pkdv .proLine:nth-of-type(odd) .proLine-img {
+  padding-right: 5%;
+  padding-left: 30px;
+}
+#pkdv .proLine:nth-of-type(even) .proLine-img {
+  padding-left: 5%;
+  padding-right: 30px;
 }
 #pkdv .courseGroup {
   position: relative;
   width: 90%;
-  margin: 20px auto;
+  margin: 20px auto 100px;
   font: 0.9em "微軟正黑體", "新細明體", futuramedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
 }
 #pkdv .course {
   position: relative;
   width: 50%;
-  padding: 0 20px 10px;
+  padding: 0 20px 30px;
   text-align: right;
 }
 #pkdv .course::after {
@@ -239,4 +276,8 @@
     width: 90%;
     height: 600px;
   }
+}
+#pkdv .innerSpace {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=pk-about.css.map */
