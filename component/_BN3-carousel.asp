@@ -1,30 +1,48 @@
 <div class="swiper BN3-carousel">
   <div class="swiper-wrapper">
     <div class="swiper-slide swiper-BN3-item">
-      <a href="#" title="修繕方案">
-        <img src="/images/index-bn3-1.png" srcset="/images/index-bn3-1.png" alt="修繕方案" draggable="false"
+      <a href="#" title="實驗室照片">
+        <img src="/images/about-industry-01.png" srcset="/images/about-industry-01.png" alt="實驗室照片" draggable="false"
           class="swiper-img" />
-        <div class="swiper-BN3-item-inner">
+        <!-- <div class="swiper-BN3-item-inner">
           <div class="swiper-BN3-item-txt">修繕方案修繕方案修繕方案修繕方案修繕方案修繕方案修繕方案修繕方案</div>
-        </div>
+        </div> -->
       </a>
     </div>
     <div class="swiper-slide swiper-BN3-item">
-      <a href="#" title="3C工具組">
-        <img src="/images/index-bn3-2.png" srcset="/images/index-bn3-2.png" alt="3C工具組" draggable="false"
+      <a href="#" title="實驗室照片">
+        <img src="/images/about-industry-02.png" srcset="/images/about-industry-02.png" alt="實驗室照片" draggable="false"
           class="swiper-img" />
-        <div class="swiper-BN3-item-inner">
+        <!-- <div class="swiper-BN3-item-inner">
           <div class="swiper-BN3-item-txt">3C工具組</div>
-        </div>
+        </div> -->
       </a>
     </div>
     <div class="swiper-slide swiper-BN3-item">
-      <a href="#" title="手作">
-        <img src="/images/index-bn3-3.png" srcset="/images/index-bn3-3.png" alt="手作" draggable="false"
+      <a href="#" title="實驗室照片">
+        <img src="/images/about-industry-03.png" srcset="/images/about-industry-03.png" alt="實驗室照片" draggable="false"
           class="swiper-img" />
-        <div class="swiper-BN3-item-inner">
+        <!-- <div class="swiper-BN3-item-inner">
           <div class="swiper-BN3-item-txt">手作</div>
-        </div>
+        </div> -->
+      </a>
+    </div>
+    <div class="swiper-slide swiper-BN3-item">
+      <a href="#" title="實驗室照片">
+        <img src="/images/about-industry-04.png" srcset="/images/about-industry-04.png" alt="實驗室照片" draggable="false"
+          class="swiper-img" />
+        <!-- <div class="swiper-BN3-item-inner">
+          <div class="swiper-BN3-item-txt">手作</div>
+        </div> -->
+      </a>
+    </div>
+    <div class="swiper-slide swiper-BN3-item">
+      <a href="#" title="實驗室照片">
+        <img src="/images/about-industry-05.png" srcset="/images/about-industry-05.png" alt="實驗室照片" draggable="false"
+          class="swiper-img" />
+        <!-- <div class="swiper-BN3-item-inner">
+          <div class="swiper-BN3-item-txt">手作</div>
+        </div> -->
       </a>
     </div>
   </div>

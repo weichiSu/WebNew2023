@@ -1,0 +1,147 @@
+// 核心變數+混合設定
+@import _variables
+@import _minxins
+
+$timePoint: 14px
+
+#pkdv
+  @import _BLB-ring
+  @import index/_proposal
+  .pkAbout
+    font-size: $font-size-md
+    &-mainBN
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 100%
+      height: 583px
+      padding: 0 90px
+      color: $WHITEcolor
+      font-size: 1.8em
+      font-weight: 600
+      background: #005752
+      background-position: center center
+      background-repeat: no-repeat
+      background-size: contain
+      text-shadow: 0 0 16px #00000057
+      &::after
+        content: ""
+        display: block
+        width: 100%
+        height: 100%
+        position: absolute
+        background: #000
+        opacity: .15
+    &-title
+      +distanceMP(0 auto, 0)
+      font-size: $font-size-lg
+      font-weight: 600
+      // color: #005752
+    &-txt
+      width: 80%
+      +distanceMP(0 auto, 15px 0 50px)
+      color: #6B6767
+    &-idea
+      display: flex
+      align-items: center
+      justify-content: space-evenly
+      padding: 30px 90px
+      border-radius: 16px
+      background: #F7F7F7
+      &Group
+        padding-bottom: 80px
+      &Inner
+        padding: 0 15px 15px
+    &-btn
+      border-radius: 10px
+      color: $WHITEcolor
+      padding: 6px 20px
+      font-size: $font-size-xs
+      &::after
+        position: relative
+        top: 6px
+        left: 6px
+        content: url("../images/arrow-right-icon.svg")
+  .proLine
+    margin: 0 auto 100px
+    @media (min-width: $screen-md)
+      display: flex
+      align-items: center
+    &-img
+      display: flex
+      justify-content: center
+    &-content
+      padding: 10%
+      @media (min-width: $screen-md)
+        padding: 0 30px
+    &-txt
+      margin: 10px auto 40px
+      color: #6B6767
+    &:nth-of-type(odd)
+      .proLine-img
+        padding-right: 5%
+        padding-left: 30px
+    &:nth-of-type(even)
+      .proLine-img
+        padding-left: 5%
+        padding-right: 30px
+  .courseGroup
+    position: relative
+    width: 90%
+    margin: 20px auto 100px
+    +fontT-sm
+  .course
+    position: relative
+    width: 50%
+    padding: 0 20px 30px
+    text-align: right
+    &::after
+      content: ""
+      display: block
+      width: 2px
+      height: 100%
+      position: absolute
+      top: 10px
+      right: -1px
+      background: #005752
+    &::before
+      content: ""
+      display: inline-block
+      width: $timePoint
+      height: $timePoint
+      position: absolute
+      top: calc($timePoint / 2)
+      right: calc($timePoint / -2)
+      border-radius: 50%
+      border: 2px solid #005752
+      background: $WHITEcolor
+      z-index: $zindex-floor
+    &:nth-of-type(odd)
+      margin-left: 50%
+      text-align: left
+      &:after
+        left: -1px
+      &::before
+        left: calc($timePoint / -2)
+    &:nth-of-type(4n+1)
+      &::before
+        background: #005752
+    &:last-of-type
+      &::before
+        background: #005752
+      &::after
+        height: 0
+
+    &-year
+      font: $font-size-md $font-family-en
+      font-weight: 600
+  iframe, embed, object
+    width: 100%
+    height: 230px
+    margin: 0 auto 100px
+    @media (min-width: $screen-sm)
+      width: 90%
+      height: 600px
+  .innerSpace
+    margin-top: 50px
+    margin-bottom: 50px
