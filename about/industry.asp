@@ -27,7 +27,7 @@
               <div
                 class="pkAbout-mainBN"
                 style="
-                  background: url(../images/industry-1.png) #fff center
+                  background: url(../images/industry-1.jpg) #fff center
                     no-repeat;
                 ">
                 寶工專業工具
@@ -57,7 +57,7 @@
                 <div
                   class="pkAbout-mainBN"
                   style="
-                    background: url(../images/industry-2.png) #fff center
+                    background: url(../images/industry-2.jpg) #fff center
                       no-repeat;
                   ">
                   品質保證

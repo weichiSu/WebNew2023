@@ -116,7 +116,7 @@
                 <div
                   class="pkAbout-mainBN"
                   style="
-                    background: url(../images/science-2.png) #fff center
+                    background: url(../images/science-2.jpg) #fff center
                       no-repeat;
                   ">
                   客製教學
