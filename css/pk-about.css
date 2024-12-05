@@ -145,7 +145,7 @@
 #pkdv .pkAbout-txt {
   width: 80%;
   margin: 0 auto;
-  padding: 15px 0 50px;
+  padding: 80px 0 70px;
   color: #6B6767;
 }
 #pkdv .pkAbout-idea {
@@ -157,13 +157,13 @@
   background: #F7F7F7;
 }
 #pkdv .pkAbout-ideaGroup {
-  padding-bottom: 80px;
+  padding-bottom: 8em;
 }
 #pkdv .pkAbout-ideaInner {
   padding: 0 15px 15px;
 }
 #pkdv .pkAbout-btn {
-  border-radius: 10px;
+  border-radius: 100px;
   color: #ffffff;
   padding: 6px 20px;
   font-size: 0.7em;
@@ -278,6 +278,6 @@
   }
 }
 #pkdv .innerSpace {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 3em;
+  margin-bottom: 5em;
 }/*# sourceMappingURL=pk-about.css.map */
