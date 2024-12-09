@@ -1,17 +1,15 @@
 <html lang="zh-Hant-TW">
-  <%@language=jscript codepage="65001" %>
+<%@language=jscript codepage="65001" %>
 
   <head>
     <%title="寶工集團簡介-prokits" %>
-    <!--#include virtual="frame.asp"-->
+      <!--#include virtual="frame.asp"-->
 
-    <!-- https://swiperjs.com/demos -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+      <!-- https://swiperjs.com/demos -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    <link href="/css/pk-about.css" rel="stylesheet" />
+      <link href="/css/pk-about.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -24,12 +22,10 @@
         <div class="swiper blbSwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div
-                class="pkAbout-mainBN"
-                style="
+              <div class="pkAbout-mainBN" style="
                   background: url(../images/science-1.jpg) #fff center no-repeat;
                 ">
-                寶工科學玩具
+                <h1 class="pkAbout-mainBN-title">寶工科學玩具</h1>
               </div>
             </div>
           </div>
@@ -69,10 +65,7 @@
 
           <div class="row proLine">
             <div class="col-xs-12 col-md-6 col-md-push-6 proLine-img">
-              <img
-                src="/images/beginner.jpg"
-                alt="寶工專業工具"
-                class="img-responsive" />
+              <img src="/images/beginner.jpg" alt="寶工專業工具" class="img-responsive" />
             </div>
             <div class="col-xs-12 col-md-6 col-md-pull-6 proLine-content">
               <div class="pkAbout-title pkCI-color-science">新手專區</div>
@@ -80,20 +73,13 @@
                 第一次買科玩不知道該從何下手？別擔心，
                 寶工科學玩具有適合各個年齡層的產品，最基礎入門產品點這邊。
               </div>
-              <a
-                href="industry.asp"
-                class="btn pkAbout-btn pkCI-background-science"
-                >更多</a
-              >
+              <a href="industry.asp" class="btn pkAbout-btn pkCI-background-science">更多</a>
             </div>
           </div>
 
           <div class="row proLine">
             <div class="col-xs-12 col-md-6 proLine-img">
-              <img
-                src="/images/about-2.jpg"
-                alt="得獎系列"
-                class="img-responsive" />
+              <img src="/images/about-2.jpg" alt="得獎系列" class="img-responsive" />
             </div>
             <div class="col-xs-12 col-md-6 proLine-content">
               <div class="pkAbout-title pkCI-color-science">得獎系列</div>
@@ -101,9 +87,7 @@
                 第一次買科玩不知道該從何下手？別擔心，
                 寶工科學玩具有適合各個年齡層的產品，最基礎入門產品點這邊。
               </div>
-              <a href="/" class="btn pkAbout-btn pkCI-background-science"
-                >更多</a
-              >
+              <a href="/" class="btn pkAbout-btn pkCI-background-science">更多</a>
             </div>
           </div>
         </div>
@@ -113,13 +97,11 @@
           <div class="swiper blbSwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div
-                  class="pkAbout-mainBN"
-                  style="
+                <div class="pkAbout-mainBN" style="
                     background: url(../images/science-2.jpg) #fff center
                       no-repeat;
                   ">
-                  客製教學
+                  <h2 class="pkAbout-mainBN-title">客製教學</h2>
                 </div>
               </div>
             </div>
@@ -134,11 +116,7 @@
             global market of over 90 countries.
             <br />
             <br />
-            <a
-              href="industry.asp"
-              class="btn pkAbout-btn pkCI-background-science"
-              >聯絡我們</a
-            >
+            <a href="industry.asp" class="btn pkAbout-btn pkCI-background-science">聯絡我們</a>
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-science">
@@ -146,7 +124,7 @@
           </div>
 
           <div class="row pkProposal innerSpace">
-            <!-- #include virtual="/component/_BN3-carousel.asp" -->
+            <!-- #include virtual="/about/component/_picture3-carousel-science.asp" -->
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-science">
@@ -155,17 +133,12 @@
 
           <div class="row proLine innerSpace">
             <div class="col-xs-12 proLine-img">
-              <img
-                src="../images/science-3.png"
-                alt="認證&專利"
-                class="img-responsive" />
+              <img src="../images/science-3.png" alt="認證&專利" class="img-responsive" />
             </div>
           </div>
 
           <div class="video text-center">
-            <iframe
-              src="https://www.youtube.com/embed/3jjgIMetzhg?si=O3cJmSWqb-JjOvi8"
-              frameborder="0"
+            <iframe src="https://www.youtube.com/embed/3jjgIMetzhg?si=O3cJmSWqb-JjOvi8" frameborder="0"
               allowfullscreen></iframe>
           </div>
         </div>
@@ -175,4 +148,5 @@
       <!-- #include virtual="/footer.asp" -->
     </div>
   </body>
+
 </html>

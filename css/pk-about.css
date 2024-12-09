@@ -77,6 +77,16 @@
 #pkdv .swiper-BN3-item:hover .swiper-img {
   -webkit-filter: brightness(1.5);
 }
+#pkdv .swiper-picture3-item-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 #pkdv .pkProposal {
   padding-bottom: 50px;
   text-align: center;
@@ -118,14 +128,18 @@
   width: 100%;
   height: 583px;
   padding: 0 90px;
+  background: #005752;
+}
+#pkdv .pkAbout-mainBN-title {
+  position: relative;
   color: #ffffff;
   font-size: 1.8em;
   font-weight: 600;
-  background: #005752;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   text-shadow: 0 0 16px rgba(0, 0, 0, 0.3411764706);
+  z-index: 9;
 }
 #pkdv .pkAbout-mainBN::after {
   content: "";
@@ -152,6 +166,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
   padding: 30px 90px;
   border-radius: 16px;
   background: #F7F7F7;

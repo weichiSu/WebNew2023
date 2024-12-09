@@ -16,14 +16,17 @@ $timePoint: 14px
       width: 100%
       height: 583px
       padding: 0 90px
-      color: $WHITEcolor
-      font-size: 1.8em
-      font-weight: 600
       background: #005752
-      background-position: center center
-      background-repeat: no-repeat
-      background-size: contain
-      text-shadow: 0 0 16px #00000057
+      &-title
+        position: relative
+        color: $WHITEcolor
+        font-size: 1.8em
+        font-weight: 600
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: contain
+        text-shadow: 0 0 16px #00000057
+        z-index: $zindex-floor
       &::after
         content: ""
         display: block
@@ -45,6 +48,7 @@ $timePoint: 14px
       display: flex
       align-items: center
       justify-content: space-evenly
+      flex-direction: column
       padding: 30px 90px
       border-radius: 16px
       background: #F7F7F7

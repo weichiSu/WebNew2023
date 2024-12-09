@@ -83,6 +83,16 @@
 #pkdv .swiper-BN3-item:hover .swiper-img {
   -webkit-filter: brightness(1.5);
 }
+#pkdv .swiper-picture3-item-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 #pkdv .pkNew {
   position: relative;
   margin: 10px 0 50px;
