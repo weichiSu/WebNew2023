@@ -1,17 +1,15 @@
 <html lang="zh-Hant-TW">
-  <%@language=jscript codepage="65001" %>
+<%@language=jscript codepage="65001" %>
 
   <head>
     <%title="寶工集團簡介-prokits" %>
-    <!--#include virtual="frame.asp"-->
+      <!--#include virtual="frame.asp"-->
 
-    <!-- https://swiperjs.com/demos -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+      <!-- https://swiperjs.com/demos -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    <link href="/css/pk-about.css" rel="stylesheet" />
+      <link href="/css/pk-about.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -25,9 +23,10 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="pkAbout-mainBN">
-                我們提供<br />
-                完整工具套組<br />
-                解決方案來服務全球客人。
+                <h1 class="pkAbout-mainBN-title">
+                  我們提供<br />
+                  完整工具套組<br />
+                  解決方案來服務全球客人。</h1>
               </div>
             </div>
           </div>
@@ -65,39 +64,27 @@
 
           <div class="row proLine">
             <div class="col-xs-12 col-md-6 col-md-push-6 proLine-img">
-              <img
-                src="/images/about-1.png"
-                alt="寶工專業工具"
-                class="img-responsive" />
+              <img src="/images/about-1.png" alt="寶工專業工具" class="img-responsive" />
             </div>
             <div class="col-xs-12 col-md-6 col-md-pull-6 proLine-content">
               <div class="pkAbout-title pkCI-color-industry">寶工專業工具</div>
               <div class="proLine-txt">
                 創立於1991年於台北，Pro’sKit寶工以設計專業工具組套起家，以多樣性的工具種類及優異的產品品質聞名於業界。
               </div>
-              <a
-                href="industry.asp"
-                class="btn pkAbout-btn pkCI-background-industry"
-                >更多</a
-              >
+              <a href="industry.asp" class="btn pkAbout-btn pkCI-background-industry">更多</a>
             </div>
           </div>
 
           <div class="row proLine">
             <div class="col-xs-12 col-md-6 proLine-img">
-              <img
-                src="/images/about-2.png"
-                alt="寶工科學玩具"
-                class="img-responsive" />
+              <img src="/images/about-2.png" alt="寶工科學玩具" class="img-responsive" />
             </div>
             <div class="col-xs-12 col-md-6 proLine-content">
               <div class="pkAbout-title pkCI-color-science">寶工科學玩具</div>
               <div class="proLine-txt">
                 100%台灣製造、專利研發，使用安全、無毒、環保材質，並以STEAM理念入主教育科學市場。組裝過程中可以享受手做模型的樂趣，邊玩邊學科學原理。
               </div>
-              <a href="/" class="btn pkAbout-btn pkCI-background-science"
-                >更多</a
-              >
+              <a href="/" class="btn pkAbout-btn pkCI-background-science">更多</a>
             </div>
           </div>
 
@@ -204,9 +191,7 @@
           </div>
 
           <div class="video text-center">
-            <iframe
-              src="https://www.youtube.com/embed/ifOj6ZnVgzs?si=7Nj7xIeEOVrC-eua"
-              frameborder="0"
+            <iframe src="https://www.youtube.com/embed/ifOj6ZnVgzs?si=7Nj7xIeEOVrC-eua" frameborder="0"
               allowfullscreen></iframe>
           </div>
         </div>
@@ -216,4 +201,5 @@
       <!-- #include virtual="/footer.asp" -->
     </div>
   </body>
+
 </html>
