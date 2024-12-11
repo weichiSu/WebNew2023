@@ -26,9 +26,8 @@
             <div class="swiper-slide">
               <div class="pkAbout-mainBN">
                 <h1 class="pkAbout-mainBN-title">
-                  我們提供<br />
-                  完整工具套組<br />
-                  解決方案來服務全球客人。
+                  WE OFFER TOTAL SOLUTION TOOLS<br />
+                  TO SERVE OUR GLOBAL CUSTOMERS.
                 </h1>
               </div>
             </div>
@@ -37,30 +36,38 @@
 
         <div class="container">
           <div class="pkAbout-txt text-center innerSpace">
-            歷經30多年國際知名品牌 Pro'sKit 寶工，經銷網路遍及五大洲90餘國，<br />提供全球客戶完整的工具解決方案。<br /><br />
-            產品涵蓋專業手工具、電動工具、測試儀器、焊接工具、工具組、益智科學玩具<br />等22大類4000多項，滿足市場一次購足的需求。
+            After more than 30 years of experience, the internationally renowned
+            brand Pro’sKit has a distribution network in more than 90 countries
+            on five continents, <br />providing complete tool solutions to
+            global customers.<br /><br />
+            The products cover more than 4,000 items in 22 categories including
+            professional hand tools, power tools, testing instruments, welding
+            tools, tool sets, and science kits<br />
+            to meet the market's needs for one purchase.
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-industry">
-            我們的任務
+            Our Missions
           </div>
           <div class="pkAbout-txt text-center">
-            從產品開發到客服，寶工核心理念貫穿了組織的一切運作。
+            From product development to customer service, <br />
+            Pro'sKit core philosophy runs through all operations of the
+            organization.
           </div>
           <div class="row pkAbout-ideaGroup">
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/innovation-icon.svg" -->創新
+                <!-- #include virtual="/images/innovation-icon.svg" -->Innovation
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/quality-icon.svg" -->品質
+                <!-- #include virtual="/images/quality-icon.svg" -->Quality
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/serve-icon.svg" -->服務
+                <!-- #include virtual="/images/serve-icon.svg" -->Service
               </div>
             </div>
           </div>
@@ -73,14 +80,18 @@
                 class="img-responsive" />
             </div>
             <div class="col-xs-12 col-md-6 col-md-pull-6 proLine-content">
-              <div class="pkAbout-title pkCI-color-industry">寶工專業工具</div>
+              <div class="pkAbout-title pkCI-color-industry">
+                Pro'sKit Professional Tools
+              </div>
               <div class="proLine-txt">
-                創立於1991年於台北，Pro’sKit寶工以設計專業工具組套起家，以多樣性的工具種類及優異的產品品質聞名於業界。
+                Founded in Taipei in 1991, Pro’sKit started out by designing
+                professional tool sets and is well-known in the industry for its
+                diverse tool types and excellent product quality.
               </div>
               <a
                 href="industry.asp"
                 class="btn pkAbout-btn pkCI-background-industry"
-                >更多</a
+                >More</a
               >
             </div>
           </div>
@@ -93,114 +104,127 @@
                 class="img-responsive" />
             </div>
             <div class="col-xs-12 col-md-6 proLine-content">
-              <div class="pkAbout-title pkCI-color-science">寶工科學玩具</div>
+              <div class="pkAbout-title pkCI-color-science">
+                Pro'sKit Science Kits
+              </div>
               <div class="proLine-txt">
-                100%台灣製造、專利研發，使用安全、無毒、環保材質，並以STEAM理念入主教育科學市場。組裝過程中可以享受手做模型的樂趣，邊玩邊學科學原理。
+                100% made in Taiwan, patented research and development, using
+                safe, non-toxic, environmentally friendly materials, and
+                entering the education and science market with the STEAM
+                concept. During the assembly process, you can enjoy the fun of
+                making models by hand and learn scientific principles while
+                playing.
               </div>
               <a href="/" class="btn pkAbout-btn pkCI-background-science"
-                >更多</a
+                >More</a
               >
             </div>
           </div>
 
           <!-- 我們的歷程 -->
           <div class="pkAbout-title text-center pkCI-color-industry">
-            我們的歷程
+            Our Journey
           </div>
           <div class="courseGroup">
             <div class="course">
               <h3 class="course-year">1991</h3>
-              <h4>寶工成立</h4>
+              <h4>Established in Taipei</h4>
             </div>
             <div class="course">
               <h3 class="course-year">1994</h3>
-              <h4>創建電信電子產品線</h4>
+              <h4>Created <br />Tele-com Electronic <br />Product Line</h4>
             </div>
             <div class="course">
               <h3 class="course-year">1998</h3>
-              <h4>ISO認證通過</h4>
+              <h4>ISO Certified</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2000</h3>
               <h4>
-                正式發表Pro'sKit-Lan自有品牌 <br />
-                （網絡和光纖產品）
+                Launched Pro'sKit Lan <br />
+                (Network & Fiber Optics Product)
               </h4>
             </div>
             <div class="course">
               <h3 class="course-year">2001</h3>
-              <h4>成立上海辦事處/榮獲新星獎</h4>
+              <h4>Established Shanghai office Achieved Rising Star Award</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2002</h3>
-              <h4>整合ERP系統</h4>
+              <h4>Integrated ERP system</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2003</h3>
-              <h4>擴建上海倉庫</h4>
+              <h4>Expanded Shanghai warehouse</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2007</h3>
               <h4>
-                建立電腦化SOP生產線<br />
-                設立內部測試實驗室
+                Computerized SOP production line set up<br />
+                In house testing lab established
               </h4>
             </div>
             <div class="course">
               <h3 class="course-year">2010</h3>
               <h4>
-                20週年研討會<br />
-                經銷商電子服務上線
+                20th anniversary seminar<br />
+                Distributor eService online
               </h4>
             </div>
             <div class="course">
               <h3 class="course-year">2012</h3>
-              <h4>套筒扳手產品線</h4>
+              <h4>Socket wrenches product line</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2013</h3>
-              <h4>加強數位轉型</h4>
+              <h4>Enhance digital transformation</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2014</h3>
-              <h4>VDE產品線</h4>
+              <h4>VDE product line</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2015</h3>
-              <h4>建新網站 / 25週年全球經銷商會議</h4>
+              <h4>
+                New website<br />
+                25th anniversary global distributors meeting
+              </h4>
             </div>
             <div class="course">
               <h3 class="course-year">2016</h3>
-              <h4>推出科學玩具和焊接系列</h4>
+              <h4>Launched Science Kit & soldering series</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2017</h3>
-              <h4>完成光纖產品線並開設自家電子商店</h4>
+              <h4>
+                Complete Fiber Optics product line<br />
+                & Start selfowned E-Shop
+              </h4>
             </div>
             <div class="course">
               <h3 class="course-year">2018</h3>
-              <h4>獲選為京東最佳供應鏈品牌</h4>
+              <h4>Awarded as JD.com best supply chain brand</h4>
             </div>
             <div class="course">
               <h3 class="course-year">2019</h3>
               <h4>
-                第一屆TIRT Pro’sKit機器人盃<br />
-                產品在Costco上市
+                1st year of TIRT Pro'sKit Robot Cup<br />
+                Launch in Costco
               </h4>
             </div>
             <div class="course">
               <h3 class="course-year">2021</h3>
               <h4>
-                寶工30週年<br />
-                關鍵產品邁入5G時代<br />
-                登上《時代雜誌》2021年最佳發明封面
+                30th Anniversary<br />
+                key product stepping into 5G era<br />
+                Cover of Time Magazine Best invention of 2021
               </h4>
             </div>
             <div class="course">
               <h3 class="course-year">2023</h3>
               <h4>
-                全球CRM平台建設<br />
-                實時在線服務
+                Global CRM platform construction<br />
+                Real time online service
               </h4>
             </div>
           </div>

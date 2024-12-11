@@ -30,7 +30,9 @@
                   background: url(../images/industry-1.jpg) #fff center
                     no-repeat;
                 ">
-                <h1 class="pkAbout-mainBN-title">寶工專業工具</h1>
+                <h1 class="pkAbout-mainBN-title">
+                  Pro'sKit Professional Tools
+                </h1>
               </div>
             </div>
           </div>
@@ -38,13 +40,19 @@
 
         <div class="container">
           <div class="pkAbout-txt text-center innerSpace">
-            創立於1991年於台北，Pro’sKit
-            寶工以設計專業工具組套起家，以多樣性的工具種類及優異的產品<br />品質聞名於業界。<br /><br />
-            一直一來對於品質的堅持，讓寶工在多項專業領域上取得信賴，像是光纖/網路通信與電子應用。<br />未來也會持續的開發更多產業解決方案，服務到更多的專業需求。<br /><br />
+            Founded in Taipei in 1991, Pro'sKit. Pro'sKit started out by
+            designing professional tool sets<br />
+            and is well-known in the industry for its diverse tool types and
+            excellent product quality. <br /><br />
+            The consistent insistence on quality has allowed Pro'sKit to gain
+            trust in many professional fields,<br />
+            such as optical fiber/network communications and electronic
+            applications. <br />In the future, we will continue to develop more
+            industrial solutions to serve more professional needs. <br /><br />
             <a
               href="https://www.prokits.com.tw/Products"
               class="btn pkAbout-btn pkCI-background-industry"
-              >所有產品</a
+              >All products</a
             >
           </div>
         </div>
@@ -60,7 +68,7 @@
                     background: url(../images/industry-2.jpg) #fff center
                       no-repeat;
                   ">
-                  <h2 class="pkAbout-mainBN-title">品質保證</h2>
+                  <h2 class="pkAbout-mainBN-title">Quality Assurance</h2>
                 </div>
               </div>
             </div>
@@ -69,12 +77,14 @@
 
         <div class="container">
           <div class="pkAbout-txt text-center innerSpace">
-            2002年導入ISO9001品質認證, 2007年設立專有品質驗證實驗室, <br />
-            只為提供最好的產品與服務及品質。
+            In 2002, ISO9001 quality certification was introduced,<br />
+            and in 2007, a proprietary quality verification laboratory was
+            established. <br />
+            Only to provide the best products, services and quality.
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-industry">
-            專業檢測中心
+            Professional Testing Center
           </div>
 
           <div class="row pkProposal innerSpace">
@@ -82,7 +92,7 @@
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-industry">
-            認證 & 專利
+            Certification & Patent
           </div>
 
           <div class="row proLine innerSpace">
