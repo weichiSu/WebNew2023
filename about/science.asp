@@ -37,32 +37,38 @@
 
         <div class="container">
           <div class="pkAbout-txt text-center innerSpace">
-            2017年寶工學習教育鏈再向下延伸，將專業工具 Pro’sKit (Professional
-            Tool Kits) 延伸到益智科學的教育組件 Pro’sKit (Professional Science
-            Kits)<br /><br />
-            寶工科學玩具100%台灣製造、專利研發，使用安全、無毒、環保材質，並以STEAM理念入主教育科學市場，涵蓋了光、電、風、鹽水、磁、編程等的科學奧妙。
+            2017年寶工學習教育鏈向下延伸，「寶工Pro'sKit科學玩具」（Pro'sKit
+            Science Kits）誕生。<br />100%台灣製造、專利研發，使用安全、無毒、環保材質，以STEAM理念入主教育科學市場。<br />並於2024年取得STEM教育專業組織STEM.org的國際認證。
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-science">
             什麼是科學玩具？
           </div>
-          <div class="pkAbout-txt text-center">
-            我們每一項產品都是結合了手作、學習、及創意之下設計而成。在組裝過程中可以享受手做模型的樂趣，邊玩邊學科學原理，最後發揮想像力創造屬於自己的玩法。
+          <div class="pkAbout-txt pkAbout-txttop text-center">
+            寶工Pro'sKit科學玩具，是含有科學知識的「動力模型玩具」。<br />
+            結合模型組裝與邏輯思維，讓孩子動手培養小肌肉與邏輯力，融入簡單科學原理，在遊戲中學會思考與解決問題，啟發創客思維。<br />
+            <br /><br />
+            【主要核心三元素】<br />
+            手作模型組裝（提升邏輯力）| 科學原理學習（提升知識力）|
+            多樣創意玩法（提升創意力）
           </div>
           <div class="row pkAbout-ideaGroup">
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-science">
-                <!-- #include virtual="/images/handmade-icon.svg" -->手作
+                <!-- #include virtual="/images/handmade-icon.svg" -->
+                <div>手作</div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-science">
-                <!-- #include virtual="/images/study-icon.svg" -->學習
+                <!-- #include virtual="/images/study-icon.svg" -->
+                <div>學習</div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-science">
-                <!-- #include virtual="/images/creativity-icon.svg" -->創意
+                <!-- #include virtual="/images/creativity-icon.svg" -->
+                <div>創意</div>
               </div>
             </div>
           </div>
@@ -71,7 +77,7 @@
             <div class="col-xs-12 col-md-6 col-md-push-6 proLine-img">
               <img
                 src="/images/beginner.jpg"
-                alt="寶工專業工具"
+                alt="寶工科學玩具"
                 class="img-responsive" />
             </div>
             <div class="col-xs-12 col-md-6 col-md-pull-6 proLine-content">
@@ -81,7 +87,7 @@
                 寶工科學玩具有適合各個年齡層的產品，最基礎入門產品點這邊。
               </div>
               <a
-                href="industry.asp"
+                href="https://www.prokits.com.tw/SearchProducts/%E6%96%B0%E6%89%8B%E5%B0%88%E5%8D%80NEW/"
                 class="btn pkAbout-btn pkCI-background-science"
                 >更多</a
               >
@@ -98,11 +104,11 @@
             <div class="col-xs-12 col-md-6 proLine-content">
               <div class="pkAbout-title pkCI-color-science">得獎系列</div>
               <div class="proLine-txt">
-                2024
-                TCC優良玩具，根據五項評選標準「創新、功能、外觀、安全、市場」評估比市面上的玩具，
-                寶工Pro'sKit的科學玩具很榮幸脫穎而出，榮獲優良玩具「銀獎及佳作」！
+                TCC優良玩具評選，寶工Pro'sKit科學玩具以「創新、功能、外觀、安全、市場」五大標準脫穎而出，榮獲殊榮。
               </div>
-              <a href="/" class="btn pkAbout-btn pkCI-background-science"
+              <a
+                href="https://www.prokits.com.tw/SearchProducts/Award/"
+                class="btn pkAbout-btn pkCI-background-science"
                 >更多</a
               >
             </div>
@@ -128,32 +134,32 @@
         </div>
 
         <div class="container">
-          <div class="pkAbout-txt text-center innerSpace">
-            寶工科學玩具舉辦多場體驗課，同業及異業合作，甚至是進到校園中。
+          <div class="pkAbout-txt2 text-center innerSpace">
+            寶工Pro'sKit科學玩具可以搭配各種體驗課程，校內特色課程，科學營隊，VIP親子活動。
             我們提供專業師資，使學生可以真正的體驗到STEM教育學習的趣味！
-            <br />
-            <br />
-            <a
-              href="industry.asp"
-              class="btn pkAbout-btn pkCI-background-science"
-              >聯絡我們</a
-            >
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-science">
             豐富體驗課程
           </div>
 
-          <div class="row pkProposal innerSpace">
+          <div class="row pkAbout-proposal">
             <!-- #include virtual="/about/component/_picture3-carousel-science.asp" -->
+          </div>
+          <div class="text-center pkAbout-btnSpace">
+            <a
+              href="https://www.prokits.com.tw/Contact/"
+              class="btn pkAbout-btn pkCI-background-science"
+              >聯絡我們</a
+            >
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-science">
             認證 & 專利
           </div>
 
-          <div class="row proLine innerSpace">
-            <div class="col-xs-12 proLine-img">
+          <div class="row proLine">
+            <div class="col-xs-12 pk-certificaiton-img">
               <img
                 src="../images/science-3.png"
                 alt="認證&專利"

@@ -36,39 +36,101 @@
 
         <div class="container">
           <div class="pkAbout-txt text-center innerSpace">
-            After more than 30 years of experience, the internationally renowned
-            brand Pro’sKit has a distribution network in more than 90 countries
-            on five continents, <br />providing complete tool solutions to
-            global customers.<br /><br />
-            The products cover more than 4,000 items in 22 categories including
-            professional hand tools, power tools, testing instruments, welding
-            tools, tool sets, and science kits<br />
-            to meet the market's needs for one purchase.
+            Prokit's Industries Co., Ltd. was founded in 1991 in Taipei,
+            initially specializing in professional hand tools. We are known for
+            our diverse range of tools and exceptional product quality, earning
+            the "Little Giant Award," which gradually increased its recognition
+            in the tool industry.<br /><br />
+            As the company grew, we established a global warehouse and marketing
+            center in Shanghai, creating a comprehensive global marketing
+            service system alongside its headquarters in Taiwan. This strategic
+            move reflects Pro’sKit commitment to brand management. Our
+            distribution network spans over 90 countries across five continents,
+            providing global customers with complete tool solutions that meet
+            the market's demand for one-stop shopping.
           </div>
 
           <div class="pkAbout-title text-center pkCI-color-industry">
-            Our Missions
+            Our Mission
           </div>
-          <div class="pkAbout-txt text-center">
-            From product development to customer service, <br />
-            Pro'sKit core philosophy runs through all operations of the
-            organization.
+          <div class="pkAbout-txt pkAbout-txttop text-center">
+            Innovation, quality, and service are the core business philosophies
+            of Pro'sKit. Through technological innovation, Pro'sKit aims to
+            create exceptional quality products while providing attentive
+            service to meet the needs of every customer.
           </div>
           <div class="row pkAbout-ideaGroup">
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/innovation-icon.svg" -->Innovation
+                <!-- #include virtual="/images/innovation-icon.svg" -->
+                <div>Innovation</div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/quality-icon.svg" -->Quality
+                <!-- #include virtual="/images/quality-icon.svg" -->
+                <div>Quality</div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/serve-icon.svg" -->Service
+                <!-- #include virtual="/images/serve-icon.svg" -->
+                <div>Service</div>
               </div>
+            </div>
+          </div>
+          <!-- 永續信念 -->
+          <div class="pkAbout-title text-center pkCI-color-industry">
+            Greener Future
+          </div>
+          <div class="pkAbout-txt pkAbout-txttop text-center">
+            Sustainability is not just a slogan, it is a responsibility.<br />Pro’sKit
+            implements sustainable business practices through environmental
+            policies, community contributions, and educational support,
+            promoting the advancement of both the company and society. By
+            focusing on these areas, Pro'sKit aims to ensure long-term
+            sustainable operations that benefit the environment and contribute
+            positively to the community.
+          </div>
+          <div class="row pkAbout-greenerGroup">
+            <div class="col-xs-12 col-sm-4 pkAbout-greenerInner">
+              <img
+                src="/images/index-energy.jpg"
+                alt="energy"
+                class="img-responsive" />
+              <h3 class="pkCI-color-industry pkAbout-greenerTitle">
+                Renewable Energy
+              </h3>
+              <p class="pkAbout-greenerTxt">
+                With innovation as one of our core value, every year Pro'skit
+                puts in resources into developing products that aligns with
+                sustainability.
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-4 pkAbout-greenerInner">
+              <img
+                src="/images/index-donation.jpg"
+                alt="donation"
+                class="img-responsive" />
+              <h3 class="pkCI-color-industry pkAbout-greenerTitle">Donation</h3>
+              <p class="pkAbout-greenerTxt">
+                Every year Pro'skit donates to organizations in Taiwan, offering
+                resources to kids in rural area, pushing equal rights in
+                education.
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-4 pkAbout-greenerInner">
+              <img
+                src="/images/index-education.jpg"
+                alt="education"
+                class="img-responsive" />
+              <h3 class="pkCI-color-industry pkAbout-greenerTitle">
+                Education
+              </h3>
+              <p class="pkAbout-greenerTxt">
+                Our sub-brand Science Kits create deeper link to the educational
+                sector in Taiwan, teaching kids the importance of green energy.
+              </p>
             </div>
           </div>
 
@@ -84,9 +146,13 @@
                 Pro'sKit Professional Tools
               </div>
               <div class="proLine-txt">
-                Founded in Taipei in 1991, Pro’sKit started out by designing
-                professional tool sets and is well-known in the industry for its
-                diverse tool types and excellent product quality.
+                Pro'sKit offers a complete tool solution for global customers,
+                featuring over 4,000 products across 22 categories. Their
+                product range includes professional hand tools, power tools,
+                testing instruments, welding tools, and tool sets. This
+                extensive selection is designed to meet the market's demand for
+                one-stop shopping solutions, ensuring that customers can find
+                all the tools they need in one place.
               </div>
               <a
                 href="industry.asp"
@@ -108,12 +174,12 @@
                 Pro'sKit Science Kits
               </div>
               <div class="proLine-txt">
-                100% made in Taiwan, patented research and development, using
-                safe, non-toxic, environmentally friendly materials, and
-                entering the education and science market with the STEAM
-                concept. During the assembly process, you can enjoy the fun of
-                making models by hand and learn scientific principles while
-                playing.
+                Pro'sKit Science Kits are dynamic model toys that incorporate
+                scientific concepts, 100% made in Taiwan and developed with
+                patented technology. These toys are made from safe, non-toxic,
+                and environmentally friendly materials, and they have received
+                international certification from the STEM education organization
+                STEM.org.
               </div>
               <a href="/" class="btn pkAbout-btn pkCI-background-science"
                 >More</a

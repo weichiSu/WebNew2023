@@ -37,31 +37,74 @@
 
         <div class="container">
           <div class="pkAbout-txt text-center innerSpace">
-            歷經30多年國際知名品牌 Pro'sKit 寶工，經銷網路遍及五大洲90餘國，<br />提供全球客戶完整的工具解決方案。<br /><br />
-            產品涵蓋專業手工具、電動工具、測試儀器、焊接工具、工具組、益智科學玩具<br />等22大類4000多項，滿足市場一次購足的需求。
+            寶工實業股份有限公司Prokit's Industries Co.，LTD.
+            創立於西元1991年最初在台北以專業手工具起家，<br />以多樣性的工具種類及優異的產品品質聞名於業界，更獲得小巨人獎的殊榮逐漸打開寶工在工具界的知名度。<br /><br />
+            隨著公司的快速成長於上海設立全球倉儲暨中國地區營銷中心，<br />與台灣總部建構起一套完善的全球營銷服務系統，全心投入品牌經營。<br />經銷網路遍及五大洲90餘國，提供全球客戶完整的工具解決方案，滿足市場一次購足的需求。
           </div>
-
+          <!-- 我們的任務 -->
           <div class="pkAbout-title text-center pkCI-color-industry">
             我們的任務
           </div>
-          <div class="pkAbout-txt text-center">
-            從產品開發到客服，寶工核心理念貫穿了組織的一切運作。
+          <div class="pkAbout-txt pkAbout-txttop text-center">
+            創新、品質、服務是寶工的經營理念。透過技術創新，打造卓越品質，以貼心服務滿足每位客戶的需求，<br />寶工致力於成為您工作中最可靠的伙伴，為效率與精準注入新能量。
           </div>
           <div class="row pkAbout-ideaGroup">
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/innovation-icon.svg" -->創新
+                <!-- #include virtual="/images/innovation-icon.svg" -->
+                <div>創新</div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/quality-icon.svg" -->品質
+                <!-- #include virtual="/images/quality-icon.svg" -->
+                <div>品質</div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 pkAbout-ideaInner">
               <div class="pkAbout-idea pkCI-color-industry">
-                <!-- #include virtual="/images/serve-icon.svg" -->服務
+                <!-- #include virtual="/images/serve-icon.svg" -->
+                <div>服務</div>
               </div>
+            </div>
+          </div>
+          <!-- 永續信念 -->
+          <div class="pkAbout-title text-center pkCI-color-industry">
+            永續信念
+          </div>
+          <div class="pkAbout-txt pkAbout-txttop text-center">
+            永續不是口號，更是責任。<br />寶工以環保政策、公益回饋與教育支持，落實永續經營，推動企業與社會共同進步。
+          </div>
+          <div class="row pkAbout-greenerGroup">
+            <div class="col-xs-12 col-sm-4 pkAbout-greenerInner">
+              <img
+                src="/images/index-energy.jpg"
+                alt="energy"
+                class="img-responsive" />
+              <h3 class="pkCI-color-industry pkAbout-greenerTitle">環境保護</h3>
+              <p class="pkAbout-greenerTxt">
+                寶工以綠色理念落實環保政策，從生產到設計全程減少污染與資源消耗，守護地球永續未來。
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-4 pkAbout-greenerInner">
+              <img
+                src="/images/index-donation.jpg"
+                alt="donation"
+                class="img-responsive" />
+              <h3 class="pkCI-color-industry pkAbout-greenerTitle">社會回饋</h3>
+              <p class="pkAbout-greenerTxt">
+                透過公益捐助與贊助賽事，寶工積極回饋社會，支援弱勢群體，讓善的力量不斷延續。
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-4 pkAbout-greenerInner">
+              <img
+                src="/images/index-education.jpg"
+                alt="education"
+                class="img-responsive" />
+              <h3 class="pkCI-color-industry pkAbout-greenerTitle">教育提升</h3>
+              <p class="pkAbout-greenerTxt">
+                支持技職教育與技能培訓，以科玩推廣綠能教育，推動知識傳承，為下一代創造更多成長機會。
+              </p>
             </div>
           </div>
 
@@ -75,7 +118,8 @@
             <div class="col-xs-12 col-md-6 col-md-pull-6 proLine-content">
               <div class="pkAbout-title pkCI-color-industry">寶工專業工具</div>
               <div class="proLine-txt">
-                創立於1991年於台北，Pro’sKit寶工以設計專業工具組套起家，以多樣性的工具種類及優異的產品品質聞名於業界。
+                寶工Pro'sKit專業工具，提供全球客戶完整的工具解決方案，產品涵蓋專業手工具、電動工具、測試儀器、焊接工具、工具組
+                等22大類4000多項，滿足市場一次購足的需求。
               </div>
               <a
                 href="industry.asp"
@@ -95,9 +139,11 @@
             <div class="col-xs-12 col-md-6 proLine-content">
               <div class="pkAbout-title pkCI-color-science">寶工科學玩具</div>
               <div class="proLine-txt">
-                100%台灣製造、專利研發，使用安全、無毒、環保材質，並以STEAM理念入主教育科學市場。組裝過程中可以享受手做模型的樂趣，邊玩邊學科學原理。
+                寶工Pro'sKit科學玩具，是包含科學概念的「動力模型玩具」，100%台灣製造、專利研發，使用安全、無毒、環保材質，並取得STEM教育專業組織STEM.org的國際認證。
               </div>
-              <a href="/" class="btn pkAbout-btn pkCI-background-science"
+              <a
+                href="science.asp"
+                class="btn pkAbout-btn pkCI-background-science"
                 >更多</a
               >
             </div>

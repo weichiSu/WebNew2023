@@ -119,7 +119,7 @@
   }
 }
 #pkdv .pkAbout {
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 #pkdv .pkAbout-mainBN {
   display: flex;
@@ -159,35 +159,81 @@
 #pkdv .pkAbout-txt {
   width: 80%;
   margin: 0 auto;
-  padding: 80px 0 70px;
+  padding: 100px 0 100px;
+  color: #6B6767;
+}
+#pkdv .pkAbout-txt2 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0 20px;
+  color: #6B6767;
+}
+#pkdv .pkAbout-txttop {
+  padding-top: 1em;
+}
+#pkdv .pkAbout-greenerGroup {
+  padding-bottom: 8em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#pkdv .pkAbout-greenerInner {
+  padding: 0 10px;
+}
+#pkdv .pkAbout-greenerTitle {
+  font-size: 1.1em;
+  padding: 10px 0 5px;
+}
+#pkdv .pkAbout-greenerTxt {
+  padding: 5px 0 2em;
   color: #6B6767;
 }
 #pkdv .pkAbout-idea {
+  margin: 0 5px 20px;
+  text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  padding: 30px 90px;
-  border-radius: 16px;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
   background: #F7F7F7;
+}
+#pkdv .pkAbout-idea svg {
+  width: 50px;
+  height: 50px;
 }
 #pkdv .pkAbout-ideaGroup {
   padding-bottom: 8em;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-#pkdv .pkAbout-ideaInner {
-  padding: 0 15px 15px;
+#pkdv .pkAbout-idea div {
+  padding-left: 10px;
 }
 #pkdv .pkAbout-btn {
-  border-radius: 100px;
+  border-radius: 1.5em;
   color: #ffffff;
-  padding: 6px 20px;
-  font-size: 0.7em;
+  padding: 18px 45px;
+  font-size: 1em;
 }
 #pkdv .pkAbout-btn::after {
   position: relative;
   top: 6px;
   left: 6px;
   content: url("../images/arrow-right-icon.svg");
+}
+#pkdv .pkAbout-btnSpace {
+  padding-bottom: 200px;
+}
+#pkdv .pkAbout-proposal {
+  padding: 50px 0;
+  text-align: center;
+}
+#pkdv .pkAbout-scienceBtn {
+  background-color: #ffe200;
+}
+#pkdv .pk-certificaiton-img {
+  display: flex;
+  justify-content: center;
 }
 #pkdv .proLine {
   margin: 0 auto 100px;

@@ -8,7 +8,7 @@ $timePoint: 14px
   @import _BLB-ring
   @import index/_proposal
   .pkAbout
-    font-size: $font-size-md
+    font-size: 1.2em
     &-mainBN
       display: flex
       align-items: center
@@ -42,30 +42,75 @@ $timePoint: 14px
       // color: #005752
     &-txt
       width: 80%
-      +distanceMP(0 auto, 80px 0 70px)
+      +distanceMP(0 auto, 100px 0 100px)
       color: #6B6767
-    &-idea
-      display: flex
-      align-items: center
-      justify-content: space-evenly
-      flex-direction: column
-      padding: 30px 90px
-      border-radius: 16px
-      background: #F7F7F7
+    &-txt2
+      width: 80%
+      +distanceMP(0 auto, 50px 0 20px)
+      color: #6B6767
+
+    &-txttop
+      padding-top: 1em
+
+    &-greener
       &Group
         padding-bottom: 8em
+        padding-left: 15px
+        padding-right: 15px
       &Inner
-        padding: 0 15px 15px
+        padding: 0 10px
+      &Title
+        font-size: 1.1em
+        padding: 10px 0 5px
+      &Txt
+        padding: 5px 0 2em
+        color: #6B6767
+
+    &-idea
+      margin: 0 5px 20px
+      text-align: center
+      display: flex
+      align-items: center
+      justify-content: center
+      padding: 20px
+      border-radius: 10px
+      background: #F7F7F7
+      svg
+        width: 50px
+        height: 50px
+      &Group
+        padding-bottom: 8em
+        padding-left: 15px
+        padding-right: 15px
+      div
+        padding-left: 10px
+        
     &-btn
-      border-radius: 100px
+      border-radius: 1.5em
       color: $WHITEcolor
-      padding: 6px 20px
-      font-size: $font-size-xs
+      padding: 18px 45px
+      font-size: 1em
       &::after
         position: relative
         top: 6px
         left: 6px
         content: url("../images/arrow-right-icon.svg")
+
+    &-btnSpace
+      padding-bottom: 200px
+
+  
+    &-proposal
+      padding: 50px 0
+      text-align: center
+
+    &-scienceBtn
+      background-color: #ffe200
+
+  .pk-certificaiton-img
+    display: flex
+    justify-content: center
+
   .proLine
     margin: 0 auto 100px
     @media (min-width: $screen-md)
