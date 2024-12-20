@@ -129,6 +129,7 @@
   height: 583px;
   padding: 0 90px;
   background: #005752;
+  position: relative;
 }
 #pkdv .pkAbout-mainBN-title {
   position: relative;
